@@ -243,5 +243,5 @@ The compiled static assets will be output to `dashboard/dist/`.
 
 ## 📄 License & Author
 
-- **Author:** PlacementLens Engineering & Analytics Team
-- **License:** MIT License
+- **Author:** [beast6713](https://github.com/beast6713) (PlacementLens Engineering & Analytics)
+- **License:** Distributed under the [MIT License](LICENSE). See [`LICENSE`](LICENSE) for details.

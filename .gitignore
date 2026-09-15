@@ -1,0 +1,26 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local databases and temporary outputs
+*.sqlite
+*.sqlite3
+*.db
+*.log
+outputs/tmp/
+
+# Power BI local cache / backups
+*.pbix~
+
+# Environment and editor settings
+.env
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+

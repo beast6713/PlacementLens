@@ -1,0 +1,8 @@
+visual_id,visual_name,measure_name,definition,source,population_rule,expected_unfiltered_value,validation_status,notes
+P4-SUMMARY,Readiness & Intelligence Executive Summary,Placement Rate,"DIVIDE([Placed Students], [Total Students], 0)",P5-P2 Measure Contract,"Total Student Population (1,500)",63.33%,PASS,Headline placement rate verified
+P4-SUMMARY,Readiness & Intelligence Executive Summary,Average PRI,AVERAGE(Students[pri_score]),P5-P2 Measure Contract,"Total Student Population (1,500)",65.59,PASS,Mean PRI composite score verified
+P4-INSIGHT-01,Placement Signals Insight Card,Placed Students,"CALCULATE(COUNTROWS(Students), Students[placed]=1)",P5-P2 Measure Contract,Placed Students (placed=1),950,PASS,Placed headcount verified
+P4-INSIGHT-02,Skill Prevalence & Spreads Insight Card,SQL Skill Placement Spread,"[SQL Skill Placement Rate] - CALCULATE([Placement Rate], Students[sql_skill]=0)",P5-P2 Measure Contract,SQL Holders vs Non-Holders,+9.16 pp,PASS,SQL placement spread verified
+P4-GAP-01,Skill Gap Intelligence Chart,Average Skill Gap Count,AVERAGE(Students[skill_gap_count]),P5-P2 Measure Contract,"Total Student Population (1,500)",2.84 gaps,PASS,Mean skill gap count verified
+P4-SEGMENT-01,Preparation Quadrant Segments Chart,Comprehensive High Performers Count,"CALCULATE(COUNTROWS(Students), Students[preparation_segment]=""Comprehensive High Performers"")",P5-P2 Measure Contract,SEG-Q1 Segment Cohort,296,PASS,SEG-Q1 headcount verified
+P4-READINESS-01,Placement Readiness Tier Distribution,High Readiness Count,"CALCULATE(COUNTROWS(Students), DimReadinessCategory[readiness_category]=""High Readiness"")",P5-P2 Measure Contract,High Readiness Tier (PRI >= 80),82,PASS,High Readiness tier count verified

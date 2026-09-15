@@ -1,0 +1,7 @@
+filter_id,filter_name,page,synchronized,scope,default_state,reset_behavior,validation_status
+FLT-BRN,Branch Slicer,"Global (Pages 01, 02, 03, 04)",True,Global Cohort Filtering,All Branches Selected,Restores All Branches,PASS
+FLT-GND,Gender Slicer,"Global (Pages 01, 02, 03, 04)",True,Global Demographic Slicing,All Genders Selected,Restores All Genders,PASS
+FLT-PLC,Placed Status Slicer,"Global (Pages 01, 02, 04)",True,Global Placement Slicing,All Placement Statuses,Restores All Statuses,PASS
+FLT-CMP,Company Type Slicer,"Page 03 (Optional 01, 04)",False,Page 03 Employer Type Filtering,All Company Types,Restores All Company Types,PASS
+FLT-SEG,Preparation Segment Slicer,"Pages 02, 04",False,Preparation Quadrant Slicing,All Segments,Restores All Segments,PASS
+FLT-PRI,PRI Category Slicer,"Pages 01, 02, 04",False,Readiness Tier Filtering,All Readiness Tiers,Restores All Tiers,PASS

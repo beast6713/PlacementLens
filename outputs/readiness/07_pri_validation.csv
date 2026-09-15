@@ -1,0 +1,16 @@
+check_id,check_name,expected_condition,actual_condition,status
+VAL-P4-01,Baseline Population Check,"N = 1,500 exact",N = 1500,PASS
+VAL-P4-02,Identity Linkage Check,"1,500 Unique IDs (S0001-S1500)",Unique IDs = 1500,PASS
+VAL-P4-03,Formula Mathematical Integrity,Max diff <= 1e-6,Max diff = 0.00000000,PASS
+VAL-P4-04,Weight Sum Constraint,Sum = 1.000000 (100%),Sum = 1.000000,PASS
+VAL-P4-05,Score Scale Bounds Check,0.00 <= PRI <= 100.00,"Min = 31.48, Max = 91.9",PASS
+VAL-P4-06,Sub-Score Component Bounds,"All 6 components in [0.0, 100.0]",All valid = True,PASS
+VAL-P4-07,NULL Semantics Enforcement,Zero unexpected NULLs in inputs,Unexpected NULLs = 0,PASS
+VAL-P4-08,Boundary Precision Check,100% test boundary cases match expected tiers,Passed = True,PASS
+VAL-P4-09,Category Allocation Check,100% mapped to exactly 1 valid category,"Unassigned = 0, Invalid = 0",PASS
+VAL-P4-10,Zero Target Leakage Audit,"placed, package_lpa, company_type excluded from PRI formula",Leakage detected = False,PASS
+VAL-P4-11,Demographic Exclusion Audit,"gender, age, branch excluded from PRI formula",100% Excluded from score formula,PASS
+VAL-P4-12,Monotonicity Verification,Partial derivative d(PRI)/d(Input) >= 0,Monotonic = True,PASS
+VAL-P4-13,Deterministic Reproducibility,Delta = 0.000000 across runs,Max Delta = 0.000000,PASS
+VAL-P4-14,Formula Cross-Check (S0001-S0020),Manual arithmetic matches machine score within +-0.01,Passed = True,PASS
+VAL-P4-15,Contribution Reconciliation,Sum of 6 contributions == raw PRI (diff <= 1e-6),Max diff = 0.00000000,PASS

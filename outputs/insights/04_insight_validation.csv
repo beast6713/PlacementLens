@@ -1,0 +1,73 @@
+insight_id,category,check_id,check_name,expected_condition,actual_condition,status
+INS-PLACEMENT-001,INS-PLACEMENT,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-PLACEMENT-001,INS-PLACEMENT,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=All Students (N=1,500), Denominator=1500",PASS
+INS-PLACEMENT-001,INS-PLACEMENT,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-PLACEMENT-001,INS-PLACEMENT,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/sql/01_bq01_overall_placement.csv & outputs/eda/06_placement_analysis.csv,PASS
+INS-PLACEMENT-002,INS-PLACEMENT,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-PLACEMENT-002,INS-PLACEMENT,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=All Students (N=1,500), Denominator=1500",PASS
+INS-PLACEMENT-002,INS-PLACEMENT,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-PLACEMENT-002,INS-PLACEMENT,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/sql/17_bq17_placed_vs_unplaced.csv & outputs/phase3/06_phase3_baseline.md,PASS
+INS-BRANCH-001,INS-BRANCH,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-BRANCH-001,INS-BRANCH,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=Branch Cohorts (N=105 to N=450), Denominator=105",PASS
+INS-BRANCH-001,INS-BRANCH,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-BRANCH-001,INS-BRANCH,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/sql/02_bq02_branch_placement.csv & outputs/eda/05_branch_analysis.csv,PASS
+INS-BRANCH-002,INS-BRANCH,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-BRANCH-002,INS-BRANCH,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=Branch Subgroups (N=105 to N=450), Denominator=1500",PASS
+INS-BRANCH-002,INS-BRANCH,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-BRANCH-002,INS-BRANCH,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/sql/02_bq02_branch_placement.csv,PASS
+INS-SKILL-001,INS-SKILL,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-SKILL-001,INS-SKILL,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=All Students (N=1,500), Denominator=1169",PASS
+INS-SKILL-001,INS-SKILL,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-SKILL-001,INS-SKILL,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/sql/11_bq11_skill_spread.csv & outputs/eda/09_skill_placement_analysis.csv,PASS
+INS-SKILL-002,INS-SKILL,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-SKILL-002,INS-SKILL,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=All Students (N=1,500), Denominator=1177",PASS
+INS-SKILL-002,INS-SKILL,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-SKILL-002,INS-SKILL,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/sql/11_bq11_skill_spread.csv & outputs/eda/09_skill_placement_analysis.csv,PASS
+INS-SKILL-003,INS-SKILL,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-SKILL-003,INS-SKILL,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=All Students (N=1,500), Denominator=485",PASS
+INS-SKILL-003,INS-SKILL,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-SKILL-003,INS-SKILL,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/sql/11_bq11_skill_spread.csv & outputs/eda/09_skill_placement_analysis.csv,PASS
+INS-SKILL-004,INS-SKILL,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-SKILL-004,INS-SKILL,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=All Students (N=1,500), Denominator=297",PASS
+INS-SKILL-004,INS-SKILL,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-SKILL-004,INS-SKILL,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/sql/11_bq11_skill_spread.csv & outputs/eda/09_skill_placement_analysis.csv,PASS
+INS-SKILL-005,INS-SKILL,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-SKILL-005,INS-SKILL,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=All Students (N=1,500), Denominator=181",PASS
+INS-SKILL-005,INS-SKILL,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-SKILL-005,INS-SKILL,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/sql/12_bq12_skill_count_placement.csv & outputs/phase3/06_phase3_baseline.md,PASS
+INS-ACADEMIC-001,INS-ACADEMIC,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-ACADEMIC-001,INS-ACADEMIC,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=All Students (N=1,500), Denominator=109",PASS
+INS-ACADEMIC-001,INS-ACADEMIC,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-ACADEMIC-001,INS-ACADEMIC,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/sql/03_bq03_cgpa_placement.csv,PASS
+INS-ACADEMIC-002,INS-ACADEMIC,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-ACADEMIC-002,INS-ACADEMIC,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=All Students (N=1,500), Denominator=1500",PASS
+INS-ACADEMIC-002,INS-ACADEMIC,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-ACADEMIC-002,INS-ACADEMIC,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/eda/12_correlation_matrix.csv & outputs/sql/17_bq17_placed_vs_unplaced.csv,PASS
+INS-PREPARATION-001,INS-PREPARATION,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-PREPARATION-001,INS-PREPARATION,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=All Students (N=1,500), Denominator=126",PASS
+INS-PREPARATION-001,INS-PREPARATION,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-PREPARATION-001,INS-PREPARATION,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/sql/04_bq04_coding_placement.csv,PASS
+INS-PREPARATION-002,INS-PREPARATION,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-PREPARATION-002,INS-PREPARATION,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=All Students (N=1,500), Denominator=105",PASS
+INS-PREPARATION-002,INS-PREPARATION,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-PREPARATION-002,INS-PREPARATION,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/sql/05_bq05_aptitude_placement.csv,PASS
+INS-PREPARATION-003,INS-PREPARATION,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-PREPARATION-003,INS-PREPARATION,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=All Students (N=1,500), Denominator=105",PASS
+INS-PREPARATION-003,INS-PREPARATION,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-PREPARATION-003,INS-PREPARATION,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/sql/07_bq07_projects_placement.csv,PASS
+INS-PREPARATION-004,INS-PREPARATION,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-PREPARATION-004,INS-PREPARATION,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=All Students (N=1,500), Denominator=238",PASS
+INS-PREPARATION-004,INS-PREPARATION,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-PREPARATION-004,INS-PREPARATION,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/sql/08_bq08_internships_placement.csv,PASS
+INS-COMPENSATION-001,INS-COMPENSATION,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-COMPENSATION-001,INS-COMPENSATION,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=Placed Cohort Only (N=950), Denominator=950",PASS
+INS-COMPENSATION-001,INS-COMPENSATION,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-COMPENSATION-001,INS-COMPENSATION,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/sql/15_bq15_package_by_company.csv & outputs/eda/11_package_analysis.csv,PASS
+INS-COMPENSATION-002,INS-COMPENSATION,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-COMPENSATION-002,INS-COMPENSATION,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=Placed Cohort Only (N=950), Denominator=950",PASS
+INS-COMPENSATION-002,INS-COMPENSATION,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-COMPENSATION-002,INS-COMPENSATION,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to outputs/eda/11_package_analysis.csv & outputs/sql/13_bq13_package_distribution.csv,PASS
+INS-READINESS-001,INS-READINESS,CHK-VAL-01,Non-Causal Language Compliance,"Zero causal verbs ('causes', 'guarantees', 'leads to')","Associative language strictly used ('associated with', 'observed spread')",PASS
+INS-READINESS-001,INS-READINESS,CHK-VAL-02,Denominator & Population Specification,Explicit N and denominator present,"Population=All Students (N=1,500), Denominator=1500",PASS
+INS-READINESS-001,INS-READINESS,CHK-VAL-03,Target Leakage Exclusion,Zero outcome attributes used in preparation prediction,Compliant with P4-P1 leakage rules,PASS
+INS-READINESS-001,INS-READINESS,CHK-VAL-04,Phase 3 Traceability,100% match with Phase 3 validated outputs,Traceable to docs/placement_readiness_framework.md & 00_project_blueprint/49_phase_4_part_1_completion_report.md,PASS

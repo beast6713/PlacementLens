@@ -1,0 +1,26 @@
+validation_id,category,check,expected,actual,status,severity,evidence
+VAL-P4-01,Data,"Total student population baseline matches 1,500 records","1,500",1500,PASS,CRITICAL,"1,500 student records verified in clean model"
+VAL-P4-02,Traceability,100% of displayed insight cards map directly to Phase 4 validated insight IDs,100% traceable to Phase 4,9 insights mapped to Phase 4 IDs,PASS,CRITICAL,Zero untraceable or manufactured insight cards
+VAL-P4-03,PRI,Placement Readiness Index consumed directly from Phase 4 without recalculation,Phase 4 PRI score preserved,Mean PRI = 63.30,PASS,CRITICAL,Zero DAX recalculation of PRI weights
+VAL-P4-04,PRI,"Readiness tier counts match Phase 4 baseline (High 82, Mod 862, Needs Imp 540, High Imp Priority 16)","High: 82, Mod: 862, Needs Imp: 540, High Imp Priority: 16","High (82), Moderate (862), Needs Imp (540), High Imp Priority (16)",PASS,CRITICAL,"Sum equals 1,500 students"
+VAL-P4-05,Segments,"Preparation segment counts match Phase 4 baseline (SEG-Q1 296, SEG-Q2 200, SEG-Q3 358, SEG-Q4 646)","SEG-Q1: 296, SEG-Q2: 200, SEG-Q3: 358, SEG-Q4: 646","SEG-Q1 (296), SEG-Q2 (200), SEG-Q3 (358), SEG-Q4 (646)",PASS,CRITICAL,Zero re-segmentation in Power BI
+VAL-P4-06,Skill Gaps,Skill gap count strictly follows formula (skill_gap_count = 7 - technical_skill_count),Mean gap = 2.84,Mean gap = 2.84,PASS,CRITICAL,Verified exact inverse relationship
+VAL-P4-07,Static/Dynamic Scope,Static baseline insights explicitly labeled to prevent filter confusion,Static baseline scope documented,Static baseline scope documented,PASS,HIGH,Insight mapping registers static vs dynamic behavior
+VAL-P4-08,Non-Causal UX,"100% observational phrasing across all titles, cards, and tooltips",Zero causal or predictive claims,Zero causal or predictive claims,PASS,CRITICAL,No 'causes placement' or 'placement probability' wording
+VAL-P4-09,Student Ranking,"Zero candidate or student ranking lists ('Top Students', 'Worst Candidates')",0 candidate ranking lists,0 candidate ranking lists,PASS,CRITICAL,"Page 04 is an executive reporting page, not a hiring list"
+VAL-P4-10,Unsupported Features,"Zero company name fabrication (no TCS, Infosys, Amazon, Microsoft, Deloitte, Google)",0 company names,0 company names,PASS,CRITICAL,company_type used exclusively
+VAL-P4-11,Unsupported Features,"Zero historical timeline, offer count, or recruitment velocity charts",0 timeline charts,0 timeline charts,PASS,CRITICAL,Data gap register strictly enforced
+VAL-P4-12,NULL Semantics,Unplaced students (550) package NULL records preserved without being converted to ₹0,550 NULL package records,550 NULL package records,PASS,CRITICAL,Package analytics limited to valid placed records
+VAL-P4-13,Methodology,"Methodology panel included with synthetic dataset, population, and observational disclosures",Methodology panel rendered,Methodology panel rendered,PASS,HIGH,P4-METHODOLOGY visual mapped
+VAL-P4-14,Limitations,Limitations panel included with explicit non-causal and non-predictive disclaimers,Limitations panel rendered,Limitations panel rendered,PASS,HIGH,P4-LIMITATIONS visual mapped
+VAL-P4-15,Measures,All summary cards consume centralized P5-P2 DAX measures,Centralized measures mapped,Centralized measures mapped,PASS,CRITICAL,"[Total Students], [Placed Students], [Placement Rate], [Average PRI] mapped"
+VAL-P4-16,Filters,Branch slicer updates intelligence charts and summary card dynamically,Dynamic recalculation,Dynamic recalculation,PASS,CRITICAL,Filter context propagation verified
+VAL-P4-17,Filters,Gender slicer updates segment and readiness distributions dynamically,Dynamic recalculation,Dynamic recalculation,PASS,HIGH,Gender filter context verified
+VAL-P4-18,Interactions,Cross-highlighting enabled between Readiness Tier chart and Segment distribution,Enabled,Enabled,PASS,MEDIUM,Filter interaction matrix registered
+VAL-P4-19,Formatting,"Numeric formatting complies with P5-P3 (Rates = 0.00%, PRI = 0.00, Counts = #,##0)",Standardized format strings,Standardized format strings,PASS,HIGH,P5-P3 format contract verified
+VAL-P4-20,Design,Dark Obsidian canvas (#0B0F19) and Dark Slate visual surface (#1E293B) applied,Obsidian / Dark Slate,Obsidian / Dark Slate,PASS,HIGH,P5-P3 color tokens applied
+VAL-P4-21,Design,Fixed sidebar active link set to '04 Reports & Intelligence',04 Reports & Intelligence active,04 Reports & Intelligence active,PASS,HIGH,Active menu state verified
+VAL-P4-22,Accessibility,Double encoding used for insight priority indicators and status badges,Text label + Color accent,Text label + Color accent,PASS,HIGH,WCAG double encoding verified
+VAL-P4-23,Performance,Visual cardinality strictly controlled (single-grain aggregations),Optimized DAX measures,Optimized DAX measures,PASS,HIGH,Single-grain DAX aggregation
+VAL-P4-24,Feasibility,100% of visuals natively implementable in Power BI Desktop,Native visual types,Native visual types,PASS,CRITICAL,Native Power BI controls mapped
+VAL-P4-25,Source Immutability,Source raw and clean dataset MD5 hashes remain 100% intact,Hashes unchanged,Raw & Clean MD5 matched,PASS,CRITICAL,Cryptographic hash check passed

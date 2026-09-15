@@ -1,0 +1,8 @@
+skill_attribute,skill_name,total_students,possess_count,missing_count,prevalence_pct,gap_pct,holder_placement_rate_pct,non_holder_placement_rate_pct,placement_spread_pp
+python_skill,Python Programming,1500,1177,323,78.47,21.53,64.83,57.89,6.94
+sql_skill,SQL Database,1500,1169,331,77.93,22.07,65.36,56.19,9.17
+excel_skill,Advanced Excel,1500,1258,242,83.87,16.13,63.75,61.16,2.59
+power_bi_skill,Power BI / Visuals,1500,793,707,52.87,47.13,63.81,62.8,1.01
+dsa_skill,Data Structures & Algo,1500,1057,443,70.47,29.53,63.77,62.3,1.47
+cloud_skill,Cloud Computing,1500,485,1015,32.33,67.67,67.42,61.38,6.04
+cybersecurity_skill,Cybersecurity,1500,297,1203,19.8,80.2,60.94,63.92,-2.98

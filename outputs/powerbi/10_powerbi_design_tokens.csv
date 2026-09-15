@@ -1,0 +1,27 @@
+token_id,token_category,token_name,value,unit,usage,status
+TOK-COLOR-01,Color,color.bg.primary,#0B0F19,HEX,Main canvas background (Obsidian Dark),FROZEN
+TOK-COLOR-02,Color,color.bg.secondary,#0F172A,HEX,Secondary container background (Slate Dark),FROZEN
+TOK-COLOR-03,Color,color.surface.primary,#1E293B,HEX,Standard visual card background (Dark Slate),FROZEN
+TOK-COLOR-04,Color,color.surface.secondary,#151D2A,HEX,Table row inset / nested card background,FROZEN
+TOK-COLOR-05,Color,color.border,#334155,HEX,Subtle card border and divider lines,FROZEN
+TOK-COLOR-06,Color,color.text.primary,#F8FAFC,HEX,"Primary headings, KPI numbers, pure white text",FROZEN
+TOK-COLOR-07,Color,color.text.secondary,#94A3B8,HEX,"Subtitles, card labels, secondary text",FROZEN
+TOK-COLOR-08,Color,color.text.muted,#64748B,HEX,"Footnotes, methodology disclaimers, axis titles",FROZEN
+TOK-COLOR-09,Color,color.accent.primary,#38BDF8,HEX,Primary interactive accent (Cyber Cyan),FROZEN
+TOK-COLOR-10,Color,color.accent.secondary,#818CF8,HEX,Secondary accent (Indigo),FROZEN
+TOK-COLOR-11,Color,color.semantic.positive,#10B981,HEX,"Placed status, High Readiness tier (Emerald Green)",FROZEN
+TOK-COLOR-12,Color,color.semantic.neutral,#64748B,HEX,"Unplaced status, non-directional info (Slate Gray)",FROZEN
+TOK-COLOR-13,Color,color.semantic.warning,#F59E0B,HEX,"Needs Improvement tier, caution state (Amber)",FROZEN
+TOK-COLOR-14,Color,color.semantic.critical,#EF4444,HEX,"High Improvement Priority tier, high risk (Rose Red)",FROZEN
+TOK-SPACE-01,Space,space.xs,4,px,Micro padding inside badges and KPI icons,FROZEN
+TOK-SPACE-02,Space,space.sm,8,px,Small spacing between text labels and values,FROZEN
+TOK-SPACE-03,Space,space.md,16,px,Standard visual card internal padding & grid gutter,FROZEN
+TOK-SPACE-04,Space,space.lg,24,px,Section spacing gap,FROZEN
+TOK-SPACE-05,Space,space.xl,32,px,Major layout block separation,FROZEN
+TOK-RADIUS-01,Radius,radius.card,8,px,Corner radius for all visual card containers,FROZEN
+TOK-RADIUS-02,Radius,radius.badge,4,px,Corner radius for status and tier badges,FROZEN
+TOK-FONT-01,Typography,font.family,"Inter, Segoe UI, sans-serif",Family,Global dashboard font family stack,FROZEN
+TOK-FONT-02,Typography,font.size.title,22,pt,Dashboard page title font size,FROZEN
+TOK-FONT-03,Typography,font.size.section,14,pt,Section header font size,FROZEN
+TOK-FONT-04,Typography,font.size.kpi,28,pt,KPI primary metric value size,FROZEN
+TOK-FONT-05,Typography,font.size.body,10,pt,Table and card body text size,FROZEN

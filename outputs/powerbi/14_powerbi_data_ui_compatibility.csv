@@ -1,0 +1,17 @@
+ui_concept,required_field,available,source,supported_status,allowed_in_dashboard,reason
+Total Students KPI,student_id,True,Students,SUPPORTED,True,"1,500 unique student IDs available"
+Placement Rate KPI,placed,True,Students,SUPPORTED,True,"950 placed / 1,500 total available"
+Branch Placement Comparison,"branch, placed",True,Students,SUPPORTED,True,6 normalized branches available
+Package Distribution Histogram,"package_lpa, placed",True,Students,SUPPORTED,True,950 placed packages available
+Company Type Breakdown,"company_type, placed",True,Students,SUPPORTED,True,"4 company types (Service, Product, Startup, MNC) available"
+PRI Composite Score,pri_score,True,Students / PRI,SUPPORTED,True,Validated 6-component PRI available
+Readiness Tier Breakdown,readiness_category,True,Students / PRI,SUPPORTED,True,4 readiness categories available
+Student Preparation Quadrants,preparation_segment,True,Students / Segments,SUPPORTED,True,4 deterministic quadrants available
+Skill Gap Deficit Heatmap,7 skill flags / skill_gap_count,True,Students / Skill Gaps,SUPPORTED,True,7 binary skill flags and gap counts available
+Executive Insight Callout,"insight_id, finding",True,DimInsightRegister,SUPPORTED,True,15 validated Phase 4 insights available
+Individual Company Leaderboard,"company_name (TCS, Infosys, Deloitte)",False,N/A,UNSUPPORTED BY CURRENT DATA,False,Individual company names do not exist in dataset; use company_type instead
+Graduation Batch / Year Slicer,academic_year / batch,False,N/A,UNSUPPORTED BY CURRENT DATA,False,Graduation year metadata does not exist; dataset is a single static snapshot cohort
+Placement Eligibility Slicer,eligibility,False,N/A,UNSUPPORTED BY CURRENT DATA,False,"Placement cell eligibility criteria do not exist; assume 100% of 1,500 students eligible"
+Multiple Offers Tracker,offer_count,False,N/A,UNSUPPORTED BY CURRENT DATA,False,Offer counts do not exist; dataset contains binary placed status (1/0)
+Monthly Placement Velocity Trend,recruitment_date / Placement Date Calendar,False,N/A,UNSUPPORTED BY CURRENT DATA,False,Recruitment date timestamps do not exist; time-series trends cannot be fabricated
+Active / New Companies Count,active_companies / new_companies,False,N/A,UNSUPPORTED BY CURRENT DATA,False,Company recruitment participation history does not exist; static company_type analysis used

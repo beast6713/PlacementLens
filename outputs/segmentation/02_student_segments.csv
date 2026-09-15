@@ -1,0 +1,1501 @@
+student_id,cgpa,coding_score,technical_skill_count,segment_code,segment_name,assignment_rule
+S0001,7.15,68.47,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0002,6.7,70.76,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0003,7.54,78.75,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0004,8.32,65.36,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0005,7.67,78.39,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0006,8.81,74.9,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0007,9.37,91.41,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0008,8.15,85.54,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0009,6.91,77.16,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0010,6.55,75.8,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0011,7.77,80.37,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0012,7.83,77.99,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0013,8.26,90.83,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0014,6.45,62.66,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0015,9.33,75.23,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0016,5.91,82.27,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0017,7.18,70.91,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0018,8.03,80.0,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0019,8.29,86.88,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0020,7.32,73.23,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0021,6.39,66.04,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0022,6.57,89.67,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0023,7.18,82.83,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0024,7.18,75.57,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0025,9.31,77.16,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0026,6.8,76.33,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0027,8.43,73.1,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0028,7.66,67.44,7,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0029,9.56,79.33,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0030,7.18,76.6,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0031,6.23,71.83,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0032,7.39,71.14,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0033,6.35,39.55,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0034,6.46,49.79,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0035,7.88,92.88,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0036,6.65,69.31,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0037,7.66,69.28,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0038,6.36,71.64,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0039,8.02,72.53,1,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0040,7.16,97.11,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0041,7.03,71.91,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0042,6.55,64.47,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0043,6.92,71.43,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0044,7.41,75.04,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0045,5.92,54.72,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0046,7.27,65.79,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0047,6.22,66.3,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0048,6.28,54.24,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0049,6.91,80.02,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0050,7.22,75.7,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0051,8.05,55.67,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0052,7.94,66.55,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0053,5.17,50.69,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0054,6.6,57.89,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0055,6.53,66.26,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0056,7.28,81.64,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0057,8.41,92.66,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0058,7.53,69.93,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0059,7.16,54.87,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0060,8.02,72.1,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0061,7.05,84.65,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0062,6.81,41.75,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0063,9.85,87.1,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0064,8.32,85.56,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0065,6.58,64.27,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0066,8.5,83.64,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0067,8.02,59.83,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0068,4.17,56.01,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0069,8.01,61.63,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0070,6.16,79.88,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0071,9.41,79.04,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0072,7.67,89.37,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0073,9.01,98.5,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0074,8.13,89.4,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0075,6.23,70.14,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0076,5.93,59.26,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0077,9.09,83.02,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0078,6.65,57.95,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0079,7.38,57.56,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0080,8.16,75.64,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0081,7.86,86.73,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0082,7.96,84.19,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0083,5.86,68.45,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0084,6.68,59.45,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0085,5.8,66.85,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0086,7.27,72.94,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0087,8.44,70.6,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0088,5.82,62.97,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0089,6.28,58.82,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0090,7.06,72.0,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0091,6.58,71.55,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0092,7.59,57.15,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0093,6.89,79.9,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0094,9.35,98.5,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0095,5.25,62.52,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0096,8.44,69.53,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0097,7.43,64.16,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0098,8.11,76.68,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0099,7.39,76.23,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0100,4.09,60.42,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0101,7.66,72.45,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0102,8.74,73.15,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0103,7.83,65.18,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0104,7.77,68.79,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0105,5.15,73.14,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0106,8.97,83.74,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0107,8.43,71.27,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0108,7.2,67.55,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0109,6.59,68.96,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0110,7.11,67.66,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0111,8.27,76.52,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0112,7.1,57.66,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0113,5.24,67.73,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0114,7.1,66.62,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0115,8.59,58.32,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0116,8.11,70.53,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0117,6.21,85.77,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0118,7.61,71.3,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0119,5.61,47.38,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0120,8.12,71.49,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0121,7.64,76.96,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0122,9.85,98.5,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0123,9.45,83.11,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0124,7.87,88.89,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0125,8.9,76.08,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0126,8.62,58.59,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0127,7.67,71.54,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0128,6.57,77.47,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0129,7.52,69.96,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0130,6.95,78.67,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0131,6.7,65.52,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0132,7.25,79.28,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0133,8.39,64.74,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0134,7.55,70.35,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0135,7.66,74.17,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0136,5.73,63.62,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0137,7.48,80.57,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0138,6.96,74.31,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0139,5.54,50.26,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0140,5.61,88.08,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0141,8.28,63.05,1,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0142,4.49,42.83,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0143,7.39,64.67,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0144,8.28,98.13,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0145,6.52,90.28,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0146,6.99,71.89,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0147,5.63,79.46,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0148,6.98,69.13,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0149,6.2,70.07,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0150,8.32,83.45,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0151,6.93,76.04,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0152,6.44,61.57,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0153,7.47,87.73,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0154,9.49,71.04,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0155,6.99,75.81,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0156,8.41,78.2,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0157,6.06,50.4,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0158,7.14,59.7,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0159,6.18,68.17,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0160,6.09,76.29,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0161,7.36,75.08,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0162,8.29,80.05,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0163,6.35,69.58,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0164,6.47,66.24,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0165,6.01,61.09,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0166,6.93,66.1,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0167,7.97,74.39,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0168,9.52,87.29,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0169,6.65,74.16,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0170,6.72,65.47,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0171,6.41,77.35,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0172,6.73,68.82,7,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0173,6.18,59.7,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0174,7.63,53.57,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0175,8.65,90.29,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0176,9.09,59.44,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0177,7.79,74.38,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0178,7.14,56.29,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0179,6.72,77.62,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0180,6.97,55.69,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0181,8.04,92.02,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0182,8.26,85.4,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0183,5.49,67.8,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0184,6.08,58.5,7,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0185,9.4,87.4,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0186,5.93,72.53,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0187,6.66,70.35,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0188,9.45,90.06,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0189,7.77,86.44,7,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0190,7.32,61.18,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0191,7.56,72.03,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0192,6.54,68.63,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0193,6.02,61.26,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0194,6.65,65.86,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0195,7.01,79.65,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0196,8.04,49.48,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0197,5.85,78.09,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0198,9.31,65.75,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0199,6.5,71.75,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0200,8.48,81.91,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0201,8.41,61.3,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0202,9.39,91.2,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0203,9.44,70.88,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0204,4.93,67.95,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0205,8.56,83.69,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0206,9.85,67.9,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0207,9.05,83.47,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0208,9.05,82.41,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0209,9.49,81.41,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0210,8.61,74.09,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0211,9.8,80.56,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0212,8.23,68.53,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0213,5.63,85.8,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0214,6.7,37.86,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0215,5.83,65.36,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0216,4.4,50.07,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0217,7.1,68.88,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0218,7.67,80.34,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0219,5.29,56.29,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0220,8.02,87.37,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0221,9.63,95.63,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0222,9.41,60.12,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0223,7.83,83.72,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0224,6.84,90.82,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0225,5.6,65.37,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0226,6.65,74.51,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0227,8.2,73.14,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0228,7.96,64.31,1,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0229,8.9,98.5,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0230,5.59,83.11,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0231,5.82,80.98,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0232,6.8,74.63,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0233,6.13,49.69,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0234,6.69,68.46,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0235,6.32,53.27,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0236,6.88,66.72,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0237,5.93,58.61,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0238,5.72,55.96,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0239,7.82,86.56,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0240,8.35,73.51,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0241,8.47,95.05,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0242,8.41,68.9,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0243,7.82,68.48,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0244,7.89,82.79,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0245,8.15,79.5,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0246,9.85,70.09,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0247,8.6,73.11,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0248,6.76,73.75,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0249,9.33,73.67,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0250,6.54,64.73,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0251,6.75,81.64,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0252,7.03,84.75,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0253,7.48,81.83,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0254,6.76,81.38,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0255,9.15,91.68,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0256,8.52,86.69,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0257,6.97,69.4,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0258,6.23,73.86,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0259,5.58,44.69,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0260,7.12,86.34,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0261,7.26,72.44,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0262,7.33,53.55,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0263,6.31,83.49,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0264,5.85,62.09,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0265,7.07,62.15,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0266,7.84,82.11,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0267,8.51,88.84,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0268,7.32,53.0,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0269,6.64,80.86,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0270,7.7,64.58,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0271,6.24,72.71,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0272,9.33,86.99,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0273,6.05,67.24,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0274,5.56,74.54,7,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0275,6.03,53.3,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0276,8.67,80.9,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0277,7.73,58.71,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0278,6.98,87.99,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0279,9.47,89.77,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0280,9.44,90.3,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0281,6.12,78.23,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0282,6.74,61.34,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0283,6.22,86.25,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0284,6.95,90.63,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0285,6.01,79.78,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0286,8.22,61.84,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0287,7.35,82.31,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0288,5.51,51.71,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0289,5.71,61.37,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0290,8.71,75.94,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0291,7.39,66.38,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0292,5.06,79.89,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0293,7.87,83.37,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0294,6.65,70.14,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0295,7.32,46.69,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0296,6.33,62.78,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0297,8.87,72.72,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0298,7.57,77.63,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0299,8.05,81.31,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0300,8.34,60.56,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0301,6.63,53.19,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0302,7.52,73.61,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0303,6.87,60.24,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0304,6.84,62.47,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0305,6.19,86.2,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0306,7.39,62.97,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0307,7.13,59.03,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0308,6.28,59.16,7,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0309,9.26,83.93,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0310,8.11,74.37,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0311,5.94,89.27,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0312,7.45,55.78,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0313,5.9,59.16,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0314,7.35,80.45,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0315,6.52,67.34,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0316,8.61,96.25,7,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0317,5.78,61.15,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0318,6.93,73.06,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0319,8.46,86.83,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0320,7.2,73.06,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0321,7.32,73.54,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0322,8.88,78.0,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0323,6.45,70.63,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0324,9.29,80.37,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0325,8.27,78.25,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0326,6.4,56.25,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0327,5.01,72.31,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0328,7.07,69.19,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0329,7.06,71.82,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0330,8.65,98.5,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0331,6.68,79.47,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0332,5.53,63.92,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0333,6.06,62.16,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0334,8.06,77.76,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0335,7.41,74.34,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0336,7.95,67.22,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0337,6.0,62.29,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0338,6.72,55.23,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0339,6.61,60.47,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0340,7.75,78.45,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0341,6.52,62.5,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0342,8.23,68.67,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0343,6.36,69.0,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0344,7.78,68.82,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0345,7.23,61.03,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0346,6.71,86.95,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0347,7.55,75.99,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0348,6.62,78.28,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0349,6.27,79.48,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0350,7.55,74.22,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0351,6.97,95.15,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0352,8.77,89.31,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0353,8.68,67.58,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0354,7.27,66.28,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0355,7.8,75.48,7,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0356,7.35,68.7,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0357,8.13,79.13,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0358,6.65,58.07,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0359,7.6,72.27,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0360,7.18,69.6,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0361,7.59,45.8,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0362,5.46,53.43,7,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0363,9.35,98.5,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0364,5.79,54.27,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0365,7.65,83.74,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0366,9.03,71.01,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0367,6.31,70.2,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0368,6.13,73.81,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0369,5.56,58.52,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0370,8.07,81.04,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0371,4.93,61.11,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0372,7.85,82.36,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0373,6.66,69.88,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0374,6.95,75.44,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0375,8.1,95.47,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0376,7.35,77.3,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0377,6.32,61.0,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0378,7.74,73.28,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0379,6.32,76.07,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0380,7.81,65.82,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0381,7.32,62.77,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0382,8.1,70.93,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0383,8.08,56.64,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0384,8.58,81.92,7,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0385,9.82,98.5,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0386,7.32,78.57,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0387,4.56,71.44,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0388,6.85,58.63,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0389,6.64,68.28,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0390,6.16,68.93,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0391,5.99,67.24,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0392,6.11,58.1,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0393,6.71,80.93,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0394,7.14,73.48,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0395,9.39,80.13,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0396,8.3,77.57,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0397,6.57,50.73,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0398,7.39,67.65,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0399,6.4,68.02,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0400,7.23,83.68,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0401,7.67,62.82,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0402,6.89,75.81,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0403,6.33,68.16,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0404,5.38,54.49,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0405,8.87,85.32,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0406,6.81,79.17,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0407,9.02,80.93,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0408,7.28,86.33,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0409,6.19,67.6,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0410,6.04,66.3,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0411,8.05,88.85,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0412,6.1,66.53,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0413,5.54,59.4,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0414,5.9,75.41,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0415,6.57,61.0,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0416,5.37,70.71,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0417,8.18,77.32,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0418,7.81,80.38,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0419,6.53,67.86,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0420,6.87,77.01,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0421,8.3,84.81,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0422,5.87,82.43,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0423,8.58,75.83,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0424,7.5,72.09,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0425,6.03,74.73,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0426,7.41,59.14,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0427,7.58,65.76,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0428,7.5,62.6,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0429,6.06,66.03,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0430,6.5,86.44,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0431,7.23,55.29,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0432,9.11,76.82,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0433,7.55,72.21,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0434,9.02,64.07,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0435,6.72,62.09,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0436,9.59,80.56,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0437,6.06,60.21,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0438,6.97,76.47,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0439,5.4,77.14,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0440,8.72,89.2,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0441,7.52,74.09,7,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0442,6.97,76.12,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0443,7.65,63.57,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0444,6.72,86.77,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0445,6.64,52.37,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0446,7.03,68.25,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0447,9.6,75.94,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0448,6.88,95.86,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0449,7.57,84.33,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0450,7.29,71.54,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0451,6.66,84.49,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0452,8.26,98.5,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0453,7.26,68.98,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0454,7.8,41.65,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0455,7.13,64.85,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0456,7.26,52.29,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0457,5.9,64.63,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0458,7.81,98.5,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0459,8.63,89.72,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0460,7.0,64.44,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0461,7.48,66.15,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0462,8.66,69.93,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0463,6.03,64.04,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0464,8.28,78.01,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0465,7.84,61.55,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0466,7.37,84.49,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0467,5.67,45.52,7,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0468,8.83,92.39,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0469,6.06,50.02,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0470,6.65,51.4,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0471,6.39,82.97,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0472,7.64,60.57,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0473,6.57,83.58,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0474,6.84,73.82,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0475,5.04,53.87,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0476,5.08,55.27,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0477,7.08,88.89,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0478,6.97,55.81,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0479,6.57,64.84,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0480,7.3,63.88,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0481,6.2,68.27,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0482,9.21,96.54,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0483,7.43,65.0,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0484,7.8,51.86,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0485,7.56,83.45,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0486,9.71,82.57,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0487,6.94,65.09,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0488,8.98,96.44,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0489,8.73,84.95,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0490,6.77,64.72,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0491,6.54,84.11,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0492,7.67,68.77,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0493,8.53,90.44,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0494,8.16,70.63,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0495,5.09,57.73,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0496,7.27,98.5,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0497,5.82,60.06,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0498,8.38,85.51,7,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0499,6.09,54.87,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0500,8.17,74.45,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0501,7.78,58.8,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0502,6.72,77.52,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0503,7.3,80.21,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0504,5.37,51.98,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0505,7.08,73.11,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0506,5.82,49.89,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0507,5.63,53.75,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0508,6.41,76.36,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0509,8.02,75.88,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0510,6.78,66.4,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0511,8.36,68.57,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0512,7.77,97.62,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0513,6.09,55.0,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0514,6.47,83.54,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0515,8.55,93.9,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0516,9.33,98.5,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0517,7.57,72.06,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0518,7.03,79.6,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0519,5.11,70.32,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0520,7.98,67.76,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0521,7.1,69.39,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0522,7.91,78.35,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0523,8.58,58.55,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0524,7.62,83.23,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0525,7.51,62.85,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0526,8.16,62.5,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0527,7.22,80.52,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0528,6.22,60.49,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0529,9.25,82.11,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0530,7.04,67.2,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0531,8.55,91.36,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0532,5.84,72.36,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0533,7.3,69.11,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0534,7.77,82.71,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0535,7.45,59.16,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0536,6.8,79.42,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0537,6.79,67.66,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0538,6.02,55.89,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0539,7.03,70.76,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0540,8.25,84.59,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0541,8.26,83.44,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0542,7.54,85.85,1,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0543,8.52,83.51,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0544,8.1,57.76,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0545,6.54,55.84,0,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0546,7.05,62.85,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0547,8.57,70.35,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0548,7.0,81.51,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0549,7.39,87.61,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0550,6.86,59.63,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0551,6.48,71.45,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0552,6.33,70.48,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0553,8.57,85.95,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0554,7.99,76.77,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0555,5.15,79.51,7,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0556,7.32,73.07,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0557,7.5,55.12,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0558,6.97,74.04,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0559,7.99,73.22,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0560,7.41,83.28,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0561,7.71,69.56,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0562,8.48,60.29,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0563,6.99,70.45,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0564,7.19,75.73,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0565,8.49,56.81,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0566,6.92,63.57,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0567,8.22,88.31,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0568,7.66,44.28,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0569,6.63,80.8,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0570,7.79,75.25,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0571,9.02,98.5,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0572,7.2,91.5,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0573,7.0,60.0,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0574,8.63,81.16,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0575,6.79,69.53,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0576,6.27,68.08,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0577,9.31,73.06,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0578,7.4,69.72,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0579,6.46,55.47,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0580,7.16,58.35,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0581,7.7,70.82,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0582,7.33,74.37,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0583,7.64,60.86,1,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0584,7.88,60.66,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0585,7.17,77.41,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0586,6.86,61.89,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0587,6.32,91.77,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0588,6.99,68.09,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0589,7.87,68.78,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0590,6.93,88.52,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0591,5.75,65.63,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0592,7.35,94.56,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0593,7.03,72.14,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0594,7.71,77.41,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0595,8.85,79.07,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0596,6.42,71.47,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0597,6.11,67.11,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0598,6.96,68.81,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0599,6.4,72.92,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0600,7.22,61.42,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0601,7.12,72.84,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0602,8.7,72.12,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0603,5.23,51.3,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0604,8.94,69.26,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0605,7.56,69.81,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0606,6.4,56.65,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0607,5.86,74.36,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0608,7.44,77.97,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0609,6.25,70.15,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0610,7.74,68.7,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0611,4.57,43.67,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0612,6.7,47.64,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0613,7.57,75.37,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0614,6.66,74.33,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0615,8.25,75.69,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0616,8.19,68.5,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0617,7.04,73.03,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0618,7.09,51.08,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0619,8.14,65.42,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0620,8.52,85.36,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0621,8.88,84.87,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0622,8.42,86.61,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0623,7.37,72.3,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0624,8.25,90.1,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0625,7.47,56.97,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0626,6.58,55.83,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0627,5.93,64.07,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0628,7.89,71.54,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0629,7.82,50.97,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0630,7.56,75.78,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0631,7.85,86.95,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0632,9.5,69.21,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0633,6.22,54.64,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0634,7.31,59.51,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0635,7.4,64.63,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0636,8.13,61.8,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0637,6.45,62.74,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0638,8.32,71.96,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0639,7.89,84.87,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0640,9.4,73.03,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0641,6.58,89.34,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0642,6.2,74.81,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0643,6.56,61.42,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0644,7.44,61.03,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0645,7.66,71.82,7,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0646,6.58,81.23,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0647,6.84,84.23,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0648,7.07,70.85,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0649,5.63,62.34,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0650,7.62,62.72,7,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0651,7.88,76.89,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0652,7.38,74.63,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0653,5.68,76.34,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0654,5.58,76.28,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0655,6.81,49.45,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0656,8.08,58.62,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0657,7.85,65.06,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0658,4.86,63.77,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0659,8.54,73.76,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0660,7.01,77.6,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0661,6.08,76.51,7,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0662,7.07,70.07,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0663,7.09,85.13,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0664,6.72,63.58,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0665,5.21,74.29,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0666,7.1,63.4,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0667,7.28,78.65,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0668,6.71,62.65,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0669,6.19,87.15,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0670,9.73,87.18,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0671,6.8,49.59,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0672,7.77,74.15,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0673,6.07,64.03,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0674,7.19,62.04,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0675,8.39,75.42,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0676,7.6,79.34,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0677,8.01,91.92,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0678,9.69,75.45,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0679,9.16,75.62,7,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0680,8.03,79.06,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0681,4.03,44.98,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0682,6.91,68.64,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0683,7.48,63.71,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0684,7.78,67.12,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0685,7.55,82.52,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0686,7.93,69.37,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0687,8.19,78.39,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0688,8.21,69.0,7,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0689,7.79,59.29,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0690,7.89,77.71,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0691,7.08,65.31,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0692,7.84,89.32,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0693,6.0,78.6,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0694,6.86,66.18,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0695,7.87,72.75,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0696,7.9,61.52,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0697,7.8,66.2,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0698,5.47,93.63,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0699,8.99,66.5,1,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0700,7.02,78.1,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0701,8.42,67.71,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0702,6.46,58.77,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0703,5.35,45.28,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0704,5.89,62.87,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0705,8.06,83.68,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0706,7.21,67.79,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0707,7.4,69.49,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0708,8.01,60.26,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0709,5.89,67.47,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0710,7.75,67.82,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0711,7.72,70.45,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0712,7.09,70.09,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0713,8.76,48.61,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0714,9.49,82.09,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0715,7.12,60.05,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0716,6.4,91.1,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0717,9.83,98.5,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0718,6.4,72.66,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0719,8.31,49.2,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0720,9.52,87.05,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0721,8.64,74.69,7,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0722,7.07,49.26,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0723,7.83,62.06,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0724,7.44,62.36,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0725,8.51,96.26,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0726,9.0,80.72,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0727,7.61,57.84,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0728,6.61,54.42,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0729,8.2,93.5,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0730,7.89,76.96,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0731,7.76,34.58,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0732,8.41,98.5,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0733,6.37,41.33,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0734,4.61,73.47,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0735,7.54,86.75,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0736,7.84,85.59,7,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0737,6.07,72.56,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0738,8.43,91.01,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0739,7.09,71.85,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0740,6.18,63.44,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0741,6.54,71.9,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0742,8.83,96.25,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0743,8.25,89.97,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0744,6.39,57.35,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0745,6.62,70.64,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0746,5.75,62.34,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0747,7.44,72.42,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0748,6.9,60.47,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0749,8.63,76.65,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0750,8.25,88.31,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0751,7.54,71.92,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0752,7.44,77.13,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0753,7.11,79.59,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0754,6.02,72.8,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0755,6.7,88.67,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0756,6.03,59.05,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0757,9.51,95.05,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0758,6.94,60.21,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0759,7.6,74.12,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0760,7.95,69.13,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0761,8.86,74.3,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0762,8.01,82.25,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0763,8.59,68.26,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0764,7.4,56.99,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0765,7.57,53.39,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0766,6.65,55.88,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0767,9.31,89.07,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0768,6.84,53.72,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0769,7.53,76.43,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0770,6.66,83.34,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0771,6.8,70.33,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0772,6.53,57.79,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0773,5.19,53.08,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0774,5.96,65.46,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0775,7.56,94.97,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0776,7.28,65.17,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0777,7.47,66.7,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0778,8.08,79.29,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0779,8.59,69.07,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0780,9.44,72.51,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0781,8.07,75.56,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0782,6.65,66.08,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0783,7.99,53.66,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0784,6.53,70.48,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0785,7.73,84.2,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0786,7.14,59.94,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0787,8.83,78.11,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0788,7.54,68.92,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0789,7.54,74.95,7,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0790,7.84,77.58,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0791,5.77,82.23,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0792,6.88,65.82,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0793,7.35,76.65,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0794,7.26,65.27,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0795,7.0,92.67,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0796,6.07,32.99,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0797,8.37,70.34,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0798,6.87,79.64,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0799,8.66,83.95,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0800,6.37,60.99,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0801,5.76,74.83,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0802,7.96,53.18,7,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0803,5.31,76.9,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0804,6.86,82.52,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0805,7.42,82.19,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0806,8.09,78.11,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0807,5.61,49.09,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0808,6.33,76.79,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0809,8.1,94.88,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0810,8.17,85.38,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0811,7.8,96.73,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0812,7.56,85.69,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0813,9.15,67.76,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0814,7.16,74.5,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0815,9.68,88.07,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0816,7.23,63.51,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0817,4.0,56.86,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0818,8.17,72.79,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0819,6.4,84.02,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0820,7.86,78.55,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0821,8.16,72.61,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0822,7.41,70.78,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0823,7.46,59.18,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0824,7.3,67.87,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0825,7.64,73.76,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0826,6.15,64.89,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0827,8.1,64.37,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0828,5.38,82.16,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0829,8.81,82.82,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0830,6.76,66.47,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0831,6.5,74.03,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0832,7.09,74.34,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0833,8.15,91.75,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0834,8.59,83.99,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0835,7.66,60.59,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0836,8.23,69.65,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0837,7.56,72.77,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0838,6.86,77.57,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0839,7.34,94.2,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0840,6.12,89.71,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0841,8.04,87.49,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0842,8.73,90.84,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0843,6.53,77.1,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0844,6.28,72.02,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0845,6.29,89.97,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0846,8.18,90.16,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0847,7.96,86.21,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0848,7.42,57.89,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0849,7.73,89.91,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0850,9.26,75.13,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0851,8.5,73.9,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0852,6.01,72.84,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0853,8.97,79.56,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0854,7.1,47.67,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0855,6.84,68.68,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0856,7.46,55.01,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0857,8.51,71.46,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0858,8.12,69.69,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0859,8.12,74.25,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0860,7.14,83.44,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0861,6.48,53.3,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0862,6.28,76.69,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0863,6.6,77.15,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0864,5.0,83.14,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0865,6.78,70.8,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0866,7.73,53.09,1,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0867,9.85,96.51,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0868,8.17,73.72,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0869,7.22,85.33,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0870,9.85,82.36,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0871,6.48,68.73,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0872,8.23,75.89,7,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0873,6.5,56.46,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0874,6.14,55.54,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0875,7.19,66.57,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0876,6.46,89.45,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0877,6.59,74.12,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0878,7.68,84.34,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0879,9.43,96.36,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0880,8.78,60.45,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0881,6.29,55.02,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0882,4.26,47.34,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0883,7.91,67.08,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0884,7.17,88.67,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0885,7.79,88.39,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0886,7.86,75.74,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0887,9.15,98.5,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0888,7.44,91.73,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0889,6.98,68.98,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0890,6.7,82.61,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0891,5.72,65.5,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0892,8.57,74.51,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0893,7.59,79.62,7,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0894,8.55,70.87,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0895,6.76,71.09,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0896,7.05,73.04,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0897,7.36,97.78,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0898,6.36,71.21,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0899,8.59,85.33,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0900,5.93,78.23,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0901,6.2,63.8,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0902,6.77,75.29,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0903,6.04,58.21,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0904,6.1,70.43,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0905,5.52,66.34,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0906,7.73,73.37,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0907,6.53,50.97,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0908,7.34,97.71,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0909,6.38,65.35,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0910,6.85,69.34,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0911,6.28,55.44,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0912,8.26,70.55,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0913,5.32,67.1,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0914,7.9,83.4,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0915,7.99,76.14,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0916,6.38,87.33,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0917,6.84,63.0,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0918,4.61,89.88,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0919,6.46,78.73,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0920,8.75,89.02,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0921,7.35,77.04,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0922,7.66,80.12,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0923,6.07,50.3,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0924,9.23,75.7,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0925,6.91,73.74,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0926,7.52,68.68,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0927,7.24,57.56,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0928,6.83,79.74,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0929,8.24,74.41,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0930,6.37,72.78,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0931,8.05,80.57,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0932,8.64,78.71,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0933,8.08,63.76,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0934,7.34,68.96,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0935,5.43,68.35,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0936,7.54,84.87,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0937,6.64,54.51,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0938,6.17,75.73,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0939,8.15,93.0,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0940,8.25,76.28,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0941,5.91,61.85,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0942,6.86,54.28,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0943,6.66,67.74,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0944,9.85,84.06,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0945,5.6,87.63,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0946,7.51,87.13,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0947,7.83,75.72,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0948,7.99,67.0,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0949,8.09,98.5,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0950,7.87,84.13,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0951,8.42,67.46,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0952,8.15,91.29,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0953,5.84,71.59,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0954,7.73,98.5,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0955,5.6,76.15,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0956,9.33,92.38,7,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0957,8.96,80.84,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0958,6.76,82.78,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0959,5.6,73.46,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0960,5.45,60.15,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0961,6.72,89.61,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0962,8.4,97.66,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0963,6.63,64.17,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0964,6.46,42.98,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0965,6.8,67.76,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0966,7.67,87.61,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0967,5.98,53.76,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0968,7.57,85.7,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0969,7.33,76.09,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0970,8.35,79.79,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0971,5.57,70.67,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0972,7.56,71.15,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0973,9.01,70.34,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0974,7.48,95.0,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0975,7.04,86.12,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0976,4.66,74.14,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0977,6.23,55.11,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0978,6.81,83.58,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0979,5.95,83.8,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0980,6.04,41.02,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0981,6.21,71.88,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0982,5.78,67.95,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0983,7.31,71.81,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0984,6.68,91.29,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0985,8.5,64.55,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0986,7.1,57.86,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0987,6.24,61.05,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0988,8.65,75.8,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0989,8.75,78.96,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0990,6.74,85.17,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0991,7.41,85.96,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0992,6.31,67.14,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0993,7.34,91.08,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0994,8.07,98.5,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0995,8.57,79.63,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S0996,6.3,58.18,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0997,6.87,84.83,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S0998,6.21,66.78,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S0999,9.85,75.95,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1000,4.63,72.3,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1001,8.56,49.85,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1002,6.21,77.37,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1003,7.47,80.25,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1004,6.16,53.84,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1005,7.27,84.5,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1006,9.85,82.41,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1007,7.98,77.75,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1008,8.54,82.54,0,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1009,8.14,75.64,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1010,7.82,77.54,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1011,8.69,82.31,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1012,6.52,56.34,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1013,7.49,90.32,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1014,8.95,58.35,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1015,6.41,79.43,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1016,5.94,79.9,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1017,6.56,74.97,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1018,8.3,81.46,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1019,6.25,67.57,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1020,6.83,56.91,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1021,7.42,47.05,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1022,8.5,72.43,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1023,7.1,66.85,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1024,7.12,78.51,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1025,8.32,82.79,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1026,6.71,71.77,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1027,7.14,87.36,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1028,9.47,91.13,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1029,5.98,79.64,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1030,5.62,64.38,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1031,7.7,86.36,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1032,9.3,65.51,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1033,6.15,76.51,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1034,7.03,59.83,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1035,9.48,68.16,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1036,8.32,63.95,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1037,6.93,67.9,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1038,6.83,55.21,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1039,9.04,63.62,1,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1040,6.39,94.92,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1041,6.84,62.88,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1042,6.71,86.28,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1043,8.19,71.39,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1044,6.99,77.71,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1045,7.34,68.95,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1046,8.75,66.37,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1047,8.96,76.47,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1048,7.42,77.1,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1049,6.98,78.62,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1050,7.01,62.47,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1051,6.98,75.36,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1052,5.09,59.65,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1053,8.27,92.07,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1054,8.74,62.15,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1055,7.26,87.93,7,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1056,7.66,58.0,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1057,5.87,73.6,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1058,8.01,90.14,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1059,7.8,67.8,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1060,7.37,83.19,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1061,9.85,82.05,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1062,7.75,72.45,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1063,6.98,78.06,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1064,4.52,66.68,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1065,9.04,87.43,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1066,7.27,76.3,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1067,5.78,89.41,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1068,7.63,63.74,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1069,7.49,54.28,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1070,7.31,79.63,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1071,9.43,80.98,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1072,6.65,77.71,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1073,7.23,72.14,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1074,8.53,90.31,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1075,6.09,88.77,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1076,9.23,72.83,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1077,9.7,82.74,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1078,9.36,95.06,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1079,7.1,53.28,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1080,8.16,68.47,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1081,7.28,84.63,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1082,7.64,98.06,1,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1083,7.12,57.41,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1084,8.96,98.5,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1085,5.6,71.1,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1086,7.85,60.16,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1087,6.6,52.94,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1088,6.73,81.01,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1089,6.81,89.55,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1090,6.17,62.97,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1091,7.7,66.81,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1092,6.31,88.46,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1093,5.97,57.05,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1094,7.63,98.5,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1095,4.8,53.21,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1096,6.16,74.42,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1097,7.98,98.5,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1098,7.86,65.78,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1099,7.5,81.91,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1100,5.68,81.4,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1101,9.01,86.78,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1102,8.58,78.91,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1103,8.05,83.9,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1104,7.52,93.47,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1105,9.39,89.94,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1106,8.3,77.64,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1107,7.38,72.06,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1108,7.25,66.07,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1109,6.17,47.11,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1110,8.31,84.07,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1111,8.77,65.01,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1112,6.58,60.67,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1113,9.85,61.32,1,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1114,7.33,67.3,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1115,6.32,59.45,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1116,8.38,64.78,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1117,7.47,78.84,7,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1118,8.56,82.54,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1119,9.63,83.99,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1120,7.89,95.22,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1121,8.06,80.37,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1122,6.13,55.37,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1123,5.38,64.77,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1124,7.4,68.14,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1125,8.17,78.46,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1126,8.18,87.62,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1127,6.64,67.11,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1128,6.38,77.73,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1129,7.02,98.5,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1130,8.89,88.17,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1131,6.67,81.5,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1132,6.42,65.39,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1133,8.23,77.81,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1134,8.71,98.5,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1135,9.85,68.94,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1136,6.56,72.46,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1137,6.54,65.45,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1138,7.52,74.13,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1139,7.56,57.31,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1140,7.49,85.46,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1141,9.31,80.02,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1142,7.88,88.88,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1143,7.79,50.0,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1144,7.01,71.66,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1145,8.13,75.16,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1146,6.24,82.03,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1147,7.37,87.77,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1148,8.64,61.84,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1149,7.79,79.53,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1150,7.91,98.5,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1151,9.29,69.98,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1152,6.45,57.41,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1153,6.12,60.43,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1154,6.3,65.45,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1155,8.1,76.04,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1156,8.21,65.57,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1157,7.16,64.42,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1158,5.85,66.8,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1159,4.28,60.14,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1160,8.99,90.0,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1161,8.06,73.59,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1162,5.32,58.14,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1163,7.09,73.16,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1164,6.11,81.73,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1165,5.6,70.42,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1166,7.86,68.64,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1167,7.11,60.69,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1168,6.66,78.01,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1169,8.2,95.23,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1170,7.53,78.22,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1171,6.24,65.6,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1172,8.25,70.11,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1173,9.55,89.62,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1174,7.07,68.91,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1175,8.45,87.53,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1176,8.36,77.86,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1177,7.9,58.49,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1178,7.38,81.3,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1179,7.19,61.57,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1180,7.97,58.07,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1181,5.73,78.58,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1182,8.84,87.49,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1183,7.49,95.55,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1184,7.41,74.09,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1185,7.42,64.54,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1186,7.25,60.56,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1187,5.81,86.25,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1188,7.62,73.54,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1189,6.59,62.89,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1190,7.6,75.75,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1191,6.99,64.29,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1192,8.31,86.8,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1193,5.66,67.26,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1194,7.68,54.19,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1195,8.68,67.23,1,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1196,9.85,81.39,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1197,6.29,70.3,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1198,7.73,60.35,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1199,7.09,79.54,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1200,8.45,76.8,1,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1201,8.03,95.18,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1202,6.58,71.67,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1203,7.16,66.75,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1204,7.38,70.38,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1205,5.02,59.48,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1206,7.03,74.38,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1207,7.83,85.93,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1208,4.15,64.59,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1209,8.04,77.31,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1210,6.79,62.27,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1211,7.08,57.33,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1212,6.22,66.47,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1213,5.98,65.38,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1214,9.16,90.58,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1215,8.23,91.0,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1216,6.1,54.22,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1217,6.27,63.12,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1218,7.35,76.42,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1219,6.27,65.69,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1220,5.54,57.69,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1221,7.67,58.5,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1222,6.24,65.8,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1223,9.85,78.11,1,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1224,7.8,66.49,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1225,7.53,73.33,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1226,8.84,88.89,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1227,5.14,51.36,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1228,8.41,92.53,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1229,7.06,71.08,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1230,5.15,79.89,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1231,7.61,71.58,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1232,7.68,69.04,1,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1233,8.77,80.34,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1234,8.53,88.48,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1235,7.28,83.69,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1236,7.09,61.57,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1237,5.94,66.25,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1238,6.22,76.08,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1239,9.21,71.68,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1240,7.2,53.64,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1241,8.09,80.18,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1242,7.73,65.66,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1243,7.88,71.74,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1244,7.02,78.92,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1245,6.11,58.42,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1246,5.53,74.99,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1247,8.22,68.75,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1248,7.16,77.72,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1249,5.39,81.45,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1250,8.16,98.5,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1251,8.58,76.55,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1252,6.73,95.25,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1253,8.98,96.45,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1254,6.74,85.37,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1255,7.31,98.5,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1256,6.96,70.1,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1257,6.22,52.92,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1258,8.84,80.15,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1259,6.1,69.08,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1260,8.59,52.65,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1261,8.41,63.47,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1262,6.75,78.82,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1263,7.55,74.54,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1264,7.54,87.46,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1265,7.2,56.33,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1266,8.76,74.22,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1267,7.59,46.07,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1268,5.66,64.97,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1269,6.45,77.81,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1270,9.1,77.54,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1271,8.84,76.45,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1272,7.77,74.07,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1273,5.58,71.18,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1274,5.55,54.73,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1275,6.67,51.91,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1276,7.64,77.23,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1277,9.01,98.24,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1278,6.67,67.53,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1279,7.0,75.49,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1280,6.16,65.19,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1281,6.29,71.19,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1282,7.4,82.02,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1283,6.23,88.56,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1284,6.92,69.16,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1285,5.92,48.18,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1286,4.67,79.47,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1287,8.27,67.89,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1288,7.43,57.32,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1289,9.51,91.85,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1290,8.98,89.4,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1291,4.97,64.47,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1292,6.85,84.75,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1293,7.09,84.47,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1294,8.15,84.31,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1295,8.12,73.14,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1296,8.92,69.92,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1297,8.51,94.36,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1298,6.39,42.1,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1299,5.86,69.07,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1300,6.47,63.73,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1301,7.0,80.78,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1302,7.78,83.52,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1303,7.04,98.5,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1304,7.02,68.7,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1305,7.87,95.81,7,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1306,7.24,63.0,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1307,8.16,67.74,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1308,6.95,81.15,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1309,8.77,82.56,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1310,8.26,64.02,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1311,8.43,75.48,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1312,5.81,74.45,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1313,6.08,80.14,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1314,5.93,62.62,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1315,7.01,51.72,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1316,6.97,97.03,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1317,8.29,63.01,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1318,7.71,60.17,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1319,6.58,81.52,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1320,7.06,78.95,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1321,7.87,85.37,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1322,9.05,73.34,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1323,7.16,67.05,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1324,7.02,88.24,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1325,7.95,41.15,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1326,7.86,83.85,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1327,6.73,81.61,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1328,7.51,72.83,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1329,8.17,87.45,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1330,9.11,98.5,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1331,6.24,48.96,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1332,6.73,66.15,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1333,6.14,59.38,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1334,6.25,78.28,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1335,6.17,68.87,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1336,8.16,58.41,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1337,6.26,71.52,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1338,8.36,92.18,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1339,7.3,71.07,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1340,7.58,74.02,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1341,9.07,71.06,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1342,8.7,97.24,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1343,7.35,69.16,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1344,7.97,67.93,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1345,4.87,80.31,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1346,7.45,53.54,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1347,8.56,74.03,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1348,7.9,66.17,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1349,8.02,68.0,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1350,6.68,77.13,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1351,8.77,54.92,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1352,6.0,59.93,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1353,8.85,83.57,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1354,7.88,55.42,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1355,7.15,73.12,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1356,6.88,86.94,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1357,7.87,84.5,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1358,6.28,75.32,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1359,8.03,75.82,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1360,6.2,76.35,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1361,5.9,66.59,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1362,6.96,73.13,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1363,5.21,82.51,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1364,6.82,82.62,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1365,4.99,75.75,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1366,6.16,70.42,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1367,8.77,80.64,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1368,7.16,87.48,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1369,8.11,83.66,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1370,6.3,75.84,7,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1371,7.35,64.24,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1372,6.97,74.09,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1373,7.62,72.81,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1374,8.39,65.21,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1375,7.9,79.51,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1376,8.25,81.46,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1377,7.63,88.56,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1378,8.16,80.7,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1379,6.15,65.18,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1380,7.84,63.16,6,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1381,6.1,50.88,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1382,7.63,80.91,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1383,8.41,87.75,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1384,6.89,65.53,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1385,5.73,66.86,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1386,6.88,56.91,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1387,6.9,67.79,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1388,7.76,68.59,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1389,5.38,58.92,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1390,7.46,95.22,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1391,7.1,81.97,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1392,9.73,84.29,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1393,7.15,76.56,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1394,6.45,69.67,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1395,5.88,71.48,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1396,6.31,77.64,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1397,9.65,81.54,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1398,6.53,73.11,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1399,8.85,88.78,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1400,8.8,73.01,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1401,8.88,97.04,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1402,6.99,85.17,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1403,8.16,96.88,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1404,6.89,59.86,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1405,6.2,76.45,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1406,6.99,59.77,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1407,8.13,75.28,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1408,7.47,83.64,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1409,6.12,66.33,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1410,8.2,79.88,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1411,8.07,94.76,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1412,9.29,63.75,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1413,6.27,55.75,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1414,9.85,80.57,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1415,6.94,67.86,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1416,9.15,93.35,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1417,6.7,61.16,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1418,6.33,43.21,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1419,6.63,55.64,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1420,6.99,56.82,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1421,8.58,73.53,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1422,7.24,65.46,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1423,8.26,82.22,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1424,7.85,81.88,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1425,8.02,82.0,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1426,7.76,77.14,7,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1427,6.71,68.79,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1428,6.47,60.82,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1429,5.94,48.28,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1430,6.21,60.8,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1431,8.61,85.89,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1432,7.17,65.22,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1433,8.38,82.59,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1434,9.13,92.78,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1435,6.69,87.48,4,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1436,8.04,84.14,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1437,7.22,68.42,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1438,6.64,71.37,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1439,7.0,80.35,7,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1440,6.27,70.02,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1441,5.84,73.65,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1442,7.92,72.11,1,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1443,8.0,83.77,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1444,7.74,69.76,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1445,7.88,98.5,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1446,6.91,62.47,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1447,8.32,56.11,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1448,7.88,98.5,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1449,7.31,61.65,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1450,7.64,68.21,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1451,7.4,66.7,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1452,7.66,92.35,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1453,6.39,64.94,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1454,7.22,82.44,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1455,7.51,92.72,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1456,7.15,80.64,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1457,6.1,75.28,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1458,6.46,68.6,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1459,6.36,50.08,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1460,7.73,81.73,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1461,6.49,80.01,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1462,8.39,60.71,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1463,7.16,70.16,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1464,6.07,60.35,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1465,8.04,76.81,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1466,6.9,65.55,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1467,8.88,66.81,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1468,7.43,69.02,6,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1469,7.37,80.75,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1470,5.12,52.9,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1471,8.28,84.86,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1472,6.04,71.96,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1473,7.03,75.56,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1474,7.08,53.54,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1475,8.48,88.45,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1476,8.51,83.95,2,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1477,9.85,69.03,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1478,7.46,65.68,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1479,7.63,81.41,6,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1480,7.24,56.13,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1481,5.96,37.73,2,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1482,6.94,52.66,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1483,7.04,84.44,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1484,8.06,62.99,3,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1485,6.6,59.58,1,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1486,8.62,75.08,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1487,7.65,93.3,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1488,6.57,68.25,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1489,7.6,66.67,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1490,7.31,71.62,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1491,8.59,77.72,5,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1492,6.94,58.53,4,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1493,6.85,91.99,6,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1494,5.36,75.61,5,SEG-Q2,Technical Specialists,CGPA < 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1495,8.43,83.04,7,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1496,7.77,72.0,5,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1497,8.18,79.61,4,SEG-Q1,Comprehensive High Performers,CGPA >= 7.50 AND Coding >= 75.0 AND Skills >= 4
+S1498,7.13,59.31,5,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4
+S1499,7.59,65.63,4,SEG-Q3,Academic Generalists,CGPA >= 7.50 AND (Coding < 75.0 OR Skills < 4)
+S1500,6.46,55.28,3,SEG-Q4,High Support Priority,CGPA < 7.50 AND Coding < 75.0 AND Skills < 4

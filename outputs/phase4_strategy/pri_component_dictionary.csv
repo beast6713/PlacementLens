@@ -1,0 +1,7 @@
+component_id,component_name,raw_variable,raw_type,raw_range,normalization_method,normalized_range,leakage_status
+PRI-C01,Technical Skills,technical_skill_count,Integer Count,0 to 7,(technical_skill_count / 7.0) * 100.0,0.0 to 100.0,COMPLIANT — Pre-placement predictor attribute
+PRI-C02,Aptitude Score,aptitude_score,Continuous Score,0.00 to 100.00,Direct mapping (aptitude_score),0.0 to 100.0,COMPLIANT — Pre-placement predictor attribute
+PRI-C03,Academic Performance,cgpa,Continuous Score,0.00 to 10.00,(cgpa / 10.0) * 100.0,0.0 to 100.0,COMPLIANT — Pre-placement predictor attribute
+PRI-C04,Practical Projects,projects_count,Integer Count,0 to N,"min((projects_count / 3.0) * 100.0, 100.0)",0.0 to 100.0,COMPLIANT — Pre-placement predictor attribute
+PRI-C05,Industry Internships,internships_count,Integer Count,0 to N,"min((internships_count / 2.0) * 100.0, 100.0)",0.0 to 100.0,COMPLIANT — Pre-placement predictor attribute
+PRI-C06,Communication Skills,communication_score,Continuous Score,0.00 to 100.00,Direct mapping (communication_score),0.0 to 100.0,COMPLIANT — Pre-placement predictor attribute

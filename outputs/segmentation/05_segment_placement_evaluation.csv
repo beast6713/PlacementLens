@@ -1,0 +1,5 @@
+segment_code,segment_name,student_count,placed_count,unplaced_count,observed_placement_rate_pct,placement_spread_vs_baseline_pp
+SEG-Q1,Comprehensive High Performers,296,217,79,73.31,9.98
+SEG-Q2,Technical Specialists,200,130,70,65.0,1.67
+SEG-Q3,Academic Generalists,358,233,125,65.08,1.75
+SEG-Q4,High Support Priority,646,370,276,57.28,-6.05

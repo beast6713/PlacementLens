@@ -1,0 +1,10 @@
+change_id,file,component,change_type,old_behavior,new_behavior,layer,authorized,analytical_impact,data_impact,architecture_impact,severity,evidence,status
+CHG-001,dashboard/src/components/magicui/BorderBeam.jsx,Magic UI Component,NEW_FILE,None,Animated glowing border beam component,UI,TRUE,NONE,NONE,NONE,INFO,Frontend UI visual enhancement,PASS
+CHG-002,dashboard/src/components/magicui/NumberTicker.jsx,Magic UI Component,NEW_FILE,None,Animated numerical count-up ticker,UI,TRUE,NONE,NONE,NONE,INFO,Frontend UI visual enhancement,PASS
+CHG-003,dashboard/src/components/magicui/BentoGrid.jsx,Magic UI Component,NEW_FILE,None,Bento grid container & card layout,UI,TRUE,NONE,NONE,NONE,INFO,Frontend UI visual enhancement,PASS
+CHG-004,dashboard/src/components/magicui/ParticlesBackground.jsx,Magic UI Component,NEW_FILE,None,Canvas background particle grid animation,UI,TRUE,NONE,NONE,NONE,INFO,Frontend UI visual enhancement,PASS
+CHG-005,dashboard/src/components/magicui/MagicMarquee.jsx,Magic UI Component,NEW_FILE,None,Infinite scrolling ticker for skill spreads & insights,UI,TRUE,NONE,NONE,NONE,INFO,Frontend UI visual enhancement,PASS
+CHG-006,dashboard/src/components/magicui/ShimmerButton.jsx,Magic UI Component,NEW_FILE,None,Shimmer glowing action button,UI,TRUE,NONE,NONE,NONE,INFO,Frontend UI visual enhancement,PASS
+CHG-007,dashboard/src/App.jsx,React Web Dashboard App,NEW_FILE,None,Interactive React web shell & navigation,UI,TRUE,NONE,NONE,NONE,INFO,Frontend UI dashboard shell,PASS
+CHG-008,scripts/export_dashboard_data.py,Helper Export Script,NEW_FILE,None,Exports clean dataset metrics to JSON for web dashboard,SCRIPT,TRUE,NONE,NONE,NONE,INFO,Data export helper script,PASS
+CHG-009,dashboard/src/data/placementData.json,Web Data Asset,NEW_FILE,None,JSON formatted dataset for frontend rendering,DATA_ASSET,TRUE,NONE,NONE,NONE,INFO,JSON asset generated from clean CSV,PASS

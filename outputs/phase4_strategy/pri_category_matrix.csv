@@ -1,0 +1,5 @@
+category,minimum_pri,maximum_pri,inclusive_lower,inclusive_upper,description,validation_status
+High Readiness,80.0,100.0,True,True,Comprehensive multi-dimensional preparation profile. Suitable for premium/tier-1 drives.,VALIDATED_CONTINUOUS_BOUND
+Moderate Readiness,60.0,79.99,True,True,Solid foundational profile with targeted technical or aptitude growth opportunities.,VALIDATED_CONTINUOUS_BOUND
+Needs Improvement,40.0,59.99,True,True,Moderate preparation deficits across multiple core dimensions requiring structured intervention.,VALIDATED_CONTINUOUS_BOUND
+High Improvement Priority,0.0,39.99,True,True,"Substantial gaps across technical, academic, or aptitude dimensions requiring priority remediation.",VALIDATED_CONTINUOUS_BOUND

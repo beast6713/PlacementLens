@@ -1,0 +1,16 @@
+test_case_id,test_name,input_description,expected_normalized_scores,expected_pri,expected_category,verification_type
+TC01,Minimum Theoretical PRI,"All skill indicators = 0, aptitude = 0, cgpa = 0.0, projects = 0, internships = 0, communication = 0","S_tech=0, S_apt=0, S_cgpa=0, S_proj=0, S_intern=0, S_comm=0",0.0,High Improvement Priority,Formula & Bounds
+TC02,Maximum Theoretical PRI,"All 7 skills = 1, aptitude = 100, cgpa = 10.0, projects = 3+, internships = 2+, communication = 100","S_tech=100, S_apt=100, S_cgpa=100, S_proj=100, S_intern=100, S_comm=100",100.0,High Readiness,Formula & Bounds
+TC03,Mid-Range Benchmark Profile,"4 skills (Python, SQL, Excel, PowerBI -> 4/7=57.1429), aptitude=60, cgpa=7.0 (70), projects=1 (33.3333), internships=1 (50), communication=60","S_tech=57.1429, S_apt=60.0, S_cgpa=70.0, S_proj=33.3333, S_intern=50.0, S_comm=60.0",55.29,Needs Improvement,Formula Precision
+TC04,Lower Boundary (40.00),Sub-scores constructed to sum exactly to 40.00 PRI points,"S_tech=40, S_apt=40, S_cgpa=40, S_proj=40, S_intern=40, S_comm=40",40.0,Needs Improvement,Category Boundary
+TC05,Moderate Boundary (60.00),Sub-scores constructed to sum exactly to 60.00 PRI points,"S_tech=60, S_apt=60, S_cgpa=60, S_proj=60, S_intern=60, S_comm=60",60.0,Moderate Readiness,Category Boundary
+TC06,High Boundary (80.00),Sub-scores constructed to sum exactly to 80.00 PRI points,"S_tech=80, S_apt=80, S_cgpa=80, S_proj=80, S_intern=80, S_comm=80",80.0,High Readiness,Category Boundary
+TC07,Just Below 40 Boundary (39.99),Calculated score yielding 39.99 PRI points,Calculated combination summing to 39.99,39.99,High Improvement Priority,Boundary Precision
+TC08,Just Below 60 Boundary (59.99),Calculated score yielding 59.99 PRI points,Calculated combination summing to 59.99,59.99,Needs Improvement,Boundary Precision
+TC09,Just Below 80 Boundary (79.99),Calculated score yielding 79.99 PRI points,Calculated combination summing to 79.99,79.99,Moderate Readiness,Boundary Precision
+TC10,Unexpected NULL Input Violation,One required PRI input (e.g. aptitude_score) is unexpectedly NULL,N/A - Execution Interrupted,,,Missing Value Exception Handling
+TC11,Weight Sum Assertion,Verify sum of component weights w1 + w2 + w3 + w4 + w5 + w6 == 1.00,"w_tech=0.25, w_apt=0.20, w_cgpa=0.15, w_proj=0.15, w_intern=0.15, w_comm=0.10",1.0,PASS,Weight Constraint
+TC12,Zero Target Leakage Audit,"Check column names in PRI formula definition for outcome variables (placed, package_lpa, company_type)",Zero occurrence in calculation logic,0.0,PASS,Leakage Governance
+TC13,Monotonicity Verification,Increment any single preparation input while holding all others constant,Delta S_k >= 0.0,Delta PRI >= 0.0 (Strictly non-decreasing),Same or Higher Category,Monotonicity Constraint
+TC14,Deterministic Reproducibility,Run PRI calculation pipeline twice on identical input dataset,Identical sub-scores across runs,Exact 0.0 difference (Delta = 0.000000),100% Identical categories,Determinism Audit
+TC15,Manual Calculation Cross-Check,"Student profile: 5 skills (71.4286), Aptitude 75, CGPA 8.2 (82.0), 2 Projects (66.6667), 1 Internship (50.0), Comm 80","Tech=71.4286, Apt=75, CGPA=82, Proj=66.6667, Intern=50, Comm=80",70.66,Moderate Readiness,Manual Arithmetic Cross-Check

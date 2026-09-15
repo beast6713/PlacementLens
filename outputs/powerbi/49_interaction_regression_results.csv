@@ -1,0 +1,4 @@
+test_id,source_page,source_visual,interaction_type,target_visual,expected_behavior,actual_behavior,status,severity,notes
+INT01,01 Command Center,Branch Slicer,Filter,KPI Cards & Readiness Chart,Filter visuals to selected branch,Visuals filter cleanly to branch subset,PASS,NONE,Cross-filtering validated
+INT02,02 Student Analytics,Preparation Segment Slicer,Filter,Prep Profile & Skill Gap Matrix,Update profile to selected segment,Profile updates accurately without corrupting total cohort measures,PASS,NONE,Segment cross-filter verified
+INT03,03 Company Intelligence,Company Type Slicer,Filter,Package Distribution & Summary Cards,Recalculate package metrics for selected company type,Package metrics filter cleanly,PASS,NONE,NULL unplaced semantics preserved

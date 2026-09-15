@@ -1,0 +1,6 @@
+ux_dimension,check,result,notes
+Visual Hierarchy,Primary KPIs prominent at top left,PASS,Standard reading pattern followed
+Typography System,Consistent font family & size scale,PASS,Segoe UI / Inter family used exclusively
+Color Semantics,Navy/Indigo theme with clear status badges,PASS,No confusing dark/light mode mismatches
+Card Containers,Consistent corner radius & drop shadow,PASS,8px border radius used consistently
+Navigation Bar,Consistent left sidebar position across pages,PASS,Active tab clearly highlighted on each page

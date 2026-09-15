@@ -1,0 +1,11 @@
+validation_id,validation_layer,target_object,assertion_rule,failure_action,status
+VAL-P4-01,Baseline Population,data/processed/placementlens_students_clean.csv,Physical rows == 1500; clean MD5 == 96023d297eec5a9a47563eaddc157d0d,STOP — Halt Phase 4 execution,APPROVED
+VAL-P4-02,Identity Linkage,student_id,Unique student_id count == 1500; S0001 to S1500; 0 orphan records,STOP — Halt execution,APPROVED
+VAL-P4-03,Score Scale Bounds,pri_score,0.0 <= min(pri_score) and max(pri_score) <= 100.0; zero NaN/Inf,STOP — Out of bounds score error,APPROVED
+VAL-P4-04,Component Bounds,"S_tech, S_apt, S_cgpa, S_proj, S_intern, S_comm","All 6 normalized sub-scores strictly bounded within [0.0, 100.0]",STOP — Component normalization error,APPROVED
+VAL-P4-05,Weight Sum Constraint,pri_weight_matrix,sum(weights) == 1.000000 (25 + 20 + 15 + 15 + 15 + 10 = 100%),STOP — Invalid weight configuration,APPROVED
+VAL-P4-06,Category Allocation,readiness_category,100% records map to exactly 1 category; 0 null/unassigned,STOP — Categorization gap error,APPROVED
+VAL-P4-07,Zero Target Leakage,pri_formula,"Zero outcome variables (placed, package_lpa, company_type) in PRI formula",STOP — Target leakage defect,APPROVED
+VAL-P4-08,Reproducibility,pri_calculation_script,Identical inputs yield 100% identical PRI score & category,STOP — Non-deterministic error,APPROVED
+VAL-P4-09,Mathematical Integrity,pri_score vs component sum,pri_score - sum(w_k * S_k) == 0.0 (tolerance 1e-6),STOP — Math drift error,APPROVED
+VAL-P4-10,NULL Semantics,unplaced cohort package & company,Unplaced package_lpa == NULL and company_type == NULL; NULL != 0,STOP — NULL semantics violation,APPROVED

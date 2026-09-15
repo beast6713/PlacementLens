@@ -1,0 +1,3 @@
+issue_id,phase_part,severity,description,source,impact,status,resolution,blocking_phase5,owner,notes
+ISSUE-P4-01,P4-P4,INFO,Explicit exclusion of coding_score from baseline PRI formula.,Placement Readiness Framework Freeze,Preserved exact compliance with frozen 6-component P4-P1 weight table.,RESOLVED,Documented decision in docs/placement_readiness_framework.md Section 24.,False,Analytics Architect,coding_score retained for post-PRI comparative evaluation.
+ISSUE-P4-02,P4-P5,INFO,Pure pandas rank correlation used for sensitivity analysis due to environment modularity.,PRI Calculation Engine,Zero impact on rank correlation numerical precision.,RESOLVED,Executed rank correlation via df.rank().corr().,False,Senior Data Scientist,Fully verified and reproducible.

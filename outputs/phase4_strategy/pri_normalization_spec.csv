@@ -1,0 +1,7 @@
+component_id,component_name,raw_min,raw_max,normalization_formula,bounding_rule,normalized_min,normalized_max
+PRI-C01,Technical Skills,0.0,7,(technical_skill_count / 7.0) * 100.0,"Linear mapping capped at [0.0, 100.0]",0.0,100.0
+PRI-C02,Aptitude Score,0.0,100.0,aptitude_score,"Direct identity mapping within [0.0, 100.0]",0.0,100.0
+PRI-C03,Academic Performance (CGPA),0.0,10.0,(cgpa / 10.0) * 100.0,"Linear mapping capped at [0.0, 100.0]",0.0,100.0
+PRI-C04,Practical Projects,0.0,N,"min((projects_count / 3.0) * 100.0, 100.0)",Bounded cap at 3+ projects = 100.0 pts,0.0,100.0
+PRI-C05,Industry Internships,0.0,N,"min((internships_count / 2.0) * 100.0, 100.0)",Bounded cap at 2+ internships = 100.0 pts,0.0,100.0
+PRI-C06,Communication Skills,0.0,100.0,communication_score,"Direct identity mapping within [0.0, 100.0]",0.0,100.0

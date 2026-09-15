@@ -1,0 +1,3 @@
+placement_status,student_count,avg_technical_skill_count,median_technical_skill_count,avg_skill_gap_count,python_gap_pct,sql_gap_pct,excel_gap_pct,power_bi_gap_pct,dsa_gap_pct,cloud_gap_pct,cybersecurity_gap_pct
+Unplaced,550,4.03,4.0,2.97,24.73,26.36,17.09,47.82,30.36,71.27,78.91
+Placed,950,4.23,4.0,2.77,19.68,19.58,15.58,46.74,29.05,65.58,80.95

@@ -1,0 +1,26 @@
+validation_id,category,check,expected,actual,status,severity,evidence
+VAL-P2-01,Data,"Total student population preserved at student grain (1,500 rows)","1,500",1500,PASS,CRITICAL,"1,500 student rows verified in clean model"
+VAL-P2-02,Measures,Average CGPA KPI matches baseline (7.32),7.32,7.32,PASS,CRITICAL,AVERAGE(cgpa) = 7.3209
+VAL-P2-03,Measures,Average Coding Score KPI matches baseline (72.87),72.87,72.87,PASS,CRITICAL,AVERAGE(coding_score) = 72.8692
+VAL-P2-04,Measures,Average Aptitude Score KPI matches baseline (71.78),71.78,71.78,PASS,CRITICAL,AVERAGE(aptitude_score) = 71.7751
+VAL-P2-05,Measures,Average Technical Skill Count KPI matches baseline (4.16),4.16,4.16,PASS,CRITICAL,AVERAGE(technical_skill_count) = 4.16
+VAL-P2-06,Skills,"Exactly 7 canonical technical skills used (Python, SQL, Excel, Power BI, DSA, Cloud, Cybersecurity)",7 canonical skills,7 canonical skills,PASS,CRITICAL,No extra skills introduced
+VAL-P2-07,Skills,Skill prevalence percentages calculated dynamically via DAX,"Excel 83.87%, Python 78.47%, SQL 77.93%, DSA 70.47%, Power BI 52.87%, Cloud 32.33%, Cybersecurity 19.80%","Excel 83.87%, Python 78.47%, SQL 77.93%, DSA 70.47%, Power BI 52.87%, Cloud 32.33%, Cybersecurity 19.80%",PASS,HIGH,100% skill prevalence reconciliation
+VAL-P2-08,Skills,"Observed skill placement spreads match validation references (SQL +9.16 pp, Python +6.93 pp, Cloud +6.04 pp)","SQL +9.16 pp, Python +6.93 pp, Cloud +6.04 pp","SQL +9.16 pp, Python +6.93 pp, Cloud +6.04 pp",PASS,HIGH,Exact placement rate differences verified
+VAL-P2-09,Skill Gaps,Skill gap count strictly follows formula (skill_gap_count = 7 - technical_skill_count),0 to 7 range,Mean gap = 2.84,PASS,CRITICAL,Verified exact inverse relationship
+VAL-P2-10,Segments,Consumes Phase 4 preparation segments without recreating logic,SEG-Q1 to SEG-Q4 preserved,"Comprehensive High Performers (296), Academic Generalists (358), Technical Specialists (200), High Support Priority (646)",PASS,CRITICAL,Zero re-segmentation in DAX or UI
+VAL-P2-11,Segments,Segment observed placement rates calculated dynamically,"SEG-Q1 73.31%, SEG-Q3 65.08%, SEG-Q2 65.00%, SEG-Q4 57.28%","SEG-Q1 73.31%, SEG-Q3 65.08%, SEG-Q2 65.00%, SEG-Q4 57.28%",PASS,HIGH,Observed segment placement rates verified
+VAL-P2-12,Placement,Preparation score differences Placed vs Unplaced verified,"Coding +4.13, Aptitude +3.35, CGPA +0.28, Comm +1.29","Coding +4.13, Aptitude +3.35, CGPA +0.28, Comm +1.29",PASS,HIGH,Preparation mean differences verified
+VAL-P2-13,Filters,Branch slicer updates all preparation KPIs and skill visuals dynamically,Dynamic recalculation,Dynamic recalculation,PASS,CRITICAL,Filter context propagation verified
+VAL-P2-14,Filters,Gender slicer updates page metrics without breaking visual layout,Dynamic recalculation,Dynamic recalculation,PASS,HIGH,Gender filter context verified
+VAL-P2-15,Interactions,Cross-highlighting between Technical Skills and Student Exploratory Table,Enabled,Enabled,PASS,MEDIUM,Filter interaction matrix registered
+VAL-P2-16,Formatting,"Numeric formatting complies with P5-P3 (Rates = 0.00%, Scores = 0.00, Counts = #,##0)",Standardized format strings,Standardized format strings,PASS,HIGH,P5-P3 format contract verified
+VAL-P2-17,Design,Dark Obsidian canvas (#0B0F19) and Dark Slate visual surface (#1E293B) applied,Obsidian / Dark Slate,Obsidian / Dark Slate,PASS,HIGH,P5-P3 color tokens applied
+VAL-P2-18,Design,Fixed sidebar active link set to '02 Student & Placement',02 Student & Placement active,02 Student & Placement active,PASS,HIGH,Active menu state verified
+VAL-P2-19,Leakage,Zero target leakage in preparation profile or segmentation logic,0 outcome variables in prep logic,0 outcome variables in prep logic,PASS,CRITICAL,placed/package/company strictly post-profile evaluation only
+VAL-P2-20,Leakage,"Student exploratory table excludes sensitive compensation/company fields (package_lpa, company_type)",Excluded,Excluded,PASS,CRITICAL,Exploratory table restricted to preparation metrics
+VAL-P2-21,Non-Causal UX,"100% observational phrasing across headers, tooltips, and visuals",Zero causal or predictive claims,Zero causal or predictive claims,PASS,CRITICAL,No 'causes placement' or 'placement probability' phrasing used
+VAL-P2-22,Accessibility,Double encoding used for conditional formatting and status indicators,Text label + Color accent,Text label + Color accent,PASS,HIGH,WCAG compliance verified
+VAL-P2-23,Performance,Visual cardinality strictly controlled (no unaggregated high-cardinality plots),Optimized DAX measures,Optimized DAX measures,PASS,HIGH,Single-grain aggregation verified
+VAL-P2-24,Feasibility,100% of visuals natively implementable in Power BI Desktop,Native visual types,Native visual types,PASS,CRITICAL,Native Power BI visuals mapped
+VAL-P2-25,Source Immutability,Source raw and clean dataset MD5 hashes remain 100% intact,Hashes unchanged,Raw & Clean MD5 matched,PASS,CRITICAL,Cryptographic hash check passed

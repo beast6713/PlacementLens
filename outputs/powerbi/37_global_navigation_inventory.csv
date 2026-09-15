@@ -1,0 +1,13 @@
+navigation_id,source_page,target_page,control_type,label,active_state,behavior,status
+NAV-01-02,01 Command Center,02 Student & Placement Analytics,Sidebar Link Button,02 Student & Placement,Active on Page 02,Direct Page Switch,FROZEN
+NAV-01-03,01 Command Center,03 Company & Package Intelligence,Sidebar Link Button,03 Company & Package,Active on Page 03,Direct Page Switch,FROZEN
+NAV-01-04,01 Command Center,04 Reports & Intelligence,Sidebar Link Button,04 Reports & Intelligence,Active on Page 04,Direct Page Switch,FROZEN
+NAV-02-01,02 Student & Placement Analytics,01 Command Center,Sidebar Link Button,01 Command Center,Active on Page 01,Direct Page Switch,FROZEN
+NAV-02-03,02 Student & Placement Analytics,03 Company & Package Intelligence,Sidebar Link Button,03 Company & Package,Active on Page 03,Direct Page Switch,FROZEN
+NAV-02-04,02 Student & Placement Analytics,04 Reports & Intelligence,Sidebar Link Button,04 Reports & Intelligence,Active on Page 04,Direct Page Switch,FROZEN
+NAV-03-01,03 Company & Package Intelligence,01 Command Center,Sidebar Link Button,01 Command Center,Active on Page 01,Direct Page Switch,FROZEN
+NAV-03-02,03 Company & Package Intelligence,02 Student & Placement Analytics,Sidebar Link Button,02 Student & Placement,Active on Page 02,Direct Page Switch,FROZEN
+NAV-03-04,03 Company & Package Intelligence,04 Reports & Intelligence,Sidebar Link Button,04 Reports & Intelligence,Active on Page 04,Direct Page Switch,FROZEN
+NAV-04-01,04 Reports & Intelligence,01 Command Center,Sidebar Link Button,01 Command Center,Active on Page 01,Direct Page Switch,FROZEN
+NAV-04-02,04 Reports & Intelligence,02 Student & Placement Analytics,Sidebar Link Button,02 Student & Placement,Active on Page 02,Direct Page Switch,FROZEN
+NAV-04-03,04 Reports & Intelligence,03 Company & Package Intelligence,Sidebar Link Button,03 Company & Package,Active on Page 03,Direct Page Switch,FROZEN

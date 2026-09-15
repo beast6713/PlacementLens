@@ -1,0 +1,17 @@
+segment_code,dimension,metric,value,baseline_diff
+SEG-Q1,Academic,Mean CGPA,8.47,1.15
+SEG-Q1,Coding,Mean Coding Score,85.6,12.73
+SEG-Q1,Aptitude,Mean Aptitude Score,77.16,5.39
+SEG-Q1,Technical,Mean Skill Count,4.95,0.79
+SEG-Q2,Academic,Mean CGPA,6.65,-0.68
+SEG-Q2,Coding,Mean Coding Score,82.58,9.71
+SEG-Q2,Aptitude,Mean Aptitude Score,67.99,-3.79
+SEG-Q2,Technical,Mean Skill Count,4.91,0.75
+SEG-Q3,Academic,Mean CGPA,8.21,0.89
+SEG-Q3,Coding,Mean Coding Score,70.38,-2.49
+SEG-Q3,Aptitude,Mean Aptitude Score,76.61,4.84
+SEG-Q3,Technical,Mean Skill Count,3.72,-0.43
+SEG-Q4,Academic,Mean CGPA,6.51,-0.81
+SEG-Q4,Coding,Mean Coding Score,65.41,-7.46
+SEG-Q4,Aptitude,Mean Aptitude Score,67.8,-3.97
+SEG-Q4,Technical,Mean Skill Count,3.8,-0.35

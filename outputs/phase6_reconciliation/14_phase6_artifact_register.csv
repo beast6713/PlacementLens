@@ -1,0 +1,7 @@
+artifact,path,type,purpose,phase,implementation_status,related_requirement,architecture_layer,data_impact,analytics_impact,ui_impact,deployment_impact,documentation_status
+validate_phase5_dashboard.py,scripts/validate_phase5_dashboard.py,PYTHON_SCRIPT,Master validation test runner,Phase 5/6,COMPLETE,P6-REQ-02,VALIDATION,NONE,NONE,NONE,NONE,COMPLETE
+export_dashboard_data.py,scripts/export_dashboard_data.py,PYTHON_SCRIPT,Clean dataset to JSON converter,Phase 5/6,COMPLETE,P6-REQ-01,DATA_INTEGRATION,NONE,NONE,NONE,NONE,COMPLETE
+dashboard/dist/,dashboard/dist/,BUILD_BUNDLE,Production client web build,Phase 5/6,COMPLETE,P6-REQ-01,FRONTEND_BUILD,NONE,NONE,NONE,COMPLETE,COMPLETE
+http://localhost:5173/,dashboard/,DEV_SERVER,Live local web app preview,Phase 5/6,COMPLETE,P6-REQ-01,FRONTEND_SERVER,NONE,NONE,NONE,COMPLETE,COMPLETE
+power_bi_final_qa_handoff.md,docs/power_bi_final_qa_handoff.md,DOCUMENTATION,Master QA handoff specification,Phase 5/6,COMPLETE,P6-REQ-04,DOCUMENTATION,NONE,NONE,NONE,NONE,COMPLETE
+README.md,README.md,DOCUMENTATION,Root project README,Phase 0/6,PARTIAL,P6-REQ-03,DOCUMENTATION,NONE,NONE,NONE,NONE,PARTIAL

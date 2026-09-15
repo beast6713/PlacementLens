@@ -1,0 +1,2 @@
+issue_id,phase,page,component,category,description,evidence,severity,root_cause,recommended_action,action_taken,status,regression_test
+ISS-001,P5-P9,Audit,Mockup Check,Audit,Verified zero design mockup values (842 617 73% 8.4L) present in live analytics,Model search returned 0 instances,INFO,Design spec separation,Ensure live DAX measures serve visuals,Validated all cards use live DAX,RESOLVED,PASS

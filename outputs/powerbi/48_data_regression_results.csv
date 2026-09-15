@@ -1,0 +1,13 @@
+test_id,test_name,source_of_truth,expected,actual,difference,tolerance,status,severity,notes
+TR01,Raw File Hash Check,MD5 Manifest,59c04ee15a0112806c510225d8e75779,59c04ee15a0112806c510225d8e75779,0,0,PASS,NONE,Raw CSV unmodified
+TR02,Clean File Hash Check,MD5 Manifest,96023d297eec5a9a47563eaddc157d0d,96023d297eec5a9a47563eaddc157d0d,0,0,PASS,NONE,Clean CSV unmodified
+TR03,Student Count,Phase 3/4 Baseline,1500,1500,0,0,PASS,NONE,Exact row count
+TR04,Placed Count,Phase 3/4 Baseline,950,950,0,0,PASS,NONE,Exact placed count
+TR05,Unplaced Count,Phase 3/4 Baseline,550,550,0,0,PASS,NONE,Exact unplaced count
+TR06,Unplaced Null Package Count,Phase 3 Baseline,550,550,0,0,PASS,NONE,NULL semantics preserved
+TR07,CE Placement Rate,Phase 3 Baseline,68.57,68.57,0.00,0.01,PASS,NONE,72/105 placed
+TR08,EEE Placement Rate,Phase 3 Baseline,66.00,66.00,0.00,0.01,PASS,NONE,99/150 placed
+TR09,IT Placement Rate,Phase 3 Baseline,65.07,65.07,0.00,0.01,PASS,NONE,244/375 placed
+TR10,CSE Placement Rate,Phase 3 Baseline,63.78,63.78,0.00,0.01,PASS,NONE,287/450 placed
+TR11,ECE Placement Rate,Phase 3 Baseline,60.33,60.33,0.00,0.01,PASS,NONE,181/300 placed
+TR12,ME Placement Rate,Phase 3 Baseline,55.83,55.83,0.00,0.01,PASS,NONE,67/120 placed

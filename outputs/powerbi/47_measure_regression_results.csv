@@ -1,0 +1,17 @@
+measure_id,measure_name,metric_group,expected_value,actual_value,difference,tolerance,filter_context,population,status,notes
+M01,Total Students,Headcount,1500,1500,0,0,Unfiltered,"All 1,500 students",PASS,Exact match
+M02,Placed Students,Headcount,950,950,0,0,Unfiltered,Placed cohort,PASS,Exact match
+M03,Unplaced Students,Headcount,550,550,0,0,Unfiltered,Unplaced cohort,PASS,Exact match
+M04,Placement Rate,Rate,63.33,63.33,0.00,0.01,Unfiltered,"All 1,500 students",PASS,Exact match
+M05,Average Package,Compensation,10.62,10.62,0.00,0.01,Placed cohort,950 placed students,PASS,Exact match
+M06,Median Package,Compensation,9.70,9.70,0.00,0.01,Placed cohort,950 placed students,PASS,Exact match
+M07,Package IQR,Compensation,8.22,8.22,0.00,0.01,Placed cohort,950 placed students,PASS,Exact match
+M08,Coding Placed Avg,Preparation,78.36,78.36,0.00,0.01,Placed cohort,950 placed students,PASS,Exact match
+M09,Coding Unplaced Avg,Preparation,72.95,72.95,0.00,0.01,Unplaced cohort,550 unplaced students,PASS,Exact match
+M10,Aptitude Placed Avg,Preparation,75.40,75.40,0.00,0.01,Placed cohort,950 placed students,PASS,Exact match
+M11,Aptitude Unplaced Avg,Preparation,70.21,70.21,0.00,0.01,Unplaced cohort,550 unplaced students,PASS,Exact match
+M12,CGPA Placed Avg,Academics,7.81,7.81,0.00,0.01,Placed cohort,950 placed students,PASS,Exact match
+M13,CGPA Unplaced Avg,Academics,7.22,7.22,0.00,0.01,Unplaced cohort,550 unplaced students,PASS,Exact match
+M14,SQL Placement Spread,Skill Signal,9.17,9.17,0.00,0.01,Unfiltered,"All 1,500 students",PASS,Exact match
+M15,Python Placement Spread,Skill Signal,6.94,6.94,0.00,0.01,Unfiltered,"All 1,500 students",PASS,Exact match
+M16,Cloud Placement Spread,Skill Signal,6.04,6.04,0.00,0.01,Unfiltered,"All 1,500 students",PASS,Exact match

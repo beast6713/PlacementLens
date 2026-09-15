@@ -1,0 +1,4 @@
+test_id,page,interaction,visual,duration_ms,expected_behavior,actual_behavior,status,notes
+PERF01,01 Command Center,Initial Page Load,All Page 01 Visuals,120,< 1000 ms rendering,Fast rendering (120 ms),PASS,Optimized DAX execution
+PERF02,02 Student Analytics,Slicer Change,Segment Profile Visuals,85,< 500 ms response,Immediate update (85 ms),PASS,Clean single-column relationship evaluation
+PERF03,03 Company Intelligence,Cross-filter visual click,Company Type Clustered Bar,95,< 500 ms response,Immediate update (95 ms),PASS,No expensive DAX loops

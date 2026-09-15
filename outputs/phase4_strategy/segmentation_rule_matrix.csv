@@ -1,0 +1,6 @@
+rule_id,segmentation_dimension,variable_source,allowed_in_readiness,segmentation_method,threshold_rules,ml_prohibition_status
+SEG-RULE-001,Academic Performance Standing,cgpa,YES,Rule-based threshold (CGPA >= 7.50 vs < 7.50),CGPA >= 7.50 (High Academic) vs < 7.50 (Moderate/Support),STRICTLY PROHIBITED — Zero unsupervised ML / K-Means allowed
+SEG-RULE-002,Technical Proficiency & Breadth,"coding_score, technical_skill_count",YES,Rule-based matrix (Coding >= 75.0 AND Skill Count >= 4),Coding >= 75.0 AND Skills >= 4 (Technical Specialist),STRICTLY PROHIBITED — Zero unsupervised ML / K-Means allowed
+SEG-RULE-003,Aptitude Capability,aptitude_score,YES,Rule-based threshold (Aptitude >= 70.0 vs < 70.0),Aptitude >= 70.0 (High Aptitude) vs < 70.0 (Needs Support),STRICTLY PROHIBITED — Zero unsupervised ML / K-Means allowed
+SEG-RULE-004,Communication Capability,communication_score,YES,Rule-based threshold (Comm >= 80.0 vs < 80.0),Comm >= 80.0 (Proficient Comm) vs < 80.0 (Comm Support),STRICTLY PROHIBITED — Zero unsupervised ML / K-Means allowed
+SEG-RULE-005,Placement Status & Compensation,"placed, package_lpa, company_type",NO — FORBIDDEN,EXCLUDED FROM PREPARATION SEGMENTATION,MUST NOT be used as inputs for readiness or preparation segments,STRICTLY PROHIBITED — Target leakage violation

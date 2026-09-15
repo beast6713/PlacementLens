@@ -1,0 +1,16 @@
+visual_id,visual_name,visual_type,purpose,position,measure,dimension,filter_behavior,tooltip,status
+CC-HDR-01,Global Header Bar,Header Banner,"PlacementLens branding, page title, and dataset scope indicator","Top Span (Col 1-12, Row 1)",N/A,N/A,Static,N/A,FROZEN
+CC-NAV-01,Navigation Sidebar,Sidebar Menu,Fixed left navigation sidebar with 01 Command Center active highlight,"Left Column (Col 1, Row 1-6)",N/A,Page Names,Page Navigation,N/A,FROZEN
+CC-FLT-01,Filter Context Indicator,Text Box (DAX Dynamic),Displays currently active slicer selections dynamically,"Top Right Content (Col 8-12, Row 1)",[Active Filter Context],Slicers,Dynamic,N/A,FROZEN
+CC-SLC-01,Branch Dropdown Slicer,Dropdown Slicer,Slices Command Center metrics by Academic Branch,"Filter Bar (Col 2-3, Row 2)",N/A,Students[branch],Single / Multi Select,N/A,FROZEN
+CC-SLC-02,Gender Dropdown Slicer,Dropdown Slicer,Slices Command Center metrics by Gender Category,"Filter Bar (Col 4-5, Row 2)",N/A,Students[gender],Single / Multi Select,N/A,FROZEN
+CC-SLC-03,Placement Status Slicer,Dropdown Slicer,Slices Command Center metrics by Placement Status (Placed/Unplaced),"Filter Bar (Col 6-7, Row 2)",N/A,Students[placed],Single / Multi Select,N/A,FROZEN
+CC-KPI-01,Total Students KPI Card,PL-KPI-Executive,Primary population metric display,"KPI Row (Col 2-4, Row 3)",[Total Students],N/A,Dynamic under slicers,Total cohort population,FROZEN
+CC-KPI-02,Placed Students KPI Card,PL-KPI-Executive,Primary placed cohort count metric display,"KPI Row (Col 5-7, Row 3)",[Placed Students],N/A,Dynamic under slicers,Placed student count,FROZEN
+CC-KPI-03,Placement Rate KPI Card,PL-KPI-Executive,Primary headline placement rate percentage display,"KPI Row (Col 8-10, Row 3)",[Placement Rate],N/A,Dynamic under slicers,Placed students / Total students,FROZEN
+CC-KPI-04,Average PRI Score KPI Card,PL-KPI-Readiness,Primary Placement Readiness Index mean score display,"KPI Row (Col 11-12, Row 3)",[Average PRI],N/A,Dynamic under slicers,Mean PRI composite score (0-100),FROZEN
+CC-VIS-01,Placement Rate by Branch,Horizontal Bar Chart,Comparative observed placement rate across 6 academic branches,"Grid Row 4 Left (Col 2-7, Row 4-5)",[Placement Rate],Students[branch],Dynamic under slicers,Branch placed / total count & rate,FROZEN
+CC-VIS-02,Readiness Tier Distribution,Clustered Column Chart,Student population count across 4 validated readiness tiers,"Grid Row 4 Right (Col 8-12, Row 4)",[Total Students],Students[readiness_category],Dynamic under slicers,Tier count & percentage of cohort,FROZEN
+CC-VIS-03,Technical Skill Prevalence Signal,Horizontal Bar Chart,Prevalence percentage across 7 technical skills,"Grid Row 5 Right (Col 8-12, Row 5)",Skill Prevalence Measures,Technical Skills,Dynamic under slicers,Skill holders & prevalence %,FROZEN
+CC-INS-01,Key Intelligence Panel,PL-InsightCard,Validated Phase 4 narrative takeaways callout box,"Bottom Grid (Col 2-12, Row 6)",N/A,DimInsightRegister,Static / Dynamic filter,Phase 4 validated insight detail,FROZEN
+CC-FTR-01,Methodology Footer Bar,Footer Banner,Dataset declaration and non-causal observational analytics disclaimer,"Bottom Canvas (Col 1-12, Row 7)",N/A,N/A,Static,N/A,FROZEN

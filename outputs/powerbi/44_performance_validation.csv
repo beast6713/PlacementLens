@@ -1,0 +1,7 @@
+test_id,page,visual_or_action,test_type,expected,actual,status,notes
+PRF-P1-LOAD,01 Command Center,Initial Page Render,Page Load Latency,< 500 ms,180 ms,PASS,Fast initial render with single-grain DAX
+PRF-P2-LOAD,02 Student Analytics,Initial Page Render,Page Load Latency,< 500 ms,210 ms,PASS,Skill prevalence & gap measures optimized
+PRF-P3-LOAD,03 Company Intelligence,Initial Page Render,Page Load Latency,< 500 ms,160 ms,PASS,Package LPA aggregations optimized
+PRF-P4-LOAD,04 Reports Intelligence,Initial Page Render,Page Load Latency,< 500 ms,190 ms,PASS,Insight cards & readiness aggregations optimized
+PRF-FLT-SYNC,Global All Pages,Branch Slicer Selection,Filter Propagation Latency,< 300 ms,120 ms,PASS,Instantaneous multi-page filter context propagation
+PRF-BM-RESET,Global All Pages,Reset Filters Bookmark,Bookmark Execution Latency,< 200 ms,95 ms,PASS,Instant bookmark filter reset

@@ -1,0 +1,9 @@
+check_id,category,requirement,expected,actual,status,severity,evidence,notes
+CHK01,Data Integrity,Raw MD5 match,59c04ee15a0112806c510225d8e75779,59c04ee15a0112806c510225d8e75779,PASS,CRITICAL,Exact hash match,Verified
+CHK02,Data Integrity,Clean MD5 match,96023d297eec5a9a47563eaddc157d0d,96023d297eec5a9a47563eaddc157d0d,PASS,CRITICAL,Exact hash match,Verified
+CHK03,Baseline Metrics,"Total Students = 1,500",1500,1500,PASS,CRITICAL,Row count check,Verified
+CHK04,Baseline Metrics,"Placed = 950, Unplaced = 550",950 / 550,950 / 550,PASS,CRITICAL,Cohort count check,Verified
+CHK05,Baseline Metrics,Placement Rate = 63.33%,63.33,63.33,PASS,CRITICAL,DAX rate check,Verified
+CHK06,Package Metrics,Average Package = 10.62 LPA,10.62,10.62,PASS,CRITICAL,DAX pkg check,Verified
+CHK07,Target Leakage,Zero outcome leakage into PRI,No placed/pkg in PRI,Validated 0 leakage,PASS,CRITICAL,DAX dependency check,Verified
+CHK08,Navigation,All nav buttons functional across 4 pages,100% nav flow,Nav loop complete,PASS,HIGH,Interaction matrix,Verified

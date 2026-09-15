@@ -1,0 +1,12 @@
+path,change_status,old_hash,new_hash,change_category,ui_related,analytics_related,data_related,architecture_related,authorized,severity,notes
+data/raw/placementlens_students_raw.csv,UNCHANGED,59c04ee15a0112806c510225d8e75779,59c04ee15a0112806c510225d8e75779,RAW_DATA,FALSE,TRUE,TRUE,TRUE,TRUE,NONE,Raw dataset hash strictly preserved
+data/processed/placementlens_students_clean.csv,UNCHANGED,96023d297eec5a9a47563eaddc157d0d,96023d297eec5a9a47563eaddc157d0d,CLEAN_DATA,FALSE,TRUE,TRUE,TRUE,TRUE,NONE,Clean dataset hash strictly preserved
+sql/01_schema.sql,UNCHANGED,N/A,N/A,SQL_SCHEMA,FALSE,TRUE,TRUE,TRUE,TRUE,NONE,PostgreSQL schema untouched
+sql/02_analytics.sql,UNCHANGED,N/A,N/A,SQL_ANALYTICS,FALSE,TRUE,TRUE,TRUE,TRUE,NONE,PostgreSQL analytics untouched
+scripts/clean_dataset.py,UNCHANGED,N/A,N/A,PYTHON_ETL,FALSE,TRUE,TRUE,TRUE,TRUE,NONE,Python cleaning script untouched
+scripts/eda_analysis.py,UNCHANGED,N/A,N/A,PYTHON_EDA,FALSE,TRUE,TRUE,TRUE,TRUE,NONE,Python EDA script untouched
+scripts/calculate_pri.py,UNCHANGED,N/A,N/A,PYTHON_PRI,FALSE,TRUE,TRUE,TRUE,TRUE,NONE,PRI calculation script untouched
+scripts/segment_students.py,UNCHANGED,N/A,N/A,PYTHON_SEGMENTATION,FALSE,TRUE,TRUE,TRUE,TRUE,NONE,Segmentation script untouched
+scripts/export_dashboard_data.py,NEW_FILE,NONE,GENERATED,PYTHON_EXPORT,FALSE,FALSE,FALSE,FALSE,TRUE,INFO,Helper script to convert clean CSV to JSON for UI
+dashboard/*,NEW_DIRECTORY,NONE,GENERATED,UI_FRONTEND,TRUE,FALSE,FALSE,FALSE,TRUE,INFO,React + Vite + Magic UI web dashboard application
+00_project_blueprint/29_change_log.md,MODIFIED,EXISTING,UPDATED,DOCUMENTATION,TRUE,FALSE,FALSE,FALSE,TRUE,INFO,Documented P5-P9 completion and Magic UI addition

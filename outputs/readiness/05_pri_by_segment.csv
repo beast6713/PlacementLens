@@ -1,0 +1,5 @@
+segment,student_count,mean_pri,median_pri,minimum_pri,maximum_pri,high_readiness_count,moderate_readiness_count,needs_improvement_count,high_improvement_priority_count
+Academic Generalists,358,63.02,62.62,34.06,90.08,17,209,130,2
+Comprehensive High Performers,296,69.94,69.24,48.42,91.9,36,237,23,0
+High Support Priority,646,59.33,58.72,31.48,91.09,14,275,343,14
+Technical Specialists,200,66.79,66.83,46.32,91.01,15,141,44,0

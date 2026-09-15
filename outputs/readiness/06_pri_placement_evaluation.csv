@@ -1,0 +1,5 @@
+readiness_category,student_count,placed_count,unplaced_count,observed_placement_rate,mean_pri,median_pri,mean_package_lpa_placed
+High Readiness,82,69,13,84.15,83.22,82.15,13.5
+Moderate Readiness,862,575,287,66.71,68.01,67.54,10.94
+Needs Improvement,540,297,243,55.0,53.49,54.4,9.4
+High Improvement Priority,16,9,7,56.25,37.95,38.56,7.95

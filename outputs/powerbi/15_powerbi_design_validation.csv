@@ -1,0 +1,21 @@
+validation_id,category,check,expected,actual,status,evidence,severity
+VAL-UI-01,Brand,Brand identity frozen as PlacementLens,PlacementLens,PlacementLens,PASS,Brand name unchanged across docs & tokens,CRITICAL
+VAL-UI-02,Brand,Visual theme uses dark cybersecurity analytical aesthetic,Obsidian/Slate Dark (#0B0F19),#0B0F19,PASS,Dark palette tokens defined,HIGH
+VAL-UI-03,Color,"Color tokens defined for background, surface, text, and accents",14 color tokens,14 color tokens,PASS,TOK-COLOR-01 to TOK-COLOR-14 frozen,HIGH
+VAL-UI-04,Color,"Semantic color mapping frozen (Placed=Emerald, Unplaced=Slate)",#10B981 / #64748B,#10B981 / #64748B,PASS,SEM-01 & SEM-02 registered,CRITICAL
+VAL-UI-05,Typography,Font hierarchy defined with sans-serif stack,Inter / Segoe UI,Inter / Segoe UI,PASS,TOK-FONT-01 to TOK-FONT-05 frozen,HIGH
+VAL-UI-06,Typography,"Numerical formatting standards frozen for rates, packages, scores","0.00%, 0.00 LPA, 0.00","0.00%, 0.00 LPA, 0.00",PASS,Numerical standards registered,HIGH
+VAL-UI-07,Layout,Standard 12-column layout grid with 16px gutter & 8px card radius,16px gutter / 8px radius,16px gutter / 8px radius,PASS,Grid spacing tokens frozen,HIGH
+VAL-UI-08,Layout,Common page hierarchy defined across all 4 pages,Header -> Title -> Filter -> KPI -> Visuals -> Footer,Header -> Title -> Filter -> KPI -> Visuals -> Footer,PASS,Page template architecture defined,HIGH
+VAL-UI-09,Components,16 standard UI components inventoried with Power BI mapping,16 components,16 components,PASS,PL-Header to PL-EmptyState registered,CRITICAL
+VAL-UI-10,Components,Standard visual container card defined with Dark Slate surface,#1E293B background,#1E293B background,PASS,PL-Chart component specified,HIGH
+VAL-UI-11,Data Compatibility,All 10 supported UI concepts backed by validated dataset fields,100% available,100% available,PASS,Compatibility matrix validated,CRITICAL
+VAL-UI-12,Data Compatibility,6 unsupported design concepts logged and prohibited from UI,6 unsupported concepts,6 unsupported concepts,PASS,"Company Leaderboard, Batch, Calendar excluded",CRITICAL
+VAL-UI-13,Data Compatibility,Package visuals restricted to placed population (N=950),Placed Only (550 NULLs preserved),Placed Only (550 NULLs preserved),PASS,Package visual standard verified,CRITICAL
+VAL-UI-14,Readiness,PRI readiness visual language matches frozen Phase 4 tiers,4 readiness tiers,4 readiness tiers,PASS,SEM-03 to SEM-06 registered,CRITICAL
+VAL-UI-15,Segmentation,Preparation segment visual language matches frozen P4-P3 quadrants,4 preparation quadrants,4 preparation quadrants,PASS,SEM-07 to SEM-10 registered,CRITICAL
+VAL-UI-16,Non-Causal UX,"All visual titles, tooltips, and insights enforce non-causal phrasing",Non-causal phrasing,Non-causal phrasing,PASS,No 'Impact' or 'Causation' claims,CRITICAL
+VAL-UI-17,Accessibility,Text and status indicators use high contrast and double-encoding,Label + Color double encoding,Label + Color double encoding,PASS,Accessibility standards met,HIGH
+VAL-UI-18,Power BI Feasibility,100% of UI components implementable using native Power BI controls,Native Power BI controls,Native Power BI controls,PASS,Component mapping complete,CRITICAL
+VAL-UI-19,Four-Page Identity,Exact 4-page identities frozen for P5-P4 through P5-P7,4 distinct page identities,4 distinct page identities,PASS,"Command Center, Student, Company, Reports frozen",CRITICAL
+VAL-UI-20,Source Immutability,Raw and Clean source CSV MD5 hashes remain 100% unchanged,Hashes unchanged,Raw & Clean MD5 matched,PASS,Cryptographic hash verified,CRITICAL

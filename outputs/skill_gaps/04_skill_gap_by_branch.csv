@@ -1,0 +1,7 @@
+branch,student_count,avg_technical_skill_count,median_technical_skill_count,python_gap_pct,sql_gap_pct,excel_gap_pct,power_bi_gap_pct,dsa_gap_pct,cloud_gap_pct,cybersecurity_gap_pct
+CE,105,3.89,4.0,22.86,20.0,18.1,47.62,47.62,70.48,84.76
+CSE,450,4.39,5.0,16.67,23.78,13.78,46.0,21.11,60.67,79.11
+ECE,300,3.8,4.0,26.33,23.0,21.0,50.33,37.67,74.67,87.0
+EEE,150,3.75,4.0,25.33,26.0,17.33,52.67,43.33,76.67,84.0
+IT,375,4.45,4.0,18.67,19.47,15.73,45.6,18.4,64.0,73.33
+ME,120,4.03,4.0,30.83,18.33,10.83,40.83,42.5,74.17,80.0

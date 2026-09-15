@@ -1,0 +1,11 @@
+semantic_id,semantic_name,meaning,visual_usage,color_token,do_not_use_for,status
+SEM-01,Placed Outcome,Student successfully placed in campus recruitment,"Placed status badge, placed bar series, placed scatter dot",color.semantic.positive (#10B981),Unplaced students or low score alerts,FROZEN
+SEM-02,Unplaced Outcome,Student currently unplaced in campus recruitment,"Unplaced status badge, unplaced bar series, unplaced scatter dot",color.semantic.neutral (#64748B),Placed students or positive achievements,FROZEN
+SEM-03,High Readiness Tier,PRI Composite Score >= 80.00,"High Readiness KPI card, tier column, tier badge",color.semantic.positive (#10B981),Needs Improvement or High Support Priority tiers,FROZEN
+SEM-04,Moderate Readiness Tier,PRI Composite Score >= 60.00 and < 80.00,"Moderate Readiness KPI card, tier column, tier badge",color.accent.primary (#38BDF8),Extreme high or low tiers,FROZEN
+SEM-05,Needs Improvement Tier,PRI Composite Score >= 40.00 and < 60.00,"Needs Improvement tier column, warning badge",color.semantic.warning (#F59E0B),High Readiness or placed success states,FROZEN
+SEM-06,High Support Priority Tier,PRI Composite Score < 40.00,"High Support Priority tier column, critical risk badge",color.semantic.critical (#EF4444),Moderate or High readiness states,FROZEN
+SEM-07,Comprehensive High Performers,"Quadrant 1 (SEG-Q1): High CGPA, Coding, and Skills","SEG-Q1 summary card, segment column",color.semantic.positive (#10B981),High Support Priority quadrant,FROZEN
+SEM-08,Technical Specialists,"Quadrant 2 (SEG-Q2): High Coding/Skills, Moderate CGPA","SEG-Q2 summary card, segment column",color.accent.primary (#38BDF8),Academic Generalists quadrant,FROZEN
+SEM-09,Academic Generalists,"Quadrant 3 (SEG-Q3): High CGPA, Moderate Technical Skills","SEG-Q3 summary card, segment column",color.accent.secondary (#818CF8),Technical Specialists quadrant,FROZEN
+SEM-10,High Support Priority Segment,Quadrant 4 (SEG-Q4): Academic & Skill deficit,"SEG-Q4 summary card, segment column",color.semantic.critical (#EF4444),Comprehensive High Performers quadrant,FROZEN

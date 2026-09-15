@@ -1,0 +1,8 @@
+visual_id,visual_name,measure_name,measure_definition,source,expected_unfiltered_value,validation_status,notes
+CC-KPI-01,Total Students KPI Card,Total Students,DISTINCTCOUNT(Students[student_id]),Students,"1,500",PASS,"Exact 1,500 student count verified"
+CC-KPI-02,Placed Students KPI Card,Placed Students,"CALCULATE(COUNTROWS(Students), Students[placed]=1)",Students,950,PASS,Exact 950 placed count verified
+CC-KPI-03,Placement Rate KPI Card,Placement Rate,"DIVIDE([Placed Students], [Total Students], 0)",Students,63.33%,PASS,Exact 63.33% rate verified
+CC-KPI-04,Average PRI Score KPI Card,Average PRI,AVERAGE(Students[pri_score]),Students,65.59,PASS,Exact 65.59 mean PRI verified
+CC-VIS-01,Placement Rate by Branch,Placement Rate,"DIVIDE([Placed Students], [Total Students], 0)",Students / DimBranchSummary,"CE: 68.57%, EEE: 66.00%, IT: 65.07%, CSE: 63.77%, ECE: 60.37%, ME: 56.44%",PASS,Branch placement rates match Phase 3 baseline
+CC-VIS-02,Readiness Tier Distribution,Total Students,DISTINCTCOUNT(Students[student_id]),Students / DimReadinessCategory,"High: 82, Moderate: 862, Needs Imp: 540, High Imp Priority: 16",PASS,Readiness tier counts match Phase 4 baseline
+CC-VIS-03,Technical Skill Prevalence Signal,[<Skill> Skill Prevalence],"DIVIDE([{Skill} Skill Holders], [Total Students], 0)",Students,"Excel: 43.13%, Power BI: 41.67%, DSA: 41.27%, Python: 41.07%, Cloud: 41.07%, SQL: 40.80%, Cybersecurity: 39.33%",PASS,Skill prevalence percentages match Phase 3 baseline

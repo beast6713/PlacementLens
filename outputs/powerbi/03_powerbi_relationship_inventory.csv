@@ -1,0 +1,5 @@
+relationship_id,from_table,from_column,to_table,to_column,cardinality,cross_filter_direction,active,purpose,validation_status
+REL-01,DimPRIComponents,student_id,Students,student_id,Many-to-One (*:1),Single (DimPRIComponents -> Students),True,Links unpivoted PRI component breakdown to the primary student fact table.,VALIDATED
+REL-02,Students,readiness_category,DimReadinessCategory,readiness_category,Many-to-One (*:1),Single (Students -> DimReadinessCategory),True,Links student readiness category attribute to readiness tier summary dimensions.,VALIDATED
+REL-03,Students,branch,DimBranchSummary,branch,Many-to-One (*:1),Single (Students -> DimBranchSummary),True,Links student branch attribute to branch-level benchmark summary metrics.,VALIDATED
+REL-04,Students,preparation_segment,DimSegmentSummary,segment_name,Many-to-One (*:1),Single (Students -> DimSegmentSummary),True,Links student preparation segment name to preparation quadrant profile summary metrics.,VALIDATED

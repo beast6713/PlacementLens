@@ -1,0 +1,6 @@
+bookmark_id,bookmark_name,page,purpose,affected_objects,expected_state,status
+BM-GLB-RESET,BM_Global_Reset,Global All Pages,"Resets all global synchronized slicers (Branch, Gender, Placed) to default state",Global Slicers Bar,All slicers cleared to 'All',FROZEN
+BM-P1-RESET,BM_Page01_Reset,01 Command Center,Resets Page 01 slicers and clear chart selections,Page 01 Slicers & Visuals,Page 01 default state,FROZEN
+BM-P2-RESET,BM_Page02_Reset,02 Student Analytics,"Resets Page 02 slicers (Segment, PRI) and table selections",Page 02 Slicers & Visuals,Page 02 default state,FROZEN
+BM-P3-RESET,BM_Page03_Reset,03 Company Intelligence,Resets Page 03 slicers (Company Type) and chart selections,Page 03 Slicers & Visuals,Page 03 default state,FROZEN
+BM-P4-RESET,BM_Page04_Reset,04 Reports & Intelligence,Resets Page 04 slicers and restores full insight reporting view,Page 04 Slicers & Visuals,Page 04 default state,FROZEN

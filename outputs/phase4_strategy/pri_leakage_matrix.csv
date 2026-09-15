@@ -1,0 +1,21 @@
+variable,used_in_pri,reason,allowed_for_post_pri_evaluation,leakage_risk
+student_id,False,Unique Identifier,True,NONE
+age,False,Demographic Variable - Excluded to prevent bias,True,NONE
+gender,False,Demographic Variable - Excluded to prevent bias,True,NONE
+branch,False,Academic Demographics - Excluded to maintain uniform scoring,True,NONE
+cgpa,True,Pre-placement preparation indicator (Academic component),True,NONE
+internships,True,Pre-placement preparation indicator (Internship component),True,NONE
+projects,True,Pre-placement preparation indicator (Project component),True,NONE
+coding_score,False,EXCLUDED from baseline PRI per frozen P4-P1 formula to adhere to 6-component specification,True,NONE
+aptitude_score,True,Pre-placement preparation indicator (Aptitude component),True,NONE
+communication_score,True,Pre-placement preparation indicator (Communication component),True,NONE
+python_skill,True,Pre-placement binary skill indicator (Technical component),True,NONE
+sql_skill,True,Pre-placement binary skill indicator (Technical component),True,NONE
+excel_skill,True,Pre-placement binary skill indicator (Technical component),True,NONE
+power_bi_skill,True,Pre-placement binary skill indicator (Technical component),True,NONE
+dsa_skill,True,Pre-placement binary skill indicator (Technical component),True,NONE
+cloud_skill,True,Pre-placement binary skill indicator (Technical component),True,NONE
+cybersecurity_skill,True,Pre-placement binary skill indicator (Technical component),True,NONE
+placed,False,TARGET VARIABLE — Post-placement outcome. Strictly prohibited from PRI formula.,True,CRITICAL IF USED (PREVENTED)
+company_type,False,TARGET VARIABLE — Post-placement outcome. Strictly prohibited from PRI formula.,True,CRITICAL IF USED (PREVENTED)
+package_lpa,False,TARGET VARIABLE — Post-placement outcome. Strictly prohibited from PRI formula.,True,CRITICAL IF USED (PREVENTED)

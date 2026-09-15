@@ -1,0 +1,17 @@
+component_id,component_name,category,purpose,supported,powerbi_implementation,primary_usage,restrictions,status
+PL-Header,Global Header Bar,Navigation,Top identity and brand banner across pages,True,Native Text Box + Shape,Top page anchor,Do not place slicers inside header bar,FROZEN
+PL-Sidebar,Navigation Sidebar,Navigation,Fixed left navigation menu with page links,True,Native Shapes + Page Buttons,Left layout anchor,Keep exact 4 page order,FROZEN
+PL-PageTitle,Page Title Block,Typography,Page title and concise analytical description,True,Native Text Box,Top of content area,Must match approved page names,FROZEN
+PL-KPI-Executive,Executive KPI Card,KPI,"Primary headline metric display (Rate, Total, Package)",True,Native Card / New Card Visual,Top KPI row,Max 1 metric per card,FROZEN
+PL-KPI-Analytical,Analytical KPI Card,KPI,Secondary score or academic benchmark display,True,Native Card / New Card Visual,Analytical summary row,Must use approved formatting,FROZEN
+PL-KPI-Readiness,PRI Readiness KPI Card,KPI,Placement Readiness Index score and category display,True,Native Card + Tier Badge,Readiness panel,Do not imply AI prediction,FROZEN
+PL-KPI-Context,Filter Context Bar,Slicer,Indicator displaying currently active slicer filters,True,Native Text Box with DAX Measure,Below title block,Must update dynamically,FROZEN
+PL-SectionHeader,Section Header Divider,Layout,Visual section divider and title banner,True,Native Text Box + Line Shape,Grid section divider,Keep consistent line accent color,FROZEN
+PL-Slicer,Standard Dropdown Slicer,Slicer,"Interactive slicer for Branch, Gender, Status, Segment",True,Native Dropdown Slicer,Filter bar,Only use available model fields,FROZEN
+PL-Chart,Standard Visual Card,Container,Dark Slate background container for charts and plots,True,Native Shape Container,Chart wrapping,Apply 8px radius and subtle border,FROZEN
+PL-Table,Standard Data Matrix Table,Data Visual,Detailed tabular report display with formatting,True,Native Matrix / Table Visual,Reports page & breakdown grid,Use alternate row shading,FROZEN
+PL-Badge,Status / Tier Badge,Indicator,Compact category badge for Placed/Unplaced/Tiers,True,Native Card / Conditional Format,Table rows and KPI cards,Must use approved semantic colors,FROZEN
+PL-InsightCard,Executive Insight Callout,Narrative,Validated Phase 4 insight text callout panel,True,Native Text Box / Inset Card,Bottom analytical summary row,Must use non-causal phrasing,FROZEN
+PL-Tooltip,Report Page Tooltip,Interactivity,Custom hover tooltip page for metric context,True,Native Tooltip Page,Visual hover overlay,Keep compact (max 3 metrics),FROZEN
+PL-Footer,Methodology Footer,Documentation,"Footer bar stating dataset source, N=1,500, non-causal note",True,Native Text Box,Bottom page canvas,Must appear on all 4 pages,FROZEN
+PL-EmptyState,No Data Filter Fallback,State,Indicator displayed when slicer filters yield 0 rows,True,Native Text Box with Conditional Visibility,Visual overlay on empty filter,Clear text guidance for user,FROZEN

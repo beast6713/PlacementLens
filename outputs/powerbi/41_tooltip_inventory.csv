@@ -1,0 +1,7 @@
+tooltip_id,page,visual,tooltip_type,content,population,source,status
+TT-P1-KPI,01 Command Center,CC-KPI-01 to CC-KPI-04,Executive KPI Tooltip,"Metric Name, Calculated Value, Denominator/Population, Phase Baseline Comparison","Total Population (1,500) / Placed (950)",P5-P2 Measure Contract,FROZEN
+TT-P1-BRN,01 Command Center,CC-VIS-01 (Branch Placement Rate),Branch Benchmark Tooltip,"Branch Name, Placed Count, Total Students, Placement Rate %",Branch Cohort,DimBranchSummary / DAX,FROZEN
+TT-P2-SKL,02 Student Analytics,P2-SKILL-01 & P2-SKILL-02,Technical Skill Tooltip,"Skill Name, Holder Count, Prevalence %, Holder Placed Rate %, Non-Holder Placed Rate %, Observed Spread pp",Skill Holders vs Non-Holders,Students / DAX,FROZEN
+TT-P2-SEG,02 Student Analytics,P2-SEGMENT-01,Preparation Segment Tooltip,"Segment Name, Student Count, Cohort %, Observed Placement Rate %",Preparation Quadrant Cohort,Students / DAX,FROZEN
+TT-P3-PKG,03 Company Intelligence,"P3-KPI-02, P3-KPI-03, P3-COMPANYTYPE-02",Package Analytics Tooltip,"Employer Type, Mean Package (LPA), Median Package (LPA), Placed Sample Size N",Valid Placed Package Records (N=950),Students[package_lpa] / DAX,FROZEN
+TT-P4-INS,04 Reports & Intelligence,P4-INSIGHT-01 to P4-INSIGHT-04,Insight Traceability Tooltip,"Phase 4 Insight ID, Display Title, Category, Baseline Metric, Comparison, Static/Dynamic Scope, Limitation Disclaimer","All Students (1,500)",DimInsightRegister / Phase 4,FROZEN

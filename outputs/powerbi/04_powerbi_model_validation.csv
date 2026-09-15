@@ -1,0 +1,26 @@
+check_id,check_name,expected,actual,status,severity,notes
+CHECK-01,"Student row count equals 1,500",1500,1500,PASS,CRITICAL,"Exact 1,500 physical records preserved in Students table."
+CHECK-02,"Distinct student IDs count equals 1,500",1500,1500,PASS,CRITICAL,Zero student ID truncation or missing keys.
+CHECK-03,Duplicate student IDs count equals 0,0,0,PASS,CRITICAL,Primary key uniqueness enforced.
+CHECK-04,Null student IDs count equals 0,0,0,PASS,CRITICAL,No missing student IDs in fact table.
+CHECK-05,Branch values match approved branches,"['CE', 'CSE', 'ECE', 'EEE', 'IT', 'ME']","['CE', 'CSE', 'ECE', 'EEE', 'IT', 'ME']",PASS,HIGH,Academic branch values normalized.
+CHECK-06,Skill fields contain only binary 0/1 flags,"{0, 1}","{np.int64(0), np.int64(1)}",PASS,HIGH,Binary technical skill flags valid.
+CHECK-07,Technical skill count bounded between 0 and 7,0 to 7,0 to 7,PASS,HIGH,Derived skill count range valid.
+CHECK-08,Skill gap count bounded between 0 and 7,0 to 7,0 to 7,PASS,HIGH,Derived skill gap count range valid.
+CHECK-09,Invariant technical_skill_count + skill_gap_count equals 7,"True for 1,500/1,500",True,PASS,CRITICAL,100% skill sum invariant holds for all students.
+CHECK-10,Placed outcome flag contains only 0/1,"{0, 1}","{np.int64(0), np.int64(1)}",PASS,CRITICAL,Binary placement target flag valid.
+CHECK-11,package_lpa is strictly NULL for unplaced students,True (550 NULLs),True,PASS,CRITICAL,Preserves NULL compensation semantics.
+CHECK-12,company_type is strictly NULL for unplaced students,True (550 NULLs),True,PASS,CRITICAL,Preserves NULL company semantics.
+CHECK-13,Zero unexpected NULLs in core preparation input fields,0,0,PASS,HIGH,Core student attributes 100% complete.
+CHECK-14,PRI composite score bounded between 0.00 and 100.00,0.00 to 100.00,31.48 to 91.90,PASS,CRITICAL,PRI composite score range valid.
+CHECK-15,PRI readiness categories match frozen Phase 4 definitions,"['High Improvement Priority', 'High Readiness', 'Moderate Readiness', 'Needs Improvement']","['High Improvement Priority', 'High Readiness', 'Moderate Readiness', 'Needs Improvement']",PASS,CRITICAL,All 4 readiness tiers present and valid.
+CHECK-16,PRI student IDs map 100% to student population,"True (1,500/1,500)",True,PASS,CRITICAL,1-to-1 key alignment between PRI and clean data.
+CHECK-17,Segmentation student IDs map 100% to student population,"True (1,500/1,500)",True,PASS,CRITICAL,1-to-1 key alignment between Segments and clean data.
+CHECK-18,Skill-gap student IDs map 100% to student population,"True (1,500/1,500)",True,PASS,CRITICAL,1-to-1 key alignment between Skill Gaps and clean data.
+CHECK-19,All model dimension tables have unique primary keys,True for all 5 dimensions,True,PASS,CRITICAL,Prevents accidental many-to-many relationship paths.
+CHECK-20,Model structure free from circular or ambiguous filter paths,Star/Snowflake hybrid with clear single-direction filters,Single-direction 1:Many relationships verified,PASS,HIGH,No bidirectional filter ambiguity.
+CHECK-21,Target leakage audit: outcome variables excluded from PRI logic,0 leakage variables in PRI formula,0 leakage variables used,PASS,CRITICAL,"placed, package_lpa, company_type strictly post-analysis outcomes."
+CHECK-22,Zero fabricated fields introduced in Power BI data model,0 fabricated fields,0 fabricated fields,PASS,CRITICAL,Preserves authentic dataset schema without mock attributes.
+CHECK-23,No fake date calendar dimension created for non-temporal dataset,No fake date dimension,No date dimension created,PASS,HIGH,Historical placement time-series explicitly unsupported.
+CHECK-24,No fake historical placement data or multi-year trends created,0 fake historical rows,0 fake historical rows,PASS,HIGH,Dataset audited as single static placement snapshot cohort.
+CHECK-25,Source raw and clean CSV files remain 100% immutable,MD5 hashes unchanged,"Raw: 59c04ee15a0112806c510225d8e75779, Clean: 96023d297eec5a9a47563eaddc157d0d",PASS,CRITICAL,Cryptographic baseline immutability verified.

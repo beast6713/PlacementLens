@@ -1,0 +1,21 @@
+measure_name,depends_on_measure,depends_on_column,purpose
+Total Students,None (Base),Students[student_id],Base population denominator
+Placed Students,None (Base),Students[placed],Base placed numerator
+Unplaced Students,"Total Students, Placed Students",Students[placed],Base unplaced numerator
+Placement Rate,"Placed Students, Total Students",Students[placed],Core placement rate percentage
+Average CGPA,None (Base),Students[cgpa],Academic CGPA mean
+Average Coding Score,None (Base),Students[coding_score],Coding score mean
+Average Aptitude Score,None (Base),Students[aptitude_score],Aptitude score mean
+Average Communication Score,None (Base),Students[communication_score],Communication score mean
+CGPA Difference Placed vs Unplaced,Average CGPA,"Students[cgpa], Students[placed]",Academic score difference
+Average Technical Skill Count,None (Base),Students[technical_skill_count],Technical skill ownership mean
+Python Skill Holders,Total Students,Students[python_skill],Skill holder count
+Python Skill Prevalence,"Python Skill Holders, Total Students",Students[python_skill],Skill prevalence percentage
+Python Skill Placement Rate,"Placed Students, Python Skill Holders","Students[python_skill], Students[placed]",Skill holder placement rate
+Python Skill Placement Spread,"Python Skill Placement Rate, Placed Students, Total Students","Students[python_skill], Students[placed]",Skill placement rate spread
+Average Package,None (Base),Students[package_lpa],Mean salary package (placed only)
+Median Package,None (Base),Students[package_lpa],Median salary package (placed only)
+Average PRI,None (Base),Students[pri_score],Mean PRI composite score
+Median PRI,None (Base),Students[pri_score],Median PRI composite score
+High Readiness Count,Total Students,Students[readiness_category],Readiness tier count
+Comprehensive High Performers Count,Total Students,Students[preparation_segment],Preparation quadrant count

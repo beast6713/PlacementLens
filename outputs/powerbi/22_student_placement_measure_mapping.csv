@@ -1,0 +1,10 @@
+visual_id,visual_name,measure_name,definition,source,expected_unfiltered_value,validation_status,notes
+P2-KPI-01,Average CGPA KPI Card,Average CGPA,AVERAGE(Students[cgpa]),P5-P2 Measure Contract,7.32,PASS,Exact cohort mean CGPA verified
+P2-KPI-02,Average Coding Score KPI Card,Average Coding Score,AVERAGE(Students[coding_score]),P5-P2 Measure Contract,72.87,PASS,Exact cohort mean coding score verified
+P2-KPI-03,Average Aptitude Score KPI Card,Average Aptitude Score,AVERAGE(Students[aptitude_score]),P5-P2 Measure Contract,71.78,PASS,Exact cohort mean aptitude score verified
+P2-KPI-04,Average Technical Skills KPI Card,Average Technical Skill Count,AVERAGE(Students[technical_skill_count]),P5-P2 Measure Contract,4.16,PASS,Exact cohort mean technical skill count verified
+P2-PREP-01,Preparation Profile Comparison,Coding Difference Placed vs Unplaced,"CALCULATE([Average Coding Score], Students[placed]=1) - CALCULATE([Average Coding Score], Students[placed]=0)",P5-P2 Measure Contract,+4.13 points,PASS,Placed (74.38) vs Unplaced (70.25) dynamic difference verified
+P2-SKILL-01,Technical Skill Coverage,Python Skill Prevalence,"DIVIDE([Python Skill Holders], [Total Students], 0)",P5-P2 Measure Contract,78.47%,PASS,"1,177 Python holders out of 1,500 students verified"
+P2-SKILL-02,Observed Skill Placement Rate Difference,SQL Skill Placement Spread,"[SQL Skill Placement Rate] - CALCULATE([Placement Rate], Students[sql_skill]=0)",P5-P2 Measure Contract,+9.16 pp,PASS,SQL holders (65.36%) vs non-holders (56.19%) spread verified
+P2-GAP-01,Skill Gap Distribution,Average Skill Gap Count,AVERAGE(Students[skill_gap_count]),P5-P2 Measure Contract,2.84,PASS,Complement of tech skills (7 - 4.16 = 2.84) verified
+P2-SEGMENT-01,Preparation Segment Analysis,Comprehensive High Performers Count,"CALCULATE(COUNTROWS(Students), Students[preparation_segment]=""Comprehensive High Performers"")",P5-P2 Measure Contract,296,PASS,Phase 4 SEG-Q1 population count verified

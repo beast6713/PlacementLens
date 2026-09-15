@@ -1,0 +1,5 @@
+change_id,file,component,change_type,old_behavior,new_behavior,layer,authorized,analytical_impact,data_impact,architecture_impact,severity,evidence,status
+CHG-001,dashboard/,React Web Dashboard,NEW_DIRECTORY,None,Added Vite React web app with Magic UI,UI_PRESENTATION,TRUE,NONE,NONE,NONE,INFO,Frontend visual presentation layer,PASS
+CHG-002,scripts/export_dashboard_data.py,Helper Export Script,NEW_FILE,None,Exports clean CSV metrics to JSON asset,SCRIPT,TRUE,NONE,NONE,NONE,INFO,Data export helper script,PASS
+CHG-003,outputs/powerbi/46-59,QA Matrices,NEW_FILES,None,Generated 14 validation matrices for P5-P9,QA_VALIDATION,TRUE,NONE,NONE,NONE,INFO,P5-P9 QA validation deliverables,PASS
+CHG-004,00_project_blueprint/64_phase_5_completion_report.md,Completion Report,NEW_FILE,None,Documented Phase 5 completion state,DOCUMENTATION,TRUE,NONE,NONE,NONE,INFO,Blueprint completion report,PASS

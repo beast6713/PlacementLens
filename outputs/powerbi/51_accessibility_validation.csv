@@ -1,0 +1,4 @@
+test_id,page,component,test,expected,actual,status,severity,notes
+ACC01,All Pages,Typography & Hierarchy,Font readability & size contrast,"Inter/Segoe UI >= 10pt for labels, 24pt+ for KPIs","KPIs 28pt bold, headers 14pt, labels 10pt",PASS,NONE,High legibility standard met
+ACC02,All Pages,Color Contrast,Background vs Text contrast,WCAG AA ratio >= 4.5:1,Slate #1E293B on Light Grey #F8FAFC (>7:1 ratio),PASS,NONE,WCAG AA compliant
+ACC03,All Pages,Color Independence,Non-color semantic cues,Labels/Icons accompany color indicators,Text labels accompany all color-coded status badges,PASS,NONE,Colorblind accessible

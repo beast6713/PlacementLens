@@ -1,0 +1,13 @@
+check_id,area,requirement,status,evidence,notes
+CHK-P4-01,P4-P1 Insight Strategy,Strategy framework & analytical rules frozen,PASS,"docs/insight_framework.md, CHECKPOINT-04-PART-01",Approved
+CHK-P4-02,P4-P2 Insights Extraction,15 structured insights extracted with 0 target leakage,PASS,outputs/insights/02_insight_register.csv,Approved
+CHK-P4-03,P4-P3 Skill Gap Analysis,"Skill gaps profiled for 1,500 students (tech_count + gap = 7)",PASS,outputs/skill_gaps/02_student_skill_gaps.csv,Approved
+CHK-P4-04,P4-P3 Segmentation,"1,500 students mapped to 4 quadrants (0 ML used)",PASS,outputs/segmentation/02_student_segments.csv,Approved
+CHK-P4-05,P4-P4 PRI Framework,"PRI framework frozen (6 components, weights = 100%)",PASS,docs/placement_readiness_framework.md,Approved
+CHK-P4-06,P4-P5 PRI Calculation,"PRI calculated for 1,500 students (bounds 0-100)",PASS,outputs/readiness/01_student_pri.csv,Approved
+CHK-P4-07,P4-P5 Validation Suite,15 automated validation checks passed (0 failures),PASS,outputs/readiness/07_pri_validation.csv,Approved
+CHK-P4-08,Data Immutability,Clean dataset MD5 hash matches 96023d297eec5a9a47563eaddc157d0d,PASS,Hash audit in scripts/finalize_phase4.py,Verified
+CHK-P4-09,Target Leakage Control,"placed, package_lpa, company_type excluded from PRI",PASS,outputs/phase4_strategy/pri_leakage_matrix.csv,Verified
+CHK-P4-10,Determinism & Reproducibility,Identical pipeline rerun produces 0.0 delta,PASS,VAL-P4-13 assertion in 07_pri_validation.csv,Verified
+CHK-P4-11,Documentation Audit,All Phase 4 docs complete with non-causal disclaimers,PASS,"docs/placement_readiness_index.md, pri_validation.md",Verified
+CHK-P4-12,Power BI Handoff,Power BI Data Contract and metric rules published,PASS,docs/phase4_to_phase5_handoff.md,Ready for Phase 5

@@ -1,0 +1,6 @@
+filter_id,filter_name,source,target_visual,behavior,expected_behavior,validation_status
+P3-FLT-01,Company Type Slicer,Students[company_type],"P3-KPI-01 to P3-KPI-04, P3-PACKAGE-01, P3-BRANCH-01, P3-TABLE-01",Cross-Filtering Context,"Filters package KPIs, distribution, and branch metrics for selected company type cohort",PASS
+P3-FLT-02,Branch Slicer,Students[branch],"P3-KPI-01 to P3-KPI-04, P3-PACKAGE-01, P3-COMPANYTYPE-01, P3-COMPANYTYPE-02, P3-TABLE-01",Cross-Filtering Context,Recalculates package statistics and company-type distributions for selected academic branch cohort,PASS
+P3-FLT-03,Gender Slicer,Students[gender],"P3-KPI-01 to P3-KPI-04, P3-PACKAGE-01, P3-COMPANYTYPE-01, P3-COMPANYTYPE-02, P3-BRANCH-01, P3-TABLE-01",Cross-Filtering Context,Slices compensation statistics and company-type distributions by gender category,PASS
+P3-INT-01,Company Type Bar Selection,P3-COMPANYTYPE-01 (Bar Chart),"P3-PACKAGE-01, P3-BRANCH-01, P3-TABLE-01",Cross-Highlighting,Selecting a company type bar highlights package distribution and filters branch compensation visual,PASS
+P3-INT-02,Branch Column Selection,P3-BRANCH-01 (Branch Chart),"P3-COMPANYTYPE-02, P3-TABLE-01",Cross-Highlighting,Selecting a branch column highlights company-type package comparison for that branch,PASS

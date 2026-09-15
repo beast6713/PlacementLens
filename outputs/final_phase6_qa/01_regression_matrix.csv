@@ -1,0 +1,7 @@
+phase,component,expected,actual,status,evidence
+Phase 1,Data Foundation,1500 students 20 cols Raw MD5 59c04ee15a0112806c510225d8e75779,1500 students 20 cols Raw MD5 59c04ee15a0112806c510225d8e75779,PASS,MD5 Hash Verification
+Phase 2,Data Cleaning,1500 clean students Clean MD5 96023d297eec5a9a47563eaddc157d0d,1500 clean students Clean MD5 96023d297eec5a9a47563eaddc157d0d,PASS,MD5 Hash Verification
+Phase 3,Python + SQL Analytics,950 Placed (63.33%) Mean Pkg 10.62 LPA Median 9.70 LPA,950 Placed (63.33%) Mean Pkg 10.62 LPA Median 9.70 LPA,PASS,validate_phase5_dashboard.py
+Phase 4,Insights & PRI,12 insights PRI 0-100 score 0% leakage 4 quadrants,12 insights PRI 0-100 score 0% leakage 4 quadrants,PASS,validate_phase5_dashboard.py
+Phase 5,Power BI & Web UI,4 production pages live React web app on http://localhost:5173/,4 production pages live React web app on http://localhost:5173/,PASS,Browser test & validate_phase5_dashboard.py
+Phase 6,Production Readiness & Handoff,Production web build master runner README 65_report,dashboard/dist/ validate_phase5_dashboard.py README 65_report,PASS,65_phase_6_completion_report.md

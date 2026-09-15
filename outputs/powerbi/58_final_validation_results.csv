@@ -1,0 +1,5 @@
+validation_id,category,test,expected,actual,difference,status,severity,source,notes
+VAL01,Data Architecture,"Single Table 1,500 Student Schema",1500 rows x 20 cols,1500 rows x 20 cols,0,PASS,CRITICAL,Clean Dataset,Schema verified
+VAL02,DAX Layer,Metric Contract Measure Formulas,Canonical DAX measures,100% canonical measures,0,PASS,CRITICAL,DAX Script,No duplicate conflicting measures
+VAL03,PRI Governance,PRI Monotonicity & Leakage Audit,"0-100 range, 0 leakage","0-100 range, 0 leakage",0,PASS,CRITICAL,Phase 4 PRI Engine,Leakage audit passed
+VAL04,Interactivity & UX,Sync Slicers & Reset Bookmarks,Flawless state preservation,Flawless state preservation,0,PASS,HIGH,P5-P8 Spec,UX validated

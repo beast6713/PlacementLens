@@ -1,0 +1,4 @@
+scenario,weight_changes,mean_absolute_pri_change,max_absolute_pri_change,category_changes_count,percentage_students_changed_category,spearman_rank_correlation
+Baseline PRI (Frozen P4-P4),"Tech 25%, Apt 20%, CGPA 15%, Proj 15%, Intern 15%, Comm 10%",0.0,0.0,0,0.0,1.0
+Equal Weights Scenario,"Tech 16.67%, Apt 16.67%, CGPA 16.67%, Proj 16.67%, Intern 16.67%, Comm 16.67%",1.72,6.8,131,8.73,0.9794
+Tech-Heavy Scenario,"Tech 35%, Apt 15%, CGPA 12.5%, Proj 12.5%, Intern 12.5%, Comm 12.5%",1.79,8.53,139,9.27,0.9714

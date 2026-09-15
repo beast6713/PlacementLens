@@ -1,0 +1,26 @@
+validation_id,category,check,expected,actual,status,severity,evidence
+VAL-P3-01,Data,Placed student population baseline matches 950 records,950,950,PASS,CRITICAL,950 placed student records verified
+VAL-P3-02,Package,Average Package KPI matches baseline (₹10.62 LPA),₹10.62 LPA,₹10.62 LPA,PASS,CRITICAL,AVERAGE(package_lpa) for placed = 10.62
+VAL-P3-03,Package,Median Package KPI matches baseline (₹9.70 LPA),₹9.70 LPA,₹9.70 LPA,PASS,CRITICAL,MEDIAN(package_lpa) for placed = 9.70
+VAL-P3-04,Package,Package IQR KPI matches baseline (8.22 LPA),8.22 LPA,8.22 LPA,PASS,CRITICAL,Q3 (14.28) - Q1 (6.06) = 8.22 LPA
+VAL-P3-05,NULL Semantics,Unplaced students (550) have package_lpa = NULL and are strictly excluded from package averages,550 NULL package records,550,PASS,CRITICAL,Zero unplaced NULLs converted to ₹0
+VAL-P3-06,Company Type,"Exactly 4 company types present (Product, Startup, Service, Other)","Product, Startup, Service, Other","Product (304), Service (381), Startup (222), Other (43)",PASS,CRITICAL,Sum equals 950 placed students
+VAL-P3-07,Company Type,Product company type package metrics match baseline (Mean 16.26 LPA),Mean 16.26 LPA,Mean 16.26 LPA,PASS,HIGH,Exact Product package statistics verified
+VAL-P3-08,Company Type,Startup company type package metrics match baseline (Mean 12.09 LPA),Mean 12.09 LPA,Mean 12.09 LPA,PASS,HIGH,Exact Startup package statistics verified
+VAL-P3-09,Company Type,Service company type package metrics match baseline (Mean 5.90 LPA),Mean 5.90 LPA,Mean 5.90 LPA,PASS,HIGH,Exact Service package statistics verified
+VAL-P3-10,Company Type,Other company type package metrics match baseline (Mean 5.02 LPA),Mean 5.02 LPA,Mean 5.02 LPA,PASS,HIGH,Exact Other package statistics verified
+VAL-P3-11,Branch,Branch package statistics calculated dynamically with placed count context,"CSE 10.82 LPA (287), IT 10.76 LPA (244), EEE 10.60 LPA (99), CE 10.45 LPA (72), ECE 9.93 LPA (181), ME 11.33 LPA (67)",Dynamic branch calculation verified,PASS,HIGH,100% branch package reconciliation
+VAL-P3-12,Unsupported Features,"Zero company name fabrication (no TCS, Infosys, Amazon, Microsoft, Deloitte, Google)",0 company names,0 company names,PASS,CRITICAL,company_type used exclusively
+VAL-P3-13,Unsupported Features,"Zero historical timeline, offer count, or recruitment velocity charts",0 timeline charts,0 timeline charts,PASS,CRITICAL,Data gap register strictly enforced
+VAL-P3-14,Unsupported Features,Zero company leaderboard or evaluative ranking visual,0 company leaderboards,0 company leaderboards,PASS,CRITICAL,Descriptive statistics phrasing enforced
+VAL-P3-15,Measures,All package KPIs consume centralized P5-P2 DAX measures,Centralized measures,Centralized measures,PASS,CRITICAL,"[Placed Students], [Average Package], [Median Package], [Package IQR] mapped"
+VAL-P3-16,Filters,Company Type slicer updates all package KPIs and branch visuals dynamically,Dynamic recalculation,Dynamic recalculation,PASS,CRITICAL,Filter context propagation verified
+VAL-P3-17,Filters,Branch slicer updates company-type package comparison dynamically,Dynamic recalculation,Dynamic recalculation,PASS,HIGH,Branch filter context verified
+VAL-P3-18,Interactions,Cross-highlighting enabled between Company Type chart and Detail Matrix,Enabled,Enabled,PASS,MEDIUM,Filter interaction matrix registered
+VAL-P3-19,Formatting,"Numeric formatting complies with P5-P3 (Package = ₹X.XX LPA, Count = #,##0, Rate = 0.00%)",Standardized format strings,Standardized format strings,PASS,HIGH,P5-P3 format contract verified
+VAL-P3-20,Design,Dark Obsidian canvas (#0B0F19) and Dark Slate visual surface (#1E293B) applied,Obsidian / Dark Slate,Obsidian / Dark Slate,PASS,HIGH,P5-P3 color tokens applied
+VAL-P3-21,Design,Fixed sidebar active link set to '03 Company & Package',03 Company & Package active,03 Company & Package active,PASS,HIGH,Active menu state verified
+VAL-P3-22,Non-Causal UX,"100% observational phrasing across headers, tooltips, and visual titles",Zero causal or evaluative claims,Zero causal or evaluative claims,PASS,CRITICAL,No 'Best Company Type' or 'Highest Paying Companies' wording
+VAL-P3-23,Performance,Visual cardinality strictly controlled (single-grain aggregations),Optimized DAX measures,Optimized DAX measures,PASS,HIGH,Responsive single-grain DAX aggregation
+VAL-P3-24,Feasibility,100% of visuals natively implementable in Power BI Desktop,Native visual types,Native visual types,PASS,CRITICAL,Native Power BI controls mapped
+VAL-P3-25,Source Immutability,Source raw and clean dataset MD5 hashes remain 100% intact,Hashes unchanged,Raw & Clean MD5 matched,PASS,CRITICAL,Cryptographic hash check passed

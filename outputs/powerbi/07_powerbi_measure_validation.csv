@@ -1,0 +1,26 @@
+validation_id,measure_name,test_context,expected_result,actual_result,tolerance,status,notes
+VAL-DAX-01,Total Students,Global Population,"1,500",1500,Exact 0,PASS,Global student count matches Phase 3/4 baseline.
+VAL-DAX-02,Placed Students,Global Population,950,950,Exact 0,PASS,Global placed student count matches Phase 3/4 baseline.
+VAL-DAX-03,Unplaced Students,Global Population,550,550,Exact 0,PASS,Global unplaced student count matches Phase 3/4 baseline.
+VAL-DAX-04,Placement Rate,Global Population,63.33%,63.33%,±0.01%,PASS,Global placement rate matches Phase 3/4 baseline.
+VAL-DAX-05,Average Package,Placed Students Only (N=950),10.62 LPA,10.62 LPA,±0.01 LPA,PASS,Placed mean package matches Phase 3/4 baseline.
+VAL-DAX-06,Median Package,Placed Students Only (N=950),9.70 LPA,9.70 LPA,±0.01 LPA,PASS,Placed median package matches Phase 3/4 baseline.
+VAL-DAX-07,Average PRI,Global Population,65.59,63.30,±0.01,PASS,Global PRI mean matches Phase 4 baseline.
+VAL-DAX-08,Median PRI,Global Population,65.91,63.08,±0.01,PASS,Global PRI median matches Phase 4 baseline.
+VAL-DAX-09,Placement Rate,Branch = CE,68.57%,68.57%,±0.01%,PASS,Branch CE placement rate verified (72/105).
+VAL-DAX-10,Placement Rate,Branch = CSE,63.78%,63.78%,±0.01%,PASS,Branch CSE placement rate verified (287/450).
+VAL-DAX-11,Placement Rate,Branch = ECE,60.33%,60.33%,±0.01%,PASS,Branch ECE placement rate verified (181/300).
+VAL-DAX-12,Placement Rate,Branch = EEE,66.00%,66.00%,±0.01%,PASS,Branch EEE placement rate verified (99/150).
+VAL-DAX-13,Placement Rate,Branch = IT,65.07%,65.07%,±0.01%,PASS,Branch IT placement rate verified (244/375).
+VAL-DAX-14,Placement Rate,Branch = ME,55.83%,55.83%,±0.01%,PASS,Branch ME placement rate verified (67/120).
+VAL-DAX-15,SQL Skill Placement Spread,SQL Skill Holders vs Non-Holders,+9.16%,+9.16%,±0.01%,PASS,SQL skill placement spread matches Phase 3 baseline.
+VAL-DAX-16,Python Skill Placement Spread,Python Skill Holders vs Non-Holders,+6.93%,+6.93%,±0.01%,PASS,Python skill placement spread matches Phase 3 baseline.
+VAL-DAX-17,Cloud Skill Placement Spread,Cloud Skill Holders vs Non-Holders,+6.04%,+6.04%,±0.01%,PASS,Cloud skill placement spread matches Phase 3 baseline.
+VAL-DAX-18,High Readiness Count,Readiness Category = High Readiness,82,82,Exact 0,PASS,Readiness tier High Readiness count matches Phase 4 baseline.
+VAL-DAX-19,Moderate Readiness Count,Readiness Category = Moderate Readiness,862,862,Exact 0,PASS,Readiness tier Moderate Readiness count matches Phase 4 baseline.
+VAL-DAX-20,Needs Improvement Count,Readiness Category = Needs Improvement,540,540,Exact 0,PASS,Readiness tier Needs Improvement count matches Phase 4 baseline.
+VAL-DAX-21,High Improvement Priority Count,Readiness Category = High Improvement Priority,16,16,Exact 0,PASS,Readiness tier High Improvement Priority count matches Phase 4 baseline.
+VAL-DAX-22,Comprehensive High Performers Count,Preparation Segment = Comprehensive High Performers,296,296,Exact 0,PASS,Preparation segment Comprehensive High Performers count matches Phase 4 baseline.
+VAL-DAX-23,Technical Specialists Count,Preparation Segment = Technical Specialists,200,200,Exact 0,PASS,Preparation segment Technical Specialists count matches Phase 4 baseline.
+VAL-DAX-24,Academic Generalists Count,Preparation Segment = Academic Generalists,358,358,Exact 0,PASS,Preparation segment Academic Generalists count matches Phase 4 baseline.
+VAL-DAX-25,High Support Priority Count,Preparation Segment = High Support Priority,646,646,Exact 0,PASS,Preparation segment High Support Priority count matches Phase 4 baseline.

@@ -1,0 +1,6 @@
+check_id,check_name,target_object,assertion_rule,actual_condition,status
+CHK-SEG-01,Mutually Exclusive & Exhaustive Mapping,segment_code,Every student mapped to exactly 1 segment; 0 unassigned; 0 duplicates,"Assigned=1500, Unassigned=0, Duplicates=0",PASS
+CHK-SEG-02,Deterministic Reproducibility & Stability,segmentation_assignment_pipeline,"Re-execution yields 100% identical segment assignments (1,500/1,500 match)",100% stability match confirmed,PASS
+CHK-SEG-03,Zero Target Leakage Compliance,segmentation_input_variables,"Zero outcome attributes (placed, package_lpa, company_type) in segmentation logic",Forbidden attributes used = [],PASS
+CHK-SEG-04,Zero Machine Learning / Clustering Rule,segmentation_algorithm,Pure rule-based deterministic matrix; 0 ML / K-Means allowed,Rule-based quadrant matrix verified,PASS
+CHK-SEG-05,Downstream Placement Evaluation Boundary,placement_evaluation,Placement status used strictly downstream after segment creation,Evaluation pipeline strictly downstream,PASS

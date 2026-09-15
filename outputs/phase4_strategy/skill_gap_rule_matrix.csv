@@ -1,0 +1,6 @@
+rule_id,metric_name,definition_formula,canonical_range,priority_weighting_method,interpretation_guideline
+SG-001,Skill Prevalence Rate,(N_holders / N_cohort) * 100,0.0% - 100.0%,10% weight in Priority Scoring Model (Inverse relation),Measures current skill penetration across students.
+SG-002,Skill Absence / Gap Rate,100.0 - Skill Prevalence Rate,0.0% - 100.0%,35% weight in Priority Scoring Model,Measures proportion of students lacking the skill.
+SG-003,Skill Placement Spread,Placement Rate (Holders) - Placement Rate (Non-Holders),-100.0 pp to +100.0 pp,45% weight in Priority Scoring Model,Observed rate differential associated with skill possession.
+SG-004,Technical Skill Count,Sum of 7 binary skills (python+sql+excel+power_bi+dsa+cloud+cybersecurity),0 - 7 skills,Core component in PRI (25% weight),Composite breadth of technical skill portfolio.
+SG-005,Multi-Criteria Priority Score,0.45*Spread_score + 0.35*Gap_score + 0.10*Prev_score + 0.10*Sample_score,0.0 - 100.0 pts,"Determines HIGH (>=75), MEDIUM (50-74), LOW (25-49), MONITOR (<25)",Balanced decision model preventing reliance on spread alone.

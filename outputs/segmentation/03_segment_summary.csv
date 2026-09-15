@@ -1,0 +1,5 @@
+segment_code,segment_name,student_count,population_pct,mean_cgpa,median_cgpa,mean_coding,median_coding,mean_aptitude,median_aptitude,mean_communication,median_communication,mean_projects,mean_internships,mean_technical_skill_count,mean_skill_gap_count
+SEG-Q1,Comprehensive High Performers,296,19.73,8.47,8.32,85.6,84.34,77.16,76.5,81.65,82.66,2.34,0.84,4.95,2.05
+SEG-Q2,Technical Specialists,200,13.33,6.65,6.8,82.58,81.08,67.99,68.5,79.43,79.82,2.79,0.88,4.91,2.09
+SEG-Q3,Academic Generalists,358,23.87,8.21,8.08,70.38,70.34,76.61,77.85,81.77,82.93,1.73,0.87,3.72,3.28
+SEG-Q4,High Support Priority,646,43.07,6.51,6.59,65.41,66.04,67.8,68.01,80.05,81.16,1.84,0.85,3.8,3.2

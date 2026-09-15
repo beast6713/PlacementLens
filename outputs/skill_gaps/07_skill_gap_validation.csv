@@ -1,0 +1,6 @@
+check_id,check_name,target_object,assertion_rule,actual_condition,status
+CHK-SKILL-01,Skill Count + Gap Count Identity,technical_skill_count + skill_gap_count,"Equal to 7 for 100% of students (N=1,500)",True for 1500/1500 records,PASS
+CHK-SKILL-02,Technical Skill Count Bounds,technical_skill_count,"Strictly bounded in range [0, 7]","Min=0, Max=7",PASS
+CHK-SKILL-03,Skill Gap Count Bounds,skill_gap_count,"Strictly bounded in range [0, 7]","Min=0, Max=7",PASS
+CHK-SKILL-04,Binary Skill Flag Encoding,7 canonical skill columns,"Values strictly in {0, 1}",100% binary compliant,PASS
+CHK-SKILL-05,Student Identity Integrity,student_id,"1,500 unique student IDs (S0001-S1500)",1500 unique IDs verified,PASS

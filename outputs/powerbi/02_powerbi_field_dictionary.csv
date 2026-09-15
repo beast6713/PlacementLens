@@ -1,0 +1,53 @@
+table_name,field_name,data_type,source_field,field_role,nullable,business_definition,allowed_values,leakage_status,notes
+Students,student_id,Text,student_id,Primary Key,False,Unique student identifier (S0001-S1500),S0001-S1500,PREPARATION INPUT,Canonical student key
+Students,age,Whole Number,age,Demographic Attribute,False,Student age in years,21-26,PREPARATION INPUT,Excluded from PRI calculation
+Students,gender,Text,gender,Demographic Attribute,False,Gender category,"Female, Male, Non-binary, Prefer not to say",PREPARATION INPUT,Excluded from PRI calculation
+Students,branch,Text,branch,Academic Dimension,False,Academic branch code,"CE, CSE, ECE, EEE, IT, ME",PREPARATION INPUT,Academic branch slice
+Students,cgpa,Decimal Number,cgpa,Academic Measure,False,Cumulative Grade Point Average,0.00 - 10.00,PREPARATION INPUT,PRI component (15% weight)
+Students,internships,Whole Number,internships,Preparation Measure,False,Number of completed internships,0 - 3,PREPARATION INPUT,PRI component (15% weight)
+Students,projects,Whole Number,projects,Preparation Measure,False,Number of completed technical projects,0 - 4,PREPARATION INPUT,PRI component (15% weight)
+Students,coding_score,Decimal Number,coding_score,Preparation Measure,False,Coding test score percentage,0.00 - 100.00,PREPARATION INPUT,Excluded from baseline PRI
+Students,aptitude_score,Decimal Number,aptitude_score,Preparation Measure,False,Aptitude test score percentage,0.00 - 100.00,PREPARATION INPUT,PRI component (20% weight)
+Students,communication_score,Decimal Number,communication_score,Preparation Measure,False,Communication assessment score,0.00 - 100.00,PREPARATION INPUT,PRI component (10% weight)
+Students,python_skill,Whole Number,python_skill,Skill Indicator,False,Python skill presence flag,"0, 1",PREPARATION INPUT,Technical skill binary flag
+Students,sql_skill,Whole Number,sql_skill,Skill Indicator,False,SQL skill presence flag,"0, 1",PREPARATION INPUT,Technical skill binary flag
+Students,excel_skill,Whole Number,excel_skill,Skill Indicator,False,Excel skill presence flag,"0, 1",PREPARATION INPUT,Technical skill binary flag
+Students,power_bi_skill,Whole Number,power_bi_skill,Skill Indicator,False,Power BI skill presence flag,"0, 1",PREPARATION INPUT,Technical skill binary flag
+Students,dsa_skill,Whole Number,dsa_skill,Skill Indicator,False,DSA skill presence flag,"0, 1",PREPARATION INPUT,Technical skill binary flag
+Students,cloud_skill,Whole Number,cloud_skill,Skill Indicator,False,Cloud Computing skill presence flag,"0, 1",PREPARATION INPUT,Technical skill binary flag
+Students,cybersecurity_skill,Whole Number,cybersecurity_skill,Skill Indicator,False,Cybersecurity skill presence flag,"0, 1",PREPARATION INPUT,Technical skill binary flag
+Students,technical_skill_count,Whole Number,technical_skill_count,Derived Skill Attribute,False,Total technical skills owned out of 7,0 - 7,PREPARATION INPUT,PRI component (25% weight)
+Students,skill_gap_count,Whole Number,skill_gap_count,Derived Skill Attribute,False,Total missing technical skills out of 7,0 - 7,PREPARATION INPUT,Invariant: count + gap = 7
+Students,missing_skills,Text,missing_skills,Derived Skill Attribute,True,Semicolon-separated list of missing skills,Text string,PREPARATION INPUT,Skill gap narrative list
+Students,pri_score,Decimal Number,pri_score,Placement Readiness Metric,False,Placement Readiness Index composite score,0.00 - 100.00,READINESS METRIC,Validated 6-component PRI
+Students,readiness_category,Text,readiness_category,Readiness Tier,False,Placement readiness classification category,"High Readiness, Moderate Readiness, Needs Improvement, High Improvement Priority",READINESS METRIC,Readiness tier slice
+Students,preparation_segment,Text,preparation_segment,Preparation Segment,False,Student preparation quadrant category,"Comprehensive High Performers, Technical Specialists, Academic Generalists, High Support Priority",PREPARATION SEGMENT,Rule-based quadrant slice
+Students,placed,Whole Number,placed,Placement Outcome,False,Placement status outcome flag,"0, 1",PLACEMENT OUTCOME (POST-ANALYSIS ONLY),"Target variable (1=Placed, 0=Unplaced)"
+Students,company_type,Text,company_type,Compensation Attribute,True,Hiring company category,"Service, Product, Startup, MNC, NULL",COMPENSATION (POST-ANALYSIS ONLY),NULL for unplaced students
+Students,package_lpa,Decimal Number,package_lpa,Compensation Outcome,True,Offered annual salary package in LPA,"3.00 - 25.00, NULL",COMPENSATION (POST-ANALYSIS ONLY),NULL for unplaced students
+DimPRIComponents,student_id,Text,student_id,Foreign Key,False,Student identifier linking to Students table,S0001-S1500,PREPARATION INPUT,Joins to Students[student_id]
+DimPRIComponents,component,Text,component,Component Dimension,False,PRI component name,"Technical Skills, Aptitude, CGPA, Projects, Internships, Communication",PREPARATION INPUT,Component slice
+DimPRIComponents,normalized_score,Decimal Number,normalized_score,Component Score,False,Normalized 0-100 component score,0.00 - 100.00,PREPARATION INPUT,Unweighted score
+DimPRIComponents,weight,Decimal Number,weight,Component Weight,False,Component baseline formula weight,"0.10, 0.15, 0.20, 0.25",PREPARATION INPUT,Weight sum = 1.00
+DimPRIComponents,contribution,Decimal Number,contribution,Weighted Contribution,False,Weighted contribution to total PRI score,0.00 - 25.00,PREPARATION INPUT,Sum equals pri_score
+DimReadinessCategory,readiness_category,Text,readiness_category,Primary Key,False,Readiness category name,"High Readiness, Moderate Readiness, Needs Improvement, High Improvement Priority",READINESS METRIC,Tier dimension key
+DimReadinessCategory,min_score,Decimal Number,min_score,Boundary Metric,False,Minimum PRI score boundary,"0.00, 40.00, 60.00, 80.00",READINESS METRIC,Tier lower bound
+DimReadinessCategory,max_score,Decimal Number,max_score,Boundary Metric,False,Maximum PRI score boundary,"39.99, 59.99, 79.99, 100.00",READINESS METRIC,Tier upper bound
+DimReadinessCategory,student_count,Whole Number,student_count,Cohort Size,False,Number of students in tier,"16, 540, 862, 82",READINESS METRIC,"Total sum = 1,500"
+DimReadinessCategory,placed_count,Whole Number,placed_count,Cohort Outcome,False,Number of placed students in tier,"9, 297, 575, 69",PLACEMENT OUTCOME,Total sum = 950
+DimReadinessCategory,placement_rate,Decimal Number,placement_rate,Cohort Benchmark,False,Observed placement rate percentage,55.00 - 84.15,PLACEMENT OUTCOME,Observed evaluation
+DimBranchSummary,branch,Text,branch,Primary Key,False,Academic branch code,"CE, CSE, ECE, EEE, IT, ME",PREPARATION INPUT,Branch dimension key
+DimBranchSummary,student_count,Whole Number,student_count,Cohort Size,False,Total students in branch,210 - 280,PREPARATION INPUT,"Total sum = 1,500"
+DimBranchSummary,placed_count,Whole Number,placed_count,Cohort Outcome,False,Placed students in branch,134 - 188,PLACEMENT OUTCOME,Total sum = 950
+DimBranchSummary,placement_rate,Decimal Number,placement_rate,Cohort Benchmark,False,Branch placement rate percentage,55.83 - 68.57,PLACEMENT OUTCOME,Observed evaluation
+DimBranchSummary,mean_pri,Decimal Number,mean_pri,Cohort Benchmark,False,Mean PRI score for branch,64.00 - 67.00,READINESS METRIC,Branch readiness mean
+DimBranchSummary,median_package,Decimal Number,median_package,Cohort Benchmark,False,Median package LPA for placed cohort,8.50 - 11.20,COMPENSATION,Placed cohort median
+DimSegmentSummary,segment_code,Text,segment_code,Primary Key,False,Segment code identifier,"SEG-Q1, SEG-Q2, SEG-Q3, SEG-Q4",PREPARATION SEGMENT,Quadrant key
+DimSegmentSummary,segment_name,Text,segment_name,Segment Name,False,Human-readable segment name,"Comprehensive High Performers, Technical Specialists, Academic Generalists, High Support Priority",PREPARATION SEGMENT,Quadrant slice
+DimSegmentSummary,student_count,Whole Number,student_count,Cohort Size,False,Total students in segment,200 - 646,PREPARATION SEGMENT,"Total sum = 1,500"
+DimSegmentSummary,placement_rate,Decimal Number,placement_rate,Cohort Benchmark,False,Downstream observed placement rate,57.28 - 73.31,PLACEMENT OUTCOME,Observed evaluation
+DimInsightRegister,insight_id,Text,insight_id,Primary Key,False,Unique insight code,INS-PLACEMENT-001 - INS-READINESS-002,EXECUTIVE INSIGHT,Insight register key
+DimInsightRegister,category,Text,category,Insight Category,False,Canonical insight area,"INS-PLACEMENT, INS-BRANCH, INS-SKILL, INS-ACADEMIC, INS-PREPARATION, INS-COMPENSATION, INS-READINESS",EXECUTIVE INSIGHT,Insight area slice
+DimInsightRegister,title,Text,title,Insight Title,False,Concise takeaway title,Text string,EXECUTIVE INSIGHT,Visual narrative title
+DimInsightRegister,finding,Text,finding,Insight Statement,False,Non-causal finding description,Text string,EXECUTIVE INSIGHT,Visual narrative callout
+DimInsightRegister,priority,Text,priority,Insight Priority,False,Priority level,"HIGH, MEDIUM, LOW",EXECUTIVE INSIGHT,Executive focus filter

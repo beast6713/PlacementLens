@@ -1,0 +1,7 @@
+branch,student_count,mean_pri,median_pri,minimum_pri,maximum_pri,high_readiness_count,moderate_readiness_count,needs_improvement_count,high_improvement_priority_count
+CE,105,61.19,61.17,39.62,90.08,3,54,47,1
+CSE,450,64.21,64.18,37.8,91.01,32,263,152,3
+ECE,300,62.25,62.08,35.93,87.72,14,163,120,3
+EEE,150,61.68,61.4,34.06,91.09,7,76,63,4
+IT,375,64.92,65.18,38.54,91.9,24,239,110,2
+ME,120,61.29,61.21,31.48,85.29,2,67,48,3

@@ -1,0 +1,2 @@
+issue_id,severity,component,file,description,expected,actual,impact,evidence,classification
+ISS-P6-REC-01,INFO,Documentation,README.md,Root README reflects Phase 0 initialization text,Updated README for portfolio showcase,Phase 0 text in README,Minor documentation discrepancy,Lines 5-10 of README.md,DOCUMENTATION_UPDATE

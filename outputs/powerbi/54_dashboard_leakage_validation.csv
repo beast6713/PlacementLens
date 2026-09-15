@@ -1,0 +1,4 @@
+component,dependency,placed_dependency,package_dependency,company_type_dependency,allowed,status,notes
+Placement Readiness Index (PRI),"technical_skill_count, aptitude_score, cgpa, projects, internships, communication_score",FALSE,FALSE,FALSE,TRUE,PASS,Zero target leakage into PRI
+Readiness Categories,"PRI Score boundaries (80, 60, 40)",FALSE,FALSE,FALSE,TRUE,PASS,Zero target leakage into readiness categorization
+Preparation Quadrant Segments,Academic Score vs Practical Prep Score median splits,FALSE,FALSE,FALSE,TRUE,PASS,Segmentation is purely pre-outcome

@@ -1,0 +1,8 @@
+category,total_insights,high_count,medium_count,low_count,primary_finding
+INS-PLACEMENT,2,2,0,0,"Across the 1,500 students in the dataset, 950 students are placed, establishing a baseline cohort placement rate of 63.33% (unplaced rate of 36.67%)."
+INS-BRANCH,2,0,1,1,"Civil Engineering (CE) exhibits the highest placement rate at 68.57% (72/105), followed by EEE (66.00%), IT (65.07%), CSE (63.78%), ECE (60.33%), and Mechanical Engineering (ME) at 55.83% (67/120), representing a 12.74 pp spread."
+INS-SKILL,5,3,2,0,"Students possessing SQL skill exhibit a placement rate of 65.36% (764/1,169) compared to 56.19% (186/331) for non-holders, establishing a +9.17 percentage-point higher observed placement rate."
+INS-ACADEMIC,2,2,0,0,"Placement rates rise monotonically across CGPA bands: <6.0 (58.75%), 6.0-6.99 (56.94%), 7.0-7.99 (61.69%), 8.0-8.99 (73.23%), and 9.0-10.0 (74.31%), establishing a 15.56 pp spread."
+INS-PREPARATION,4,2,2,0,"Placement rate increases dramatically from 37.21% (16/43) for coding scores <50 to 80.16% (101/126) for coding scores 90-100, representing a +42.95 percentage-point spread."
+INS-COMPENSATION,2,2,0,0,"Among placed students (N=950), Product companies offer a mean package of 16.26 LPA (median 15.58 LPA, N=304) vs Service companies at 5.90 LPA (median 6.03 LPA, N=381), representing a 2.76x premium."
+INS-READINESS,1,0,0,1,NOT YET AVAILABLE / DEFERRED. The Placement Readiness Index (PRI) specification was frozen in P4-P1. PRI calculation and student readiness tiering are strictly scheduled for P4-P5 to prevent methodological bias.

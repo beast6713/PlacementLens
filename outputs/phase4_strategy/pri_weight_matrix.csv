@@ -1,0 +1,7 @@
+component,weight_percent,weight_decimal,maximum_points,rationale,placement_used_for_weight_selection
+Technical Skills,25.0,0.25,25.0,Highest single predictor dimension in technical campus placement baseline.,False
+Aptitude Score,20.0,0.2,20.0,Core screening filter across campus placement written rounds.,False
+CGPA,15.0,0.15,15.0,Academic eligibility criterion for initial company shortlisting.,False
+Projects,15.0,0.15,15.0,"Demonstration of practical coding, analytical, and problem-solving execution.",False
+Internships,15.0,0.15,15.0,"Industry exposure, professional teamwork, and corporate readiness.",False
+Communication,10.0,0.1,10.0,HR interview performance and interpersonal collaboration capacity.,False

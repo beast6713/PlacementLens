@@ -1,0 +1,8 @@
+source_visual,target_visual,interaction_type,enabled,reason,validation_status
+CC-SLC-01 (Branch Slicer),CC-KPI-01 to CC-KPI-04,Filter Context,True,Slices headline KPIs by selected academic branch,PASS
+CC-SLC-01 (Branch Slicer),CC-VIS-01 (Branch Placement Rate),Highlight / Filter,True,Highlights selected branch bar,PASS
+CC-SLC-01 (Branch Slicer),CC-VIS-02 (Readiness Tiers),Filter Context,True,Updates tier distribution for selected branch cohort,PASS
+CC-SLC-01 (Branch Slicer),CC-VIS-03 (Skill Prevalence),Filter Context,True,Updates skill prevalence for selected branch cohort,PASS
+CC-SLC-02 (Gender Slicer),All KPI Cards & Visuals,Filter Context,True,Slices metrics by gender category,PASS
+CC-SLC-03 (Placed Slicer),All KPI Cards & Visuals,Filter Context,True,Slices metrics by placement outcome status,PASS
+CC-VIS-01 (Branch Chart),CC-VIS-02 (Readiness Tiers),Cross-Highlighting,True,Highlights tier distribution when branch bar clicked,PASS

@@ -1,0 +1,6 @@
+test_id,source_page,button,expected_destination,actual_destination,active_state,filter_state,status,notes
+NAV01,01 Command Center,Nav_P02_Student_Analytics,02 Student Analytics,02 Student Analytics,P02 Active,Preserved via Sync Slicers,PASS,Seamless page transition
+NAV02,02 Student Analytics,Nav_P03_Company_Intelligence,03 Company Intelligence,03 Company Intelligence,P03 Active,Preserved via Sync Slicers,PASS,Seamless page transition
+NAV03,03 Company Intelligence,Nav_P04_Reports_Intelligence,04 Reports Intelligence,04 Reports Intelligence,P04 Active,Preserved via Sync Slicers,PASS,Seamless page transition
+NAV04,04 Reports Intelligence,Nav_P01_Command_Center,01 Command Center,01 Command Center,P01 Active,Preserved via Sync Slicers,PASS,Full loop back to home
+NAV05,All Pages,Reset_Filters_Bookmark,Current Page Default State,Current Page Default State,Preserved,All Slicers Cleared,PASS,Reset bookmark clears slicers without breaking page state

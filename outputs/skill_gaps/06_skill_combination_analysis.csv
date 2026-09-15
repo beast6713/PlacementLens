@@ -1,0 +1,8 @@
+combination_name,skills_included,student_count,population_pct,placed_count,observed_placement_rate_pct
+Python + SQL,"python_skill, sql_skill",950,63.33,632,66.53
+Python + DSA,"python_skill, dsa_skill",845,56.33,546,64.62
+SQL + Excel,"sql_skill, excel_skill",983,65.53,650,66.12
+Python + SQL + DSA,"python_skill, sql_skill, dsa_skill",679,45.27,454,66.86
+Python + SQL + Cloud,"python_skill, sql_skill, cloud_skill",352,23.47,237,67.33
+SQL + Power BI + Excel,"sql_skill, power_bi_skill, excel_skill",600,40.0,398,66.33
+Python + SQL + DSA + Cloud,"python_skill, sql_skill, dsa_skill, cloud_skill",264,17.6,176,66.67

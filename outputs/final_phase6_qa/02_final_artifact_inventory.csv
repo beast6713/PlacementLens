@@ -1,0 +1,10 @@
+artifact,path,type,purpose,verified,status,notes
+Raw Dataset,data/raw/placementlens_students_raw.csv,RAW_DATA,Immutable source data,YES,PASS,MD5 59c04ee15a0112806c510225d8e75779
+Clean Dataset,data/processed/placementlens_students_clean.csv,CLEAN_DATA,Analysis-ready dataset,YES,PASS,MD5 96023d297eec5a9a47563eaddc157d0d
+Validation Runner,scripts/validate_phase5_dashboard.py,PYTHON_SCRIPT,Master validation test runner,YES,PASS,25/25 QA regression test PASS
+Data Asset Exporter,scripts/export_dashboard_data.py,PYTHON_SCRIPT,Clean dataset to JSON asset exporter,YES,PASS,Generates dashboard/src/data/placementData.json
+Production Web Build,dashboard/dist/,BUILD_BUNDLE,Static production web client assets,YES,PASS,Compiled via Vite v8.3.0 in 2.45s
+Preview Web Server,http://localhost:5173/,PREVIEW_SERVER,Local preview web server,YES,PASS,Active Vite server serving React Magic UI app
+Handoff Specification,docs/power_bi_final_qa_handoff.md,DOCUMENTATION,Master QA handoff specification,YES,PASS,Certified handoff document
+Portfolio Showcase,README.md,DOCUMENTATION,Root portfolio GitHub README,YES,PASS,Updated with full showcase documentation
+Blueprint Handoff Report,00_project_blueprint/65_phase_6_completion_report.md,BLUEPRINT_REPORT,Phase 6 completion report,YES,PASS,Certified CHECKPOINT-06-PHASE-6-COMPLETE

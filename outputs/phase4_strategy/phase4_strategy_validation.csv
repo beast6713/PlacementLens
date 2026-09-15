@@ -1,0 +1,16 @@
+check_id,check_name,expected_condition,actual_condition,status
+CHK-P41-01,Clean Dataset Existence & MD5 Baseline,File exists; MD5 == 96023d297eec5a9a47563eaddc157d0d,Clean CSV found; MD5 == 96023d297eec5a9a47563eaddc157d0d,PASS
+CHK-P41-02,Raw Dataset Existence & MD5 Baseline,File exists; MD5 == 59c04ee15a0112806c510225d8e75779,Raw CSV found; MD5 == 59c04ee15a0112806c510225d8e75779,PASS
+CHK-P41-03,Phase 3 Completion Dependency,Phase 3 complete report 48_phase_3_completion_report.md exists,Report exists; CHECKPOINT-03-PHASE-3-COMPLETE = PASS,PASS
+CHK-P41-04,Insight Categories Frozen,7 official categories defined in insight_category_register.csv,7 categories exported; INS-PLACEMENT to INS-READINESS,PASS
+CHK-P41-05,Evidence Rules Frozen,6 mandatory evidence rules in evidence_rule_matrix.csv,"6 rules defined; N, magnitude, direction, non-causal language enforced",PASS
+CHK-P41-06,Statistical Methods Frozen,5 method categories in statistical_method_matrix.csv,5 method specifications defined with causality disclaimers,PASS
+CHK-P41-07,Skill Gap Methodology Frozen,"7 skills, 0-7 count, prevalence, absence, priority score defined",5 skill gap rules defined; multi-criteria priority model frozen,PASS
+CHK-P41-08,Segmentation Methodology Frozen,Rule-based quadrant matrix; zero ML / K-Means allowed,5 segmentation rules defined; ML prohibition enforced,PASS
+CHK-P41-09,PRI Dimensions Defined,"6 pre-placement dimensions (Tech, Apt, CGPA, Proj, Intern, Comm)",6 dimensions defined in pri_component_dictionary.csv,PASS
+CHK-P41-10,PRI Weights Verification,25% + 20% + 15% + 15% + 15% + 10% == 100.0%,Sum = 100.0% (0.25+0.20+0.15+0.15+0.15+0.10 = 1.00),PASS
+CHK-P41-11,PRI Component Normalization Defined,Deterministic 0-100 formulas defined for all 6 components,Formulas defined in pri_normalization_spec.csv with bounded caps,PASS
+CHK-P41-12,Readiness Categories Defined,"4 tiers: High (80-100), Moderate (60-79), Needs Imp (40-59), Priority (<40)",4 tiers defined in pri_category_matrix.csv,PASS
+CHK-P41-13,Target Leakage Control Frozen,"placed, package_lpa, company_type excluded from PRI formula",Leakage control rule frozen; outcome variables excluded,PASS
+CHK-P41-14,NULL Semantics Preserved,NULL != 0; unplaced package_lpa == NULL,NULL rules verified and preserved,PASS
+CHK-P41-15,P4-P1 Strategy Scope Boundary,Strategy freeze only; 0 student calculations performed in P4-P1,Strategy files created; calculations deferred to P4-P2..P4-P5,PASS

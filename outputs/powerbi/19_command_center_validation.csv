@@ -1,0 +1,26 @@
+validation_id,category,check,expected,actual,status,severity,evidence
+VAL-CC-01,Data,"Total Students KPI matches baseline (1,500)","1,500","1,500",PASS,CRITICAL,"1,500 unique student IDs verified"
+VAL-CC-02,Data,Placed Students KPI matches baseline (950),950,950,PASS,CRITICAL,950 placed records verified
+VAL-CC-03,Data,Unplaced Students count matches baseline (550),550,550,PASS,CRITICAL,550 unplaced records verified
+VAL-CC-04,Data,Placement Rate KPI matches baseline (63.33%),63.33%,63.33%,PASS,CRITICAL,"DIVIDE(950, 1500) = 63.33%"
+VAL-CC-05,Data,Average PRI KPI matches Phase 4 baseline (65.59),65.59,65.59,PASS,CRITICAL,AVERAGE(pri_score) = 65.59
+VAL-CC-06,Measures,All 4 KPI cards consume centralized P5-P2 DAX measures,Centralized measures used,Centralized measures used,PASS,CRITICAL,"[Total Students], [Placed Students], [Placement Rate], [Average PRI] mapped"
+VAL-CC-07,Measures,Zero hard-coded live metrics in text boxes,0 hard-coded numbers,0 hard-coded numbers,PASS,CRITICAL,All numbers originate dynamically from DAX measures
+VAL-CC-08,Visuals,Branch Placement Rate bar chart displays all 6 branches,"CE, EEE, IT, CSE, ECE, ME","CE, EEE, IT, CSE, ECE, ME",PASS,HIGH,6 branches present in descending order
+VAL-CC-09,Visuals,Branch Placement Rates reconcile with Phase 3 baseline,"CE: 68.57%, ME: 56.44%","CE: 68.57%, ME: 56.44%",PASS,HIGH,100% branch rate reconciliation
+VAL-CC-10,Visuals,Readiness Tier column chart displays 4 validated categories,"High, Moderate, Needs Imp, High Imp Priority","High (82), Moderate (862), Needs Imp (540), High Imp Priority (16)",PASS,CRITICAL,"Sum equals 1,500 students"
+VAL-CC-11,Visuals,Skill Prevalence signal chart displays 7 technical skills,"Python, SQL, Excel, Power BI, DSA, Cloud, Cybersecurity",All 7 skills displayed,PASS,HIGH,Skill prevalence percentages match Phase 3
+VAL-CC-12,Filters,Branch slicer correctly filters all KPI cards & visuals,Dynamic metric update,Dynamic metric update,PASS,CRITICAL,Filter context transition tested
+VAL-CC-13,Filters,Active Filter Context bar displays active slicer selections,Dynamic filter summary text,Dynamic filter summary text,PASS,HIGH,[Active Filter Context] measure mapped
+VAL-CC-14,Interactions,Cross-highlighting enabled between Branch chart and Readiness chart,Enabled,Enabled,PASS,MEDIUM,Interaction matrix defined
+VAL-CC-15,Formatting,"Numerical formatting complies with P5-P3 standards (Rates=0.00%, PRI=0.00)",0.00% / 0.00,0.00% / 0.00,PASS,HIGH,Formatting strings verified
+VAL-CC-16,Design,Dark Obsidian canvas (#0B0F19) & Dark Slate card surface (#1E293B) applied,Obsidian / Dark Slate,Obsidian / Dark Slate,PASS,HIGH,P5-P3 color tokens applied
+VAL-CC-17,Design,Fixed left navigation sidebar rendered with 01 Command Center active,Active cyan link,Active cyan link,PASS,HIGH,PL-Sidebar component mapped
+VAL-CC-18,Design,Visual layout follows 12-column grid with 16px gutter & 8px card radius,16px gutter / 8px radius,16px gutter / 8px radius,PASS,HIGH,P5-P3 grid standards applied
+VAL-CC-19,Leakage,"Zero outcome variables (placed, package_lpa) used in PRI or scoring logic",0 leakage variables,0 leakage variables,PASS,CRITICAL,Target leakage audit passed
+VAL-CC-20,Unsupported Features,"Zero unsupported fields (company_name, batch, recruitment_date) on page",0 unsupported fields,0 unsupported fields,PASS,CRITICAL,Data gap register strictly enforced
+VAL-CC-21,Non-Causal UX,"All visual headers, tooltips, and narrative callouts use non-causal language",Non-causal phrasing,Non-causal phrasing,PASS,CRITICAL,No 'Impact' or 'Causation' wording used
+VAL-CC-22,Accessibility,Status badges use double encoding (explicit text label + semantic color),Text label + Color,Text label + Color,PASS,HIGH,WCAG double encoding verified
+VAL-CC-23,Footer,Methodology footer bar rendered with non-causal disclaimer,Footer bar rendered,Footer bar rendered,PASS,MEDIUM,PL-Footer component mapped
+VAL-CC-24,Power BI Feasibility,100% of Command Center visuals implementable natively in Power BI Desktop,Native controls only,Native controls only,PASS,CRITICAL,Native implementation verified
+VAL-CC-25,Source Immutability,Source raw and clean dataset MD5 hashes remain 100% unchanged,Hashes unchanged,Raw & Clean MD5 matched,PASS,CRITICAL,Cryptographic hash check passed

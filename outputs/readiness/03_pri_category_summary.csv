@@ -1,0 +1,5 @@
+readiness_category,student_count,percentage_of_students,minimum_pri,maximum_pri,mean_pri,median_pri
+High Readiness,82,5.47,80.03,91.9,83.22,82.15
+Moderate Readiness,862,57.47,60.0,79.99,68.01,67.54
+Needs Improvement,540,36.0,40.05,59.93,53.49,54.4
+High Improvement Priority,16,1.07,31.48,39.98,37.95,38.56

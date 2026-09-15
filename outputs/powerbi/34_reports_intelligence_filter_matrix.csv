@@ -1,0 +1,7 @@
+filter_id,filter_name,source,target_visual,behavior,expected_behavior,validation_status
+P4-FLT-01,Branch Slicer,Students[branch],"P4-SUMMARY, P4-GAP-01, P4-SEGMENT-01, P4-READINESS-01",Cross-Filtering Context,"Recalculates summary metrics, skill gap distributions, segment counts, and readiness tiers for selected branch",PASS
+P4-FLT-02,Gender Slicer,Students[gender],"P4-SUMMARY, P4-GAP-01, P4-SEGMENT-01, P4-READINESS-01",Cross-Filtering Context,"Recalculates summary metrics, gap distributions, and segment counts for selected gender group",PASS
+P4-FLT-03,Placed Status Slicer,Students[placed],"P4-SUMMARY, P4-GAP-01, P4-SEGMENT-01, P4-READINESS-01",Cross-Filtering Context,Slices intelligence visuals by Placed (1) vs Unplaced (0) cohort,PASS
+P4-FLT-04,Preparation Segment Slicer,Students[preparation_segment],"P4-SUMMARY, P4-GAP-01, P4-READINESS-01",Cross-Filtering Context,Filters readiness distribution and skill gaps to a specific preparation quadrant,PASS
+P4-FLT-05,PRI Category Slicer,DimReadinessCategory[readiness_category],"P4-SUMMARY, P4-GAP-01, P4-SEGMENT-01",Cross-Filtering Context,Filters skill gap distribution and segment counts by readiness category tier,PASS
+P4-INT-01,Readiness Tier Selection,P4-READINESS-01 (Readiness Chart),"P4-GAP-01, P4-SEGMENT-01",Cross-Highlighting,Selecting a readiness tier highlights corresponding segment breakdown and skill gap profile,PASS

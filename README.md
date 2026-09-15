@@ -128,6 +128,20 @@ Where:
 
 PlacementLens includes a live, dark glassmorphic web dashboard built using **React, Vite, Tailwind CSS, Framer Motion, and Magic UI** running on `http://localhost:5173/`.
 
+### 🖼️ Web Dashboard Screenshots
+
+#### 1. Command Center (`01 Command Center`)
+![Command Center](docs/assets/screenshots/command_center.png)
+
+#### 2. Student & Placement Analytics (`02 Student & Placement Analytics`)
+![Student & Placement Analytics](docs/assets/screenshots/student_analytics.png)
+
+#### 3. Company & Package Intelligence (`03 Company & Package Intelligence`)
+![Company & Package Intelligence](docs/assets/screenshots/company_package_intelligence.png)
+
+#### 4. Reports & Intelligence (`04 Reports & Intelligence`)
+![Reports & Intelligence](docs/assets/screenshots/reports_intelligence.png)
+
 ### Dashboard Architecture (4 Pages)
 1. **`01 Command Center`**: Executive headline KPIs with `BorderBeam` & `NumberTicker`, 6-branch ranking bar chart, PRI tier breakdown, and skill signals marquee.
 2. **`02 Student & Placement Analytics`**: Prep profile deltas, skill placement spreads `BentoGrid`, preparation quadrants, and interactive student directory with live search.
@@ -162,7 +176,8 @@ PlacementLens/
 ├── sql/
 │   ├── 01_schema.sql           # PostgreSQL table schema & constraints
 │   └── 02_analytics.sql        # 21 business analytical queries (BQ01–BQ21)
-├── docs/                       # Specifications & Handoff docs (Power BI & QA)
+├── docs/                       # Specifications & UI Screenshots
+│   └── assets/screenshots/     # Web Dashboard UI screenshots
 ├── dashboard/                  # React + Vite + Magic UI Web Application
 │   ├── src/components/magicui/ # Magic UI visual components
 │   ├── src/components/pages/   # 4 Interactive Dashboard pages

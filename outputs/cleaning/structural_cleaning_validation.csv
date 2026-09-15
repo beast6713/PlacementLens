@@ -1,0 +1,9 @@
+rule,expected,actual,status
+student_id_exists_and_non_null,100% Non-Null,1500/1500 Non-Null,PASS
+student_id_regex_format,^S[0-9]{4}$,100% Matching,PASS
+student_id_uniqueness,"1,500 Unique IDs",1500 Unique IDs,PASS
+expected_id_coverage_S0001_S1500,0 Missing / 0 Unexpected,0 Missing / 0 Unexpected,PASS
+physical_row_count,1500,1500,PASS
+column_count_and_schema,20,20,PASS
+branch_canonical_categories,100% in Allowed Set,"0 Unused, 0 Invalid",PASS
+duplicate_keys_remaining,0,0,PASS

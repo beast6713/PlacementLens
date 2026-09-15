@@ -1,0 +1,8 @@
+skill_name,holder_count,holder_placed_count,holder_placement_rate_pct,non_holder_count,non_holder_placed_count,non_holder_placement_rate_pct,skill_impact_spread_pp
+python_skill,1177,763,64.83,323,187,57.89,6.94
+sql_skill,1169,764,65.36,331,186,56.19,9.17
+excel_skill,1258,802,63.75,242,148,61.16,2.59
+power_bi_skill,793,506,63.81,707,444,62.8,1.01
+dsa_skill,1057,674,63.77,443,276,62.3,1.47
+cloud_skill,485,327,67.42,1015,623,61.38,6.04
+cybersecurity_skill,297,181,60.94,1203,769,63.92,-2.98

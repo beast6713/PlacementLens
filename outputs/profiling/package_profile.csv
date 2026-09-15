@@ -1,0 +1,2 @@
+placed_students_count,placed_with_package_count,placed_package_min_lpa,placed_package_max_lpa,placed_package_mean_lpa,placed_package_median_lpa,placed_package_std_lpa,placed_package_p25_lpa,placed_package_p75_lpa,unplaced_students_count,unplaced_null_package_count,unplaced_non_null_package_count,linkage_rule_status
+952,952,3.29,48.0,10.62,9.7,5.55,6.06,14.27,553,553,0,PASS (Unplaced students have 100% NULL packages)

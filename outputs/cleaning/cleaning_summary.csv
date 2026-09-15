@@ -1,0 +1,7 @@
+Category,Expected,Detected,Resolved,Remaining,Status
+Duplicate Rows,5,5,5,0,PASS
+Branch Case,25,25,25,0,PASS
+Company Type Formatting,15,15,15,0,PASS
+Gender Whitespace,20,20,20,0,PASS
+Python Skill Binary Flags,15,15,15,0,PASS
+Missing Communication Score,15,15,15,0,PASS

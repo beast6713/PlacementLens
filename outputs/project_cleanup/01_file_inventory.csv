@@ -1,0 +1,150 @@
+path,filename,extension,size_bytes,classification,severity,confidence,is_protected,referenced_by_code,referenced_by_docs,safe_to_remove,reason
+.gitignore,.gitignore,,294,VALID_ARTIFACT,LOW,HIGH,False,False,False,NO,Active project file
+README.md,README.md,.md,2205,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+00_project_blueprint/01_project_charter.md,01_project_charter.md,.md,1304,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/02_problem_statement.md,02_problem_statement.md,.md,829,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/03_business_requirements.md,03_business_requirements.md,.md,954,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/04_functional_requirements.md,04_functional_requirements.md,.md,917,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/05_non_functional_requirements.md,05_non_functional_requirements.md,.md,928,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/06_scope_and_boundaries.md,06_scope_and_boundaries.md,.md,911,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/07_stakeholders_and_users.md,07_stakeholders_and_users.md,.md,819,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/08_analytical_questions.md,08_analytical_questions.md,.md,1588,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/09_success_metrics.md,09_success_metrics.md,.md,809,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/10_dataset_specification.md,10_dataset_specification.md,.md,7682,REQUIRED,LOW,HIGH,True,False,True,NO,Protected baseline/blueprint document
+00_project_blueprint/11_data_dictionary.md,11_data_dictionary.md,.md,5018,REQUIRED,LOW,HIGH,True,False,True,NO,Protected baseline/blueprint document
+00_project_blueprint/12_data_quality_rules.md,12_data_quality_rules.md,.md,4464,REQUIRED,LOW,HIGH,True,False,True,NO,Protected baseline/blueprint document
+00_project_blueprint/13_data_privacy_and_ethics.md,13_data_privacy_and_ethics.md,.md,2452,REQUIRED,LOW,HIGH,True,False,True,NO,Protected baseline/blueprint document
+00_project_blueprint/14_analysis_plan.md,14_analysis_plan.md,.md,1312,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/15_sql_requirements.md,15_sql_requirements.md,.md,1262,REQUIRED,LOW,HIGH,True,False,True,NO,Protected baseline/blueprint document
+00_project_blueprint/16_dashboard_requirements.md,16_dashboard_requirements.md,.md,1253,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/17_insight_framework.md,17_insight_framework.md,.md,748,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/18_placement_readiness_spec.md,18_placement_readiness_spec.md,.md,1607,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/19_technology_stack.md,19_technology_stack.md,.md,821,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/20_project_architecture.md,20_project_architecture.md,.md,1772,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/21_folder_structure.md,21_folder_structure.md,.md,1069,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/22_phase_dependencies.md,22_phase_dependencies.md,.md,1050,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/23_phase_checkpoints.md,23_phase_checkpoints.md,.md,1903,REQUIRED,LOW,HIGH,True,False,True,NO,Protected baseline/blueprint document
+00_project_blueprint/24_validation_strategy.md,24_validation_strategy.md,.md,1348,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/25_error_recovery_strategy.md,25_error_recovery_strategy.md,.md,1835,REQUIRED,LOW,HIGH,True,False,True,NO,Protected baseline/blueprint document
+00_project_blueprint/26_risk_register.md,26_risk_register.md,.md,1420,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/27_7_day_execution_plan.md,27_7_day_execution_plan.md,.md,1199,REQUIRED,LOW,HIGH,True,False,True,NO,Protected baseline/blueprint document
+00_project_blueprint/28_definition_of_done.md,28_definition_of_done.md,.md,1017,REQUIRED,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/29_change_log.md,29_change_log.md,.md,8675,REQUIRED,LOW,HIGH,True,False,True,NO,Protected baseline/blueprint document
+00_project_blueprint/30_phase_0_completion_report.md,30_phase_0_completion_report.md,.md,1550,HISTORICAL_ARTIFACT,LOW,HIGH,True,True,True,NO,Protected baseline/blueprint document
+00_project_blueprint/31_phase_1_part_1_completion_report.md,31_phase_1_part_1_completion_report.md,.md,3008,HISTORICAL_ARTIFACT,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/32_phase_1_part_2_completion_report.md,32_phase_1_part_2_completion_report.md,.md,3568,HISTORICAL_ARTIFACT,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/33_phase_1_part_3_completion_report.md,33_phase_1_part_3_completion_report.md,.md,4587,HISTORICAL_ARTIFACT,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/34_phase_1_part_4_completion_report.md,34_phase_1_part_4_completion_report.md,.md,5842,HISTORICAL_ARTIFACT,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/35_phase_1_part_5_completion_report.md,35_phase_1_part_5_completion_report.md,.md,3140,HISTORICAL_ARTIFACT,LOW,HIGH,True,False,False,NO,Protected baseline/blueprint document
+00_project_blueprint/36_phase_1_completion_report.md,36_phase_1_completion_report.md,.md,6212,HISTORICAL_ARTIFACT,LOW,HIGH,True,True,False,NO,Protected baseline/blueprint document
+00_project_blueprint/37_phase_2_part_1_completion_report.md,37_phase_2_part_1_completion_report.md,.md,4447,HISTORICAL_ARTIFACT,LOW,HIGH,True,True,True,NO,Protected baseline/blueprint document
+00_project_blueprint/38_phase_2_part_2_completion_report.md,38_phase_2_part_2_completion_report.md,.md,4014,HISTORICAL_ARTIFACT,LOW,HIGH,True,True,True,NO,Protected baseline/blueprint document
+00_project_blueprint/39_phase_2_part_3_completion_report.md,39_phase_2_part_3_completion_report.md,.md,2747,HISTORICAL_ARTIFACT,LOW,HIGH,True,True,True,NO,Protected baseline/blueprint document
+00_project_blueprint/40_phase_2_part_4_completion_report.md,40_phase_2_part_4_completion_report.md,.md,2493,HISTORICAL_ARTIFACT,LOW,HIGH,True,True,True,NO,Protected baseline/blueprint document
+00_project_blueprint/41_phase_2_part_5_completion_report.md,41_phase_2_part_5_completion_report.md,.md,5014,HISTORICAL_ARTIFACT,LOW,HIGH,True,True,True,NO,Protected baseline/blueprint document
+00_project_blueprint/42_phase_2_completion_report.md,42_phase_2_completion_report.md,.md,3833,HISTORICAL_ARTIFACT,LOW,HIGH,True,True,True,NO,Protected baseline/blueprint document
+dashboard/.gitkeep,.gitkeep,,1,VALID_ARTIFACT,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+data/processed/.gitkeep,.gitkeep,,1,REQUIRED,LOW,HIGH,True,True,False,NO,Protected baseline/blueprint document
+data/processed/placementlens_students_clean.csv,placementlens_students_clean.csv,.csv,107345,REQUIRED,LOW,HIGH,True,True,True,NO,Protected baseline/blueprint document
+data/processed/placementlens_students_structural_clean.csv,placementlens_students_structural_clean.csv,.csv,107340,REQUIRED,LOW,HIGH,True,True,True,NO,Protected baseline/blueprint document
+data/raw/.gitkeep,.gitkeep,,1,REQUIRED,LOW,HIGH,True,True,False,NO,Protected baseline/blueprint document
+data/raw/placementlens_students_raw.csv,placementlens_students_raw.csv,.csv,107679,REQUIRED,LOW,HIGH,True,True,True,NO,Protected baseline/blueprint document
+data/raw/placement_raw.csv,placement_raw.csv,.csv,107679,REQUIRED,LOW,HIGH,True,True,True,NO,Protected baseline/blueprint document
+data/raw/raw_defect_manifest.csv,raw_defect_manifest.csv,.csv,14790,REQUIRED,LOW,HIGH,True,True,True,NO,Protected baseline/blueprint document
+docs/AGENT_HANDOFF.md,AGENT_HANDOFF.md,.md,1248,REQUIRED,LOW,HIGH,True,False,True,NO,Protected project artifact/source file
+docs/cleaning_pipeline.md,cleaning_pipeline.md,.md,6898,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+docs/cleaning_strategy.md,cleaning_strategy.md,.md,7855,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+docs/dataset_generation.md,dataset_generation.md,.md,5294,REQUIRED,LOW,HIGH,True,False,True,NO,Protected project artifact/source file
+docs/dataset_strategy.md,dataset_strategy.md,.md,9940,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+docs/data_foundation_validation.md,data_foundation_validation.md,.md,5757,REQUIRED,LOW,HIGH,True,False,True,NO,Protected project artifact/source file
+docs/data_model.md,data_model.md,.md,12144,REQUIRED,LOW,HIGH,True,False,True,NO,Protected project artifact/source file
+docs/erd.md,erd.md,.md,3845,REQUIRED,LOW,HIGH,True,False,True,NO,Protected project artifact/source file
+docs/final_data_contract.md,final_data_contract.md,.md,4162,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+docs/initial_data_profile.md,initial_data_profile.md,.md,6565,REQUIRED,LOW,HIGH,True,False,True,NO,Protected project artifact/source file
+docs/phase2_to_phase3_handoff.md,phase2_to_phase3_handoff.md,.md,2167,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+docs/post_cleaning_quality_audit.md,post_cleaning_quality_audit.md,.md,6630,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+docs/standardization_and_imputation.md,standardization_and_imputation.md,.md,4559,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+docs/structural_cleaning_report.md,structural_cleaning_report.md,.md,4459,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+notebooks/.gitkeep,.gitkeep,,1,VALID_ARTIFACT,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+outputs/.gitkeep,.gitkeep,,1,VALID_ARTIFACT,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+outputs/cleaning/cleaning_audit_log.csv,cleaning_audit_log.csv,.csv,8625,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/cleaning/cleaning_rule_matrix.csv,cleaning_rule_matrix.csv,.csv,1491,REQUIRED,LOW,HIGH,True,False,True,NO,Protected project artifact/source file
+outputs/cleaning/cleaning_run_log.md,cleaning_run_log.md,.md,1085,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/cleaning/cleaning_summary.csv,cleaning_summary.csv,.csv,276,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/cleaning/cleaning_validation_rules.md,cleaning_validation_rules.md,.md,2601,REQUIRED,LOW,HIGH,True,False,True,NO,Protected project artifact/source file
+outputs/cleaning/duplicate_audit.csv,duplicate_audit.csv,.csv,515,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/cleaning/expected_before_after_counts.csv,expected_before_after_counts.csv,.csv,796,REQUIRED,LOW,HIGH,True,False,True,NO,Protected project artifact/source file
+outputs/cleaning/imputation_log.csv,imputation_log.csv,.csv,1742,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/cleaning/part4_cleaning_summary.csv,part4_cleaning_summary.csv,.csv,568,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/cleaning/part4_run_log.md,part4_run_log.md,.md,1685,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/cleaning/part4_validation.csv,part4_validation.csv,.csv,1249,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/cleaning/standardization_audit.csv,standardization_audit.csv,.csv,5009,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/cleaning/structural_cleaning_run_log.md,structural_cleaning_run_log.md,.md,1257,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/cleaning/structural_cleaning_summary.csv,structural_cleaning_summary.csv,.csv,289,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/cleaning/structural_cleaning_validation.csv,structural_cleaning_validation.csv,.csv,489,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/phase1/01_phase1_completion_scorecard.csv,01_phase1_completion_scorecard.csv,.csv,1207,REQUIRED,LOW,HIGH,True,False,False,NO,Protected project artifact/source file
+outputs/phase1/phase1_baseline.md,phase1_baseline.md,.md,2459,REQUIRED,LOW,HIGH,True,False,False,NO,Protected project artifact/source file
+outputs/phase2/phase2_baseline.md,phase2_baseline.md,.md,885,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/phase2/phase2_clean_baseline.csv,phase2_clean_baseline.csv,.csv,538,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/phase2/phase2_completion_scorecard.csv,phase2_completion_scorecard.csv,.csv,1881,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/phase2/phase2_defect_reconciliation.csv,phase2_defect_reconciliation.csv,.csv,363,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/profiling/branch_profile.csv,branch_profile.csv,.csv,277,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/profiling/column_profile.csv,column_profile.csv,.csv,1203,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/profiling/defect_reconciliation.csv,defect_reconciliation.csv,.csv,296,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/profiling/duplicate_profile.csv,duplicate_profile.csv,.csv,270,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/profiling/missing_values.csv,missing_values.csv,.csv,1059,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/profiling/package_profile.csv,package_profile.csv,.csv,422,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/profiling/placement_profile.csv,placement_profile.csv,.csv,92,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/profiling/preparation_vs_placement.csv,preparation_vs_placement.csv,.csv,793,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/profiling/profiled_quality_issues.csv,profiled_quality_issues.csv,.csv,1037,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/profiling/profiling_report.md,profiling_report.md,.md,2197,REQUIRED,LOW,HIGH,True,False,False,NO,Protected project artifact/source file
+outputs/profiling/score_profile.csv,score_profile.csv,.csv,472,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/profiling/skill_profile.csv,skill_profile.csv,.csv,329,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/project_audit/01_project_audit_report.md,01_project_audit_report.md,.md,1662,REQUIRED,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+outputs/project_audit/02_issue_register.csv,02_issue_register.csv,.csv,1585,REQUIRED,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+outputs/project_audit/03_code_audit.csv,03_code_audit.csv,.csv,741,REQUIRED,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+outputs/project_audit/04_data_audit.csv,04_data_audit.csv,.csv,386,REQUIRED,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+outputs/project_audit/05_schema_audit.csv,05_schema_audit.csv,.csv,776,REQUIRED,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+outputs/project_audit/06_pipeline_audit.csv,06_pipeline_audit.csv,.csv,884,REQUIRED,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+outputs/project_audit/07_documentation_audit.csv,07_documentation_audit.csv,.csv,562,REQUIRED,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+outputs/project_audit/08_checkpoint_audit.csv,08_checkpoint_audit.csv,.csv,1046,REQUIRED,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+outputs/project_audit/09_file_reference_audit.csv,09_file_reference_audit.csv,.csv,19653,REQUIRED,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+outputs/project_audit/10_test_coverage_audit.csv,10_test_coverage_audit.csv,.csv,121,REQUIRED,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+outputs/project_audit/11_reproducibility_audit.csv,11_reproducibility_audit.csv,.csv,262,REQUIRED,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+outputs/project_audit/12_security_privacy_audit.csv,12_security_privacy_audit.csv,.csv,189,REQUIRED,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+outputs/project_audit/13_phase_readiness_audit.csv,13_phase_readiness_audit.csv,.csv,1035,REQUIRED,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+outputs/validation/01_validation_scorecard.csv,01_validation_scorecard.csv,.csv,1838,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/02_schema_validation.csv,02_schema_validation.csv,.csv,125,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/03_id_validation.csv,03_id_validation.csv,.csv,309,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/04_category_validation.csv,04_category_validation.csv,.csv,286,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/05_numeric_validation.csv,05_numeric_validation.csv,.csv,360,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/06_placement_logic_validation.csv,06_placement_logic_validation.csv,.csv,230,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/07_skill_validation.csv,07_skill_validation.csv,.csv,587,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/08_defect_reconciliation.csv,08_defect_reconciliation.csv,.csv,351,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/09_unexpected_defects.csv,09_unexpected_defects.csv,.csv,202,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/10_privacy_validation.csv,10_privacy_validation.csv,.csv,139,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/11_immutability_validation.csv,11_immutability_validation.csv,.csv,277,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/12_reproducibility_validation.csv,12_reproducibility_validation.csv,.csv,151,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/13_phase1_validation_summary.md,13_phase1_validation_summary.md,.md,2099,REQUIRED,LOW,HIGH,True,False,False,NO,Protected project artifact/source file
+outputs/validation/cleaning_audit_reconciliation.csv,cleaning_audit_reconciliation.csv,.csv,241,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/controlled_defect_reconciliation.csv,controlled_defect_reconciliation.csv,.csv,364,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/final_null_profile.csv,final_null_profile.csv,.csv,992,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/missing_student_ids.csv,missing_student_ids.csv,.csv,20,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/numeric_range_validation.csv,numeric_range_validation.csv,.csv,355,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/phase2_final_validation_scorecard.csv,phase2_final_validation_scorecard.csv,.csv,3507,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/phase2_validation_summary.csv,phase2_validation_summary.csv,.csv,128,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/placement_package_validation.csv,placement_package_validation.csv,.csv,279,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/skill_value_audit.csv,skill_value_audit.csv,.csv,466,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+outputs/validation/unexpected_student_ids.csv,unexpected_student_ids.csv,.csv,23,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+scripts/audit_cleanup.py,audit_cleanup.py,.py,11903,REQUIRED,LOW,HIGH,True,False,False,NO,Protected project artifact/source file
+scripts/audit_project.py,audit_project.py,.py,24452,REQUIRED,LOW,HIGH,True,False,False,NO,Protected project artifact/source file
+scripts/clean_dataset.py,clean_dataset.py,.py,17803,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+scripts/clean_standardize.py,clean_standardize.py,.py,23034,REQUIRED,LOW,HIGH,True,False,True,NO,Protected project artifact/source file
+scripts/clean_structural.py,clean_structural.py,.py,11901,REQUIRED,LOW,HIGH,True,False,True,NO,Protected project artifact/source file
+scripts/finalize_phase2.py,finalize_phase2.py,.py,11700,REQUIRED,LOW,HIGH,True,False,True,NO,Protected project artifact/source file
+scripts/generate_dataset.py,generate_dataset.py,.py,19182,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+scripts/profile_dataset.py,profile_dataset.py,.py,16010,REQUIRED,LOW,HIGH,True,False,True,NO,Protected project artifact/source file
+scripts/validate_clean_dataset.py,validate_clean_dataset.py,.py,26320,REQUIRED,LOW,HIGH,True,True,True,NO,Protected project artifact/source file
+scripts/validate_data_foundation.py,validate_data_foundation.py,.py,16905,REQUIRED,LOW,HIGH,True,False,True,NO,Protected project artifact/source file
+sql/.gitkeep,.gitkeep,,1,VALID_ARTIFACT,LOW,HIGH,True,True,False,NO,Protected project artifact/source file
+tests/.gitkeep,.gitkeep,,1,VALID_ARTIFACT,LOW,HIGH,True,True,False,NO,Protected project artifact/source file

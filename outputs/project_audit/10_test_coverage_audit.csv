@@ -1,0 +1,2 @@
+test_suite,test_files_count,coverage_level,status
+Unit Tests,0,ETL Script Self-Validating Audits (VAL-01..VAL-08),PASS

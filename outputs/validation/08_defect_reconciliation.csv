@@ -1,0 +1,7 @@
+defect_category,expected_manifest,detected_raw,status
+Case Inconsistency (branch),25,25,MATCH
+Case & Space Inconsistency (company_type),15,15,MATCH
+Whitespace Padding (gender),20,20,MATCH
+String Binary Variant (python_skill),15,15,MATCH
+Missing Non-Critical Value (communication_score),15,15,MATCH
+Duplicate Physical Row (student_id),5,5,MATCH

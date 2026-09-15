@@ -1,0 +1,3 @@
+validation_id,category,metric,segment,python_value,sql_value,absolute_difference,tolerance,status
+CV-02,Placement,placed_count,Placed,950.0,950.0,0.0,0.0,PASS
+CV-03,Placement,placement_rate_pct,Overall,63.33,63.33,0.0,0.01,PASS

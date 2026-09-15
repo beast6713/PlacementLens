@@ -1,0 +1,53 @@
+dimension,segment,total_students,placed_students,unplaced_students,placement_rate_pct
+Overall,All Students,1500,950,550,63.33
+Branch,CSE,450,287,163,63.78
+Branch,IT,375,244,131,65.07
+Branch,ECE,300,181,119,60.33
+Branch,EEE,150,99,51,66.0
+Branch,ME,120,67,53,55.83
+Branch,CE,105,72,33,68.57
+CGPA Band,< 6.0,160,94,66,58.75
+CGPA Band,6.0 – 6.99,425,242,183,56.94
+CGPA Band,7.0 – 7.99,496,306,190,61.69
+CGPA Band,8.0 – 8.99,310,227,83,73.23
+CGPA Band,9.0 – 10.0,109,81,28,74.31
+Coding Score Band,< 50,43,16,27,37.21
+Coding Score Band,50 – 64,342,189,153,55.26
+Coding Score Band,65 – 79,681,430,251,63.14
+Coding Score Band,80 – 89,308,214,94,69.48
+Coding Score Band,90 – 100,126,101,25,80.16
+Aptitude Score Band,< 50,54,30,24,55.56
+Aptitude Score Band,50 – 64,370,199,171,53.78
+Aptitude Score Band,65 – 79,695,459,236,66.04
+Aptitude Score Band,80 – 89,276,182,94,65.94
+Aptitude Score Band,90 – 100,105,80,25,76.19
+Communication Score Band,< 50,14,9,5,64.29
+Communication Score Band,50 – 64,153,91,62,59.48
+Communication Score Band,65 – 79,497,299,198,60.16
+Communication Score Band,80 – 89,423,275,148,65.01
+Communication Score Band,90 – 100,413,276,137,66.83
+Projects Count,0 Projects,147,90,57,61.22
+Projects Count,1 Projects,383,225,158,58.75
+Projects Count,2 Projects,517,327,190,63.25
+Projects Count,3 Projects,287,188,99,65.51
+Projects Count,4 Projects,105,77,28,73.33
+Projects Count,5 Projects,35,25,10,71.43
+Projects Count,6 Projects,12,8,4,66.67
+Projects Count,7 Projects,5,3,2,60.0
+Projects Count,8 Projects,3,2,1,66.67
+Projects Count,9 Projects,4,4,0,100.0
+Projects Count,10 Projects,2,1,1,50.0
+Internships Count,0 Internships,669,404,265,60.39
+Internships Count,1 Internships,504,309,195,61.31
+Internships Count,2 Internships,238,174,64,73.11
+Internships Count,3 Internships,60,44,16,73.33
+Internships Count,4 Internships,18,12,6,66.67
+Internships Count,5 Internships,11,7,4,63.64
+Skill Count,0 Skills,2,1,1,50.0
+Skill Count,1 Skills,35,22,13,62.86
+Skill Count,2 Skills,122,58,64,47.54
+Skill Count,3 Skills,288,186,102,64.58
+Skill Count,4 Skills,419,264,155,63.01
+Skill Count,5 Skills,420,270,150,64.29
+Skill Count,6 Skills,181,128,53,70.72
+Skill Count,7 Skills,33,21,12,63.64

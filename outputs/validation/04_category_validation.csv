@@ -1,0 +1,4 @@
+category_field,allowed_set,expected_defects,detected_defects,status
+branch,"CSE, IT, ECE, EEE, ME, CE",25,25,PASS (Reconciled)
+gender,"Female, Male, Non-binary, Prefer not to say",20,20,PASS (Reconciled)
+company_type,"Product, Service, Startup, Other, NULL",15,15,PASS (Reconciled)

@@ -1,0 +1,7 @@
+issue_category,column,observed_anomaly,expected_rule,phase_2_action
+Duplicate Physical Rows,student_id,"5 duplicate rows found at tail (S0120, S0450, S0780, S1100, S1350)",Unique student_id per record,Deduplicate keeping first occurrence
+Case Inconsistency,branch,"25 rows contain lowercase branch labels (cse, it, ece, etc.)",Standard uppercase category set,Normalize using str.upper()
+Case & Space Inconsistency,company_type,"15 rows contain lowercase or trailing space labels (""service "")",Standard titlecase category set,Strip whitespace and titlecase
+Whitespace Padding,gender,"20 rows contain padded leading/trailing whitespace ("" Female "")",Standard trimmed category set,Apply str.strip()
+String Binary Representation,python_skill,"15 rows contain string ""Yes""/""No"" instead of integer 1/0",Binary integer 0 or 1,"Parse ""Yes""->1, ""No""->0"
+Missing Non-Critical Value,communication_score,15 rows contain missing/empty communication score,"Non-null numeric score [0, 100]",Impute missing values using cohort median

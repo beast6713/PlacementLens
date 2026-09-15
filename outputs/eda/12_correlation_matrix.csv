@@ -1,0 +1,129 @@
+variable_1,variable_2,population,pearson_r,spearman_rho
+cgpa,cgpa,All Students (1500),1.0,1.0
+cgpa,internships,All Students (1500),-0.0131,-0.0162
+cgpa,projects,All Students (1500),-0.022,-0.0209
+cgpa,coding_score,All Students (1500),0.3827,0.3749
+cgpa,aptitude_score,All Students (1500),0.4725,0.4498
+cgpa,communication_score,All Students (1500),0.1,0.1032
+cgpa,technical_skill_count,All Students (1500),0.0745,0.0795
+cgpa,placed,All Students (1500),0.1223,0.122
+internships,cgpa,All Students (1500),-0.0131,-0.0162
+internships,internships,All Students (1500),1.0,1.0
+internships,projects,All Students (1500),-0.0518,-0.0285
+internships,coding_score,All Students (1500),-0.0219,-0.0158
+internships,aptitude_score,All Students (1500),0.0002,-0.003
+internships,communication_score,All Students (1500),0.0443,0.021
+internships,technical_skill_count,All Students (1500),0.0347,0.0255
+internships,placed,All Students (1500),0.0799,0.0811
+projects,cgpa,All Students (1500),-0.022,-0.0209
+projects,internships,All Students (1500),-0.0518,-0.0285
+projects,projects,All Students (1500),1.0,1.0
+projects,coding_score,All Students (1500),0.395,0.3762
+projects,aptitude_score,All Students (1500),-0.0321,-0.0314
+projects,communication_score,All Students (1500),0.0425,0.037
+projects,technical_skill_count,All Students (1500),0.0633,0.0675
+projects,placed,All Students (1500),0.0706,0.0723
+coding_score,cgpa,All Students (1500),0.3827,0.3749
+coding_score,internships,All Students (1500),-0.0219,-0.0158
+coding_score,projects,All Students (1500),0.395,0.3762
+coding_score,coding_score,All Students (1500),1.0,1.0
+coding_score,aptitude_score,All Students (1500),0.1447,0.1378
+coding_score,communication_score,All Students (1500),0.0705,0.0582
+coding_score,technical_skill_count,All Students (1500),0.2036,0.2015
+coding_score,placed,All Students (1500),0.1629,0.1532
+aptitude_score,cgpa,All Students (1500),0.4725,0.4498
+aptitude_score,internships,All Students (1500),0.0002,-0.003
+aptitude_score,projects,All Students (1500),-0.0321,-0.0314
+aptitude_score,coding_score,All Students (1500),0.1447,0.1378
+aptitude_score,aptitude_score,All Students (1500),1.0,1.0
+aptitude_score,communication_score,All Students (1500),0.0289,0.036
+aptitude_score,technical_skill_count,All Students (1500),0.0755,0.071
+aptitude_score,placed,All Students (1500),0.1357,0.1333
+communication_score,cgpa,All Students (1500),0.1,0.1032
+communication_score,internships,All Students (1500),0.0443,0.021
+communication_score,projects,All Students (1500),0.0425,0.037
+communication_score,coding_score,All Students (1500),0.0705,0.0582
+communication_score,aptitude_score,All Students (1500),0.0289,0.036
+communication_score,communication_score,All Students (1500),1.0,1.0
+communication_score,technical_skill_count,All Students (1500),0.0192,0.0161
+communication_score,placed,All Students (1500),0.0518,0.0577
+technical_skill_count,cgpa,All Students (1500),0.0745,0.0795
+technical_skill_count,internships,All Students (1500),0.0347,0.0255
+technical_skill_count,projects,All Students (1500),0.0633,0.0675
+technical_skill_count,coding_score,All Students (1500),0.2036,0.2015
+technical_skill_count,aptitude_score,All Students (1500),0.0755,0.071
+technical_skill_count,communication_score,All Students (1500),0.0192,0.0161
+technical_skill_count,technical_skill_count,All Students (1500),1.0,1.0
+technical_skill_count,placed,All Students (1500),0.072,0.0695
+placed,cgpa,All Students (1500),0.1223,0.122
+placed,internships,All Students (1500),0.0799,0.0811
+placed,projects,All Students (1500),0.0706,0.0723
+placed,coding_score,All Students (1500),0.1629,0.1532
+placed,aptitude_score,All Students (1500),0.1357,0.1333
+placed,communication_score,All Students (1500),0.0518,0.0577
+placed,technical_skill_count,All Students (1500),0.072,0.0695
+placed,placed,All Students (1500),1.0,1.0
+cgpa,cgpa,Placed Students Only (950),1.0,1.0
+cgpa,internships,Placed Students Only (950),-0.0078,-0.0036
+cgpa,projects,Placed Students Only (950),-0.0071,-0.0102
+cgpa,coding_score,Placed Students Only (950),0.3914,0.3782
+cgpa,aptitude_score,Placed Students Only (950),0.459,0.4414
+cgpa,communication_score,Placed Students Only (950),0.0986,0.0926
+cgpa,technical_skill_count,Placed Students Only (950),0.0595,0.0674
+cgpa,package_lpa,Placed Students Only (950),0.1967,0.2366
+internships,cgpa,Placed Students Only (950),-0.0078,-0.0036
+internships,internships,Placed Students Only (950),1.0,1.0
+internships,projects,Placed Students Only (950),-0.0408,-0.0138
+internships,coding_score,Placed Students Only (950),0.015,0.0052
+internships,aptitude_score,Placed Students Only (950),0.0458,0.0379
+internships,communication_score,Placed Students Only (950),0.0524,0.0303
+internships,technical_skill_count,Placed Students Only (950),0.0512,0.0369
+internships,package_lpa,Placed Students Only (950),0.1009,0.098
+projects,cgpa,Placed Students Only (950),-0.0071,-0.0102
+projects,internships,Placed Students Only (950),-0.0408,-0.0138
+projects,projects,Placed Students Only (950),1.0,1.0
+projects,coding_score,Placed Students Only (950),0.3938,0.3859
+projects,aptitude_score,Placed Students Only (950),-0.0067,-0.0054
+projects,communication_score,Placed Students Only (950),0.0243,0.0232
+projects,technical_skill_count,Placed Students Only (950),0.0413,0.0512
+projects,package_lpa,Placed Students Only (950),0.1237,0.156
+coding_score,cgpa,Placed Students Only (950),0.3914,0.3782
+coding_score,internships,Placed Students Only (950),0.015,0.0052
+coding_score,projects,Placed Students Only (950),0.3938,0.3859
+coding_score,coding_score,Placed Students Only (950),1.0,1.0
+coding_score,aptitude_score,Placed Students Only (950),0.1551,0.1434
+coding_score,communication_score,Placed Students Only (950),0.0552,0.0431
+coding_score,technical_skill_count,Placed Students Only (950),0.1579,0.1618
+coding_score,package_lpa,Placed Students Only (950),0.2162,0.208
+aptitude_score,cgpa,Placed Students Only (950),0.459,0.4414
+aptitude_score,internships,Placed Students Only (950),0.0458,0.0379
+aptitude_score,projects,Placed Students Only (950),-0.0067,-0.0054
+aptitude_score,coding_score,Placed Students Only (950),0.1551,0.1434
+aptitude_score,aptitude_score,Placed Students Only (950),1.0,1.0
+aptitude_score,communication_score,Placed Students Only (950),0.0341,0.0338
+aptitude_score,technical_skill_count,Placed Students Only (950),0.0725,0.0627
+aptitude_score,package_lpa,Placed Students Only (950),0.1453,0.1638
+communication_score,cgpa,Placed Students Only (950),0.0986,0.0926
+communication_score,internships,Placed Students Only (950),0.0524,0.0303
+communication_score,projects,Placed Students Only (950),0.0243,0.0232
+communication_score,coding_score,Placed Students Only (950),0.0552,0.0431
+communication_score,aptitude_score,Placed Students Only (950),0.0341,0.0338
+communication_score,communication_score,Placed Students Only (950),1.0,1.0
+communication_score,technical_skill_count,Placed Students Only (950),0.0227,0.0056
+communication_score,package_lpa,Placed Students Only (950),0.1139,0.1305
+technical_skill_count,cgpa,Placed Students Only (950),0.0595,0.0674
+technical_skill_count,internships,Placed Students Only (950),0.0512,0.0369
+technical_skill_count,projects,Placed Students Only (950),0.0413,0.0512
+technical_skill_count,coding_score,Placed Students Only (950),0.1579,0.1618
+technical_skill_count,aptitude_score,Placed Students Only (950),0.0725,0.0627
+technical_skill_count,communication_score,Placed Students Only (950),0.0227,0.0056
+technical_skill_count,technical_skill_count,Placed Students Only (950),1.0,1.0
+technical_skill_count,package_lpa,Placed Students Only (950),0.0384,0.0821
+package_lpa,cgpa,Placed Students Only (950),0.1967,0.2366
+package_lpa,internships,Placed Students Only (950),0.1009,0.098
+package_lpa,projects,Placed Students Only (950),0.1237,0.156
+package_lpa,coding_score,Placed Students Only (950),0.2162,0.208
+package_lpa,aptitude_score,Placed Students Only (950),0.1453,0.1638
+package_lpa,communication_score,Placed Students Only (950),0.1139,0.1305
+package_lpa,technical_skill_count,Placed Students Only (950),0.0384,0.0821
+package_lpa,package_lpa,Placed Students Only (950),1.0,1.0

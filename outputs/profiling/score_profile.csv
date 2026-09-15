@@ -1,0 +1,7 @@
+variable_name,total_rows,valid_count,null_count,min_val,max_val,mean_val,median_val,std_val,q25_val,q75_val
+cgpa,1505,1505,0,4.0,9.85,7.32,7.32,1.1,6.55,8.1
+coding_score,1505,1505,0,32.99,98.5,72.88,72.81,12.2,64.73,81.5
+aptitude_score,1505,1505,0,30.0,97.0,71.78,71.6,11.92,63.76,80.12
+communication_score,1505,1490,15,35.0,96.0,80.68,81.5,12.07,72.13,91.39
+internships,1505,1505,0,0.0,5.0,0.86,1.0,0.98,0.0,1.0
+projects,1505,1505,0,0.0,10.0,2.04,2.0,1.35,1.0,3.0

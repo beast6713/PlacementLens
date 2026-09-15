@@ -1,0 +1,17 @@
+check_id,check_name,expected,actual,status,severity,notes
+EDA-01,Input File Existence,File present,File present,PASS,CRITICAL,C:\Users\kunje\OneDrive\Desktop\Projects\placement_analytics\data\processed\placementlens_students_clean.csv
+EDA-02,Input MD5 Hash Verification,96023d297eec5a9a47563eaddc157d0d,96023d297eec5a9a47563eaddc157d0d,PASS,CRITICAL,Matches frozen Phase 2 baseline
+EDA-03,Physical Row Count Verification,1500,1500,PASS,CRITICAL,"Exactly 1,500 records"
+EDA-04,DDL Column Count Verification,20,20,PASS,CRITICAL,20 DDL columns present
+EDA-05,Unique Student ID Verification,1500,1500,PASS,CRITICAL,Range S0001–S1500
+EDA-06,Schema Name Match,Exact 20 column names,Exact match,PASS,HIGH,All 20 canonical headers match
+EDA-07,Numeric Value Range Bounds,Within valid domain bounds,All bounded,PASS,HIGH,"CGPA 0-10, scores 0-100"
+EDA-08,Binary Skill Flag Integrity,100% binary integer flags (0 or 1),100% binary,PASS,HIGH,All 7 skill flags integer 0/1
+EDA-09,Placement Cohort Distribution,"950 placed, 550 unplaced (63.33%)","950 placed, 550 unplaced",PASS,HIGH,Exactly 63.33% baseline
+EDA-10,Package LPA Eligible Population,950,950,PASS,CRITICAL,Restricted to placed students
+EDA-11,Package NULL Compensation Linkage,100% NULL for unplaced,100% NULL,PASS,CRITICAL,Unplaced package_lpa is NULL
+EDA-12,Derived Technical Skill Count Bounds,Integer range 0 to 7,0 to 7 bounded,PASS,MEDIUM,Sum of 7 binary skill flags
+EDA-13,Analytical CSV Table Generation,14 CSV tables generated,14 CSV tables,PASS,HIGH,All 14 tables created in outputs/eda/
+EDA-14,Analytical Visualization Figures,5 PNG charts generated,5 PNG charts,PASS,HIGH,Saved in outputs/eda/plots/
+EDA-15,Output File Schema Validation,Valid headers and no missing data,Valid schemas,PASS,MEDIUM,All CSV tables populated
+EDA-16,Source Dataset Post-Analysis Hash Immutability,96023d297eec5a9a47563eaddc157d0d,96023d297eec5a9a47563eaddc157d0d,PASS,CRITICAL,Clean dataset 100% untouched

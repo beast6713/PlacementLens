@@ -1,0 +1,2 @@
+validation_id,category,metric,segment,python_value,sql_value,absolute_difference,tolerance,status
+CV-01,Population,total_students,All,1500.0,1500.0,0.0,0.0,PASS

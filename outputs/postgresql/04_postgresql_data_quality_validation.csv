@@ -1,0 +1,11 @@
+check_id,check_name,expected,actual,status
+DB-01,Row Count Exact Match,1500,1500,PASS
+DB-02,Primary Key Uniqueness,1500,1500,PASS
+DB-03,ID Range S0001–S1500,S0001–S1500,S0001–S1500,PASS
+DB-04,Mandatory Columns Non-Null,0,0,PASS
+DB-05,Unplaced Package NULL Linkage,550,550,PASS
+DB-06,Placed Package Non-Null,950,950,PASS
+DB-07,Binary Skill Integrity,100% 0 or 1,100% 0/1,PASS
+DB-08,Branch Categories (6 Approved),6,6,PASS
+DB-09,Placement Rate Baseline,63.33%,63.33%,PASS
+DB-10,Source Clean File Immutability,96023d297eec5a9a47563eaddc157d0d,96023d297eec5a9a47563eaddc157d0d,PASS

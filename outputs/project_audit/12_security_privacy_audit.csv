@@ -1,0 +1,3 @@
+check,status,notes
+Synthetic Data PII Declaration,PASS,"100% Synthetic student dataset, zero real PII"
+Credential Leakage Check,PASS,"Zero hardcoded passwords, tokens, or secrets found"

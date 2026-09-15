@@ -1,0 +1,8 @@
+defect_type,raw_count,cleaned_count,remaining_count,status
+Duplicate Physical Student Rows,5,0,0,PASS
+Branch Case Inconsistencies,25,0,0,PASS
+Company Type Formatting Inconsistencies,15,0,0,PASS
+Gender Whitespace Padding,20,0,0,PASS
+Python Skill String Binary Flags,15,0,0,PASS
+Missing Communication Scores,15,0,0,PASS
+Total Controlled Defects,95,0,0,PASS

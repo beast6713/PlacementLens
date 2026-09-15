@@ -1,0 +1,15 @@
+metric,before,after,expected,status
+physical_rows,1500,1500,1500,PASS
+unique_student_ids,1500,1500,1500,PASS
+duplicate_student_ids,0,0,0,PASS
+company_type_inconsistencies,15,0,15,PASS
+gender_whitespace_defects,20,0,20,PASS
+python_skill_string_defects,15,0,15,PASS
+communication_score_nulls,15,0,0,PASS
+communication_score_imputations,0,15,15,PASS
+invalid_company_types,15,0,0,PASS
+invalid_gender_values,20,0,0,PASS
+invalid_python_skill_values,15,0,0,PASS
+invalid_communication_scores,15,0,0,PASS
+unexpected_nulls,15,0,0,PASS
+raw_immutability,1,1,1,PASS

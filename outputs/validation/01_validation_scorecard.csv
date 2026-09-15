@@ -1,0 +1,16 @@
+category,requirement,result,status,evidence
+File Integrity,Raw dataset exists and is readable,"Size: 105.16 KB, MD5: 59c04ee15a0112806c510225d8e75779",PASS,"File readable, hash verified"
+Immutability,Raw CSV remains untouched from Part 3,MD5 Hash matches Part 3 generation,PASS,0 bytes modified
+Population Size,"1,500 unique students, 1,505 physical rows","1500 unique, 1505 physical",PASS,5 duplicate rows expected
+Student IDs,Formatted ^S[0-9]{4}$ unique keys,100% regex format compliance,PASS,"Non-null, regex compliant"
+Schema & Order,20 approved columns matching Part 2 DDL,20 columns present in approved order,PASS,0 missing/unexpected cols
+Data Types,Inferred types align with PostgreSQL DDL,"Compatible text, numeric, and flag types",PASS,No type corruption
+Category Sets,Categories match allowed sets + expected defects,All variants reconciled against manifest,PASS,95 defects match manifest
+Numerical Ranges,"CGPA [0,10], Scores [0,100], Counts >=0",0 unexpected out-of-bounds values,PASS,Min/max within limits
+Placement Logic,chk_placement_compensation_logic table rule,"100% compliant across all 1,505 rows",PASS,Unplaced package = 100% NULL
+Technical Skills,7 binary flags present & profiled,Prevalence 17.9% to 69.5%,PASS,15 string defects expected
+Controlled Defects,95 defects reconciled against manifest,95 detected == 95 expected,PASS,100% manifest match
+Unexpected Defects,0 unapproved defects present,0 unexpected defects detected,PASS,Zero unapproved anomalies
+Privacy & Ethics,Zero student PII exposure,"Synthetic keys only, zero names/contact PII",PASS,PII check passed
+Reproducibility,Seed 42 deterministic generator,Deterministic script tested,PASS,MD5 hash match
+Phase 2 Readiness,Raw data foundation ready for ETL cleaning,All 14 validation categories PASS,READY FOR PHASE 2,Scorecard 100% PASS

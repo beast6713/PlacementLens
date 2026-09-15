@@ -1,0 +1,22 @@
+business_question_id,business_question,python_analysis_available,sql_analysis_available,cross_validated,primary_output,status,notes
+BQ01,Overall Placement Rate,True,True,True,01_bq01*.csv,VERIFIED,100% matched within tolerance
+BQ02,Branch Placement Rate,True,True,True,02_bq02*.csv,VERIFIED,100% matched within tolerance
+BQ03,CGPA Bands vs Placement,True,True,True,03_bq03*.csv,VERIFIED,100% matched within tolerance
+BQ04,Coding Scores vs Placement,True,True,True,04_bq04*.csv,VERIFIED,100% matched within tolerance
+BQ05,Aptitude Scores vs Placement,True,True,True,05_bq05*.csv,VERIFIED,100% matched within tolerance
+BQ06,Communication Scores vs Placement,True,True,True,06_bq06*.csv,VERIFIED,100% matched within tolerance
+BQ07,Projects vs Placement,True,True,True,07_bq07*.csv,VERIFIED,100% matched within tolerance
+BQ08,Internships vs Placement,True,True,True,08_bq08*.csv,VERIFIED,100% matched within tolerance
+BQ09,Skill Ownership Breakdown,True,True,True,09_bq09*.csv,VERIFIED,100% matched within tolerance
+BQ10,Skill Prevalence Profile,True,True,True,10_bq10*.csv,VERIFIED,100% matched within tolerance
+BQ11,Skill Impact Spread,True,True,True,11_bq11*.csv,VERIFIED,100% matched within tolerance
+BQ12,Skill Count vs Placement,True,True,True,12_bq12*.csv,VERIFIED,100% matched within tolerance
+BQ13,Compensation Distribution,True,True,True,13_bq13*.csv,VERIFIED,100% matched within tolerance
+BQ14,Package by Academic Branch,True,True,True,14_bq14*.csv,VERIFIED,100% matched within tolerance
+BQ15,Package by Company Type,True,True,True,15_bq15*.csv,VERIFIED,100% matched within tolerance
+BQ16,Preparation vs Package Bands,True,True,True,16_bq16*.csv,VERIFIED,100% matched within tolerance
+BQ17,Placed vs Unplaced Profile,True,True,True,17_bq17*.csv,VERIFIED,100% matched within tolerance
+BQ18,Preparation Metric Associations,True,True,True,18_bq18*.csv,VERIFIED,100% matched within tolerance
+BQ19,Branch Support Matrix,True,True,True,19_bq19*.csv,VERIFIED,100% matched within tolerance
+BQ20,Skill Opportunity Matrix,True,True,True,20_bq20*.csv,VERIFIED,100% matched within tolerance
+BQ21,High-Package Success Patterns,True,True,True,21_bq21*.csv,VERIFIED,100% matched within tolerance

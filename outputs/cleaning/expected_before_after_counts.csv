@@ -1,0 +1,9 @@
+Data_Quality_Issue,Target_Field,Raw_Before_Count,Clean_Target_Count,Expected_Resolved_Count,Unresolved_Count,Reconciliation_Validation
+Physical CSV Rows,File Length,1505,1500,5,0,PASS (5 duplicate rows removed)
+Duplicate Student IDs,student_id,5,0,5,0,PASS (0 duplicate IDs remaining)
+Branch Lowercase Defects,branch,25,0,25,0,PASS (100% uppercase standardized)
+Company Type Formatting Defects,company_type,15,0,15,0,PASS (100% titlecase standardized)
+Gender Whitespace Defects,gender,20,0,20,0,PASS (100% whitespace trimmed)
+Python Skill String Binary Defects,python_skill,15,0,15,0,PASS (100% binary integer parsed)
+Missing Communication Scores,communication_score,15,0,15,0,PASS (100% branch median imputed)
+Total Controlled Defects,Dataset Wide,95,0,95,0,PASS (100% defect resolution target)

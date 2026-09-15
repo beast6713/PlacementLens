@@ -1,0 +1,2 @@
+total_physical_rows,intended_unique_students,unique_student_ids_found,extra_physical_rows,exact_duplicate_rows,affected_student_ids,reconciliation_status
+1505,1500,1500,5,5,"S0120, S0450, S0780, S1100, S1350",MATCH (5 duplicate rows injected at file tail as expected)

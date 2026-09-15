@@ -1,0 +1,7 @@
+metric,source_csv,database_table,difference,status
+Total Physical Rows,1500,1500,0,PASS
+Unique Student IDs,1500,1500,0,PASS
+Total Columns,20,20,0,PASS
+Placed Students,950,950,0,PASS
+Unplaced Students,550,550,0,PASS
+Package NULL Count,550,550,0,PASS

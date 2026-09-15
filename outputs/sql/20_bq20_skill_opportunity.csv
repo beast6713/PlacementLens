@@ -1,0 +1,8 @@
+skill_name,prevalence_pct,holder_placement_rate_pct,non_holder_placement_rate_pct,spread_pp,strategic_category
+sql_skill,77.93,65.36,56.19,9.17,"Core Foundation Skill (High Prevalence, High Impact)"
+python_skill,78.47,64.83,57.89,6.94,"Core Foundation Skill (High Prevalence, High Impact)"
+cloud_skill,32.33,67.42,61.38,6.04,"High Opportunity Gap (Low Prevalence, High Impact)"
+excel_skill,83.87,63.75,61.16,2.59,Secondary Skill Domain
+dsa_skill,70.47,63.77,62.3,1.47,Secondary Skill Domain
+power_bi_skill,52.87,63.81,62.8,1.01,Secondary Skill Domain
+cybersecurity_skill,19.8,60.94,63.92,-2.98,Secondary Skill Domain

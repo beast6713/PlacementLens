@@ -1,0 +1,18 @@
+variable,category,db_count,src_count,status
+gender,Male,841,841,PASS
+gender,Female,585,585,PASS
+gender,Prefer not to say,39,39,PASS
+gender,Non-binary,35,35,PASS
+branch,CSE,450,450,PASS
+branch,IT,375,375,PASS
+branch,ECE,300,300,PASS
+branch,EEE,150,150,PASS
+branch,ME,120,120,PASS
+branch,CE,105,105,PASS
+company_type,nan,550,550,PASS
+company_type,Service,381,381,PASS
+company_type,Product,304,304,PASS
+company_type,Startup,222,222,PASS
+company_type,Other,43,43,PASS
+placed,1,950,950,PASS
+placed,0,550,550,PASS

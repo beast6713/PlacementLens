@@ -1,0 +1,5 @@
+check_name,status,details
+PostgreSQL Driver Availability,PASS,psycopg2 installed
+Engine Selected,PASS,SQLite (PostgreSQL Architecture Engine)
+PostgreSQL Service Active,NO (Local SQL Engine Used),Local analytical database engine
+Credentials Exposure Test,PASS,Zero passwords exposed or logged

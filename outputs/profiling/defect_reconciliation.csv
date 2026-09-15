@@ -1,0 +1,7 @@
+defect_category,expected_manifest_count,detected_profiling_count,reconciliation_status
+Case Inconsistency,25,25,MATCH
+Whitespace Padding,20,20,MATCH
+Case & Space Inconsistency,15,15,MATCH
+String Binary Variant,15,15,MATCH
+Missing Non-Critical Value,15,15,MATCH
+Duplicate Raw Row,5,5,MATCH

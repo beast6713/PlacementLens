@@ -1,0 +1,7 @@
+numeric_field,expected_range,actual_min,actual_max,null_count,out_of_bounds_count,status
+cgpa,"[0.0, 10.0]",4.0,9.85,0,0,PASS
+coding_score,"[0.0, 100.0]",32.99,98.5,0,0,PASS
+aptitude_score,"[0.0, 100.0]",30.0,97.0,0,0,PASS
+communication_score,"[0.0, 100.0]",35.0,96.0,15,0,PASS
+internships,"[0, 5]",0.0,5.0,0,0,PASS
+projects,"[0, 10]",0.0,10.0,0,0,PASS

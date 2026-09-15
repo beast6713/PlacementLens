@@ -1,0 +1,12 @@
+validation_rule,expected,actual,status,notes
+structural_clean_input_rows,1500,1500,PASS,"Input physical rows == 1,500"
+final_clean_output_rows,1500,1500,PASS,"Output physical rows == 1,500"
+unique_student_ids,1500,1500,PASS,"Unique IDs == 1,500"
+company_type_standardization,0 Invalid Placed / 0 Unplaced Non-Null,0 Invalid Placed / 0 Unplaced Non-Null,PASS,"Placed in allowed set, unplaced NULL"
+gender_whitespace_standardization,100% in Allowed Set,0 Invalid,PASS,All genders trimmed and in allowed set
+python_skill_binary_representation,"100% in {0, 1}",0 Invalid,PASS,Skill flags binary integer 0/1
+communication_score_imputation,0 NULLs,0 NULLs,PASS,15 missing scores imputed via cohort median
+target_leakage_protection,No target vars used in imputation,Excluded target vars,PASS,Imputation used only academic branch grouping
+unplaced_null_compensation_linkage,placed=0 -> package=NULL & company=NULL,"Package NULL=True, Company NULL=True",PASS,NULL semantics preserved for unplaced
+score_and_metric_ranges,All metrics within DDL bounds,"CGPA=True, Coding=True, Aptitude=True, Comm=True",PASS,"Scores in 0-100, CGPA in 0-10"
+schema_column_count_and_order,20 Columns in DDL order,20 Columns,PASS,Exact DDL 20-column schema preserved

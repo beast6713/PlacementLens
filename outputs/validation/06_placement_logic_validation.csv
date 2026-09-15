@@ -1,0 +1,5 @@
+rule,violations,status
+Unplaced student company_type must be NULL,0,PASS
+Unplaced student package_lpa must be NULL,0,PASS
+Placed student company_type must be non-null,0,PASS
+Placed student package_lpa must be non-null,0,PASS

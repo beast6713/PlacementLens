@@ -1,0 +1,10 @@
+variable,population,count,mean,std,min,q1_25pct,median_50pct,q3_75pct,max,iqr
+age,All Students (1500),1500,21.0307,1.1673,18.0,20.0,21.0,22.0,25.0,2.0
+cgpa,All Students (1500),1500,7.3209,1.1035,4.0,6.5475,7.32,8.0925,9.85,1.545
+internships,All Students (1500),1500,0.858,0.9851,0.0,0.0,1.0,1.0,5.0,1.0
+projects,All Students (1500),1500,2.04,1.3519,0.0,1.0,2.0,3.0,10.0,2.0
+coding_score,All Students (1500),1500,72.8692,12.2199,32.99,64.7075,72.82,81.5125,98.5,16.805
+aptitude_score,All Students (1500),1500,71.7751,11.9039,30.0,63.7675,71.6,80.12,97.0,16.3525
+communication_score,All Students (1500),1500,80.6934,12.0128,35.0,72.235,81.555,91.3225,96.0,19.0875
+technical_skill_count,All Students (1500),1500,4.1573,1.2983,0.0,3.0,4.0,5.0,7.0,2.0
+package_lpa,Placed Students Only (950),950,10.6181,5.56,3.29,6.06,9.695,14.2775,48.0,8.2175

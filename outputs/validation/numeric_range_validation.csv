@@ -1,0 +1,8 @@
+column,min,max,expected,status
+cgpa,4.0,9.85,0.0 <= CGPA <= 10.0,PASS
+coding_score,32.99,98.5,0.0 <= coding <= 100.0,PASS
+aptitude_score,30.0,97.0,0.0 <= aptitude <= 100.0,PASS
+communication_score,35.0,96.0,0.0 <= comm <= 100.0,PASS
+internships,0.0,5.0,internships >= 0,PASS
+projects,0.0,10.0,projects >= 0,PASS
+age,18.0,25.0,18 <= age <= 30,PASS

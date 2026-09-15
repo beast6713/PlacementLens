@@ -1,0 +1,2 @@
+expected_column_count,actual_column_count,schema_match,missing_columns,unexpected_columns,status
+20,20,True,None,None,PASS

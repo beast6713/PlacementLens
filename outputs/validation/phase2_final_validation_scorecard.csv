@@ -1,0 +1,21 @@
+validation_id,category,validation_rule,expected,actual,severity,status,notes
+VAL-L01-01,File Integrity,clean_file_exists_and_readable,File Exists & Readable,Clean CSV File Exists,CRITICAL,PASS,Candidate clean CSV file present in data/processed/
+VAL-L14-01,Raw Immutability,raw_dataset_md5_immutability_pre,59c04ee15a0112806c510225d8e75779,59c04ee15a0112806c510225d8e75779,CRITICAL,PASS,Raw dataset MD5 pre-execution hash verification
+VAL-L02-01,Schema Integrity,schema_exact_20_columns_order,20 DDL Columns in Exact Order,20 Columns,CRITICAL,PASS,Column match: True
+VAL-L03-01,Row & Key Integrity,physical_row_count_exact_1500,1500,1500,CRITICAL,PASS,"Physical row count == 1,500"
+VAL-L03-02,Row & Key Integrity,unique_student_ids_exact_1500,1500,1500,CRITICAL,PASS,"Unique student_id count == 1,500"
+VAL-L04-01,Duplicate Validation,zero_duplicate_student_ids,0,0,CRITICAL,PASS,No duplicate student IDs in clean dataset
+VAL-L05-01,ID Population Integrity,complete_id_coverage_S0001_S1500,0 Missing / 0 Unexpected,0 Missing / 0 Unexpected,CRITICAL,PASS,"All 1,500 synthetic IDs present without gaps or extra IDs"
+VAL-L06-01,Categorical Integrity,branch_canonical_categories,100% in Allowed Branch Set,0 Invalid Categories,CRITICAL,PASS,"Branch categories strictly in {CSE, IT, ECE, EEE, ME, CE}"
+VAL-L06-02,Categorical Integrity,gender_canonical_categories,100% in Allowed Gender Set,0 Invalid Categories,CRITICAL,PASS,"Gender categories strictly in {Female, Male, Non-binary, Prefer not to say}"
+VAL-L06-03,Categorical Integrity,company_type_canonical_categories,100% Placed in Allowed Set / Unplaced NULL,0 Invalid Placed / 0 Unplaced Non-Null,CRITICAL,PASS,Company types titlecased for placed; NULL for unplaced
+VAL-L07-01,Missing-Value Integrity,communication_score_zero_nulls,0,0,CRITICAL,PASS,15 missing communication scores fully imputed in Part 4
+VAL-L08-01,Binary Skill Integrity,all_7_skills_binary_integer_0_1,"100% Binary Integer {0, 1}",0 Violating Skill Columns,CRITICAL,PASS,All skill columns integer binary 0/1 without string Yes/No
+VAL-L09-01,Numeric Range Integrity,all_numeric_columns_within_ddl_bounds,100% Within DDL Bounds,0 Out-of-Bound Columns,CRITICAL,PASS,"CGPA in 0-10, scores in 0-100, counts non-negative"
+VAL-L10-01,Placement/Package Integrity,placement_compensation_linkage_rules,placed=0 -> NULL; placed=1 -> Valid Positive,"Unplaced Package NULL=True, Company NULL=True",CRITICAL,PASS,Placement compensation linkage rules 100% valid
+VAL-L11-01,NULL Semantics,zero_string_null_placeholders,0,0,CRITICAL,PASS,"No string placeholders like NULL, None, N/A in clean CSV"
+VAL-L12-01,Controlled Defect Reconciliation,reconcile_95_controlled_defects,95 Expected / 0 Remaining,95 Resolved / 0 Remaining,CRITICAL,PASS,100% Controlled defect resolution match
+VAL-L13-01,Cleaning Audit Reconciliation,cross_check_pipeline_audit_logs,All Audit Logs Reconciled,Audit Logs Reconciled=True,CRITICAL,PASS,All pipeline audit logs match clean CSV state
+VAL-L14-02,Raw Immutability,raw_dataset_md5_immutability_post,59c04ee15a0112806c510225d8e75779,59c04ee15a0112806c510225d8e75779,CRITICAL,PASS,Raw dataset MD5 post-execution hash verification
+VAL-L15-01,Reproducibility,deterministic_pipeline_execution,Deterministic Clean Output,Deterministic ETL Verified,CRITICAL,PASS,Sequential execution parity verified
+VAL-L16-01,Final Analysis Readiness,overall_phase2_data_quality_gate,100% Rule Compliance,READY FOR PHASE 3,CRITICAL,PASS,Formal Part 5 Quality Audit Gate Decision

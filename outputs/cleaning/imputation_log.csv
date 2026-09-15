@@ -1,0 +1,16 @@
+student_id,column,cohort,cohort_size,non_null_cohort_count,cohort_median,original_value,imputed_value,method,status
+S0061,communication_score,branch=IT,375,368,82.34,NULL,82.34,Branch-level Cohort Median Imputation,IMPUTED
+S0131,communication_score,branch=ME,120,117,81.37,NULL,81.37,Branch-level Cohort Median Imputation,IMPUTED
+S0216,communication_score,branch=ECE,300,298,81.68,NULL,81.68,Branch-level Cohort Median Imputation,IMPUTED
+S0286,communication_score,branch=IT,375,368,82.34,NULL,82.34,Branch-level Cohort Median Imputation,IMPUTED
+S0361,communication_score,branch=IT,375,368,82.34,NULL,82.34,Branch-level Cohort Median Imputation,IMPUTED
+S0436,communication_score,branch=ME,120,117,81.37,NULL,81.37,Branch-level Cohort Median Imputation,IMPUTED
+S0521,communication_score,branch=IT,375,368,82.34,NULL,82.34,Branch-level Cohort Median Imputation,IMPUTED
+S0606,communication_score,branch=IT,375,368,82.34,NULL,82.34,Branch-level Cohort Median Imputation,IMPUTED
+S0681,communication_score,branch=CSE,450,447,81.15,NULL,81.15,Branch-level Cohort Median Imputation,IMPUTED
+S0756,communication_score,branch=IT,375,368,82.34,NULL,82.34,Branch-level Cohort Median Imputation,IMPUTED
+S0846,communication_score,branch=IT,375,368,82.34,NULL,82.34,Branch-level Cohort Median Imputation,IMPUTED
+S0931,communication_score,branch=CSE,450,447,81.15,NULL,81.15,Branch-level Cohort Median Imputation,IMPUTED
+S1016,communication_score,branch=CSE,450,447,81.15,NULL,81.15,Branch-level Cohort Median Imputation,IMPUTED
+S1126,communication_score,branch=ME,120,117,81.37,NULL,81.37,Branch-level Cohort Median Imputation,IMPUTED
+S1241,communication_score,branch=ECE,300,298,81.68,NULL,81.68,Branch-level Cohort Median Imputation,IMPUTED

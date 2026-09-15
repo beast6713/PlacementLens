@@ -1,0 +1,2 @@
+intended_unique_students,actual_unique_students,total_physical_rows,extra_duplicate_rows,regex_format_compliance_pct,expected_duplicate_ids,detected_duplicate_ids,status
+1500,1500,1505,5,100.0,"S0120, S0450, S0780, S1100, S1350","S0120, S0450, S0780, S1100, S1350",PASS (Expected controlled duplicate rows)

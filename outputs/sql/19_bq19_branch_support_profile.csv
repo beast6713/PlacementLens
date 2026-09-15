@@ -1,0 +1,7 @@
+branch,total_students,placement_rate_pct,avg_cgpa,avg_coding_score,avg_aptitude_score,avg_communication_score,avg_skill_count
+ME,120,55.83,7.39,69.44,71.69,79.71,4.03
+ECE,300,60.33,7.29,70.72,71.47,80.35,3.8
+CSE,450,63.78,7.35,74.97,71.44,80.76,4.39
+IT,375,65.07,7.34,76.18,72.1,81.61,4.45
+EEE,150,66.0,7.27,68.76,72.75,80.49,3.75
+CE,105,68.57,7.21,67.96,71.64,79.51,3.89

@@ -1,0 +1,5 @@
+variable,overall_mean,overall_median,placed_mean,placed_median,unplaced_mean,unplaced_median,mean_difference,median_difference
+cgpa,7.3209,7.32,7.4235,7.415,7.1435,7.13,0.28,0.285
+coding_score,72.8692,72.82,74.3834,74.32,70.2537,70.07,4.1297,4.25
+aptitude_score,71.7751,71.6,73.0037,72.92,69.6529,69.7,3.3508,3.22
+communication_score,80.6934,81.555,81.1666,82.31,79.8761,80.82,1.2905,1.49

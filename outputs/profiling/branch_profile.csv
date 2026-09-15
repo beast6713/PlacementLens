@@ -1,0 +1,13 @@
+branch_observed,record_count,percentage,is_lowercase_defect
+CSE,446,29.63,False
+IT,371,24.65,False
+ECE,293,19.47,False
+EEE,149,9.9,False
+ME,119,7.91,False
+CE,102,6.78,False
+ece,8,0.53,True
+cse,5,0.33,True
+it,5,0.33,True
+ce,3,0.2,True
+me,3,0.2,True
+eee,1,0.07,True

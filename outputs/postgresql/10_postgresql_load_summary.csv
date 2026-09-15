@@ -1,0 +1,2 @@
+table_name,loaded_rows,source_rows,primary_key,unique_ids,placed_count,unplaced_count,source_hash,load_status
+students,1500,1500,student_id,1500,950,550,96023d297eec5a9a47563eaddc157d0d,SUCCESS — CHECKPOINT-03-PART-03 PASS

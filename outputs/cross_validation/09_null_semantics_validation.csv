@@ -1,0 +1,2 @@
+check_id,check_name,expected,python_result,sql_result,difference,tolerance,status,severity,notes
+CV-22,NULL Compensation Linkage Integrity,550 unplaced NULLs,550 NULLs for package/company,550 NULLs for package/company,0.0,Exact (0),PASS,CRITICAL,Zero unplaced NULL violations

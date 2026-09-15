@@ -1,0 +1,17 @@
+criterion_id,category,criterion,expected,actual,status,evidence
+P2-C01,Dataset Integrity,"1,500 physical clean rows",1500,1500,PASS,data/processed/placementlens_students_clean.csv
+P2-C02,Schema,Exact 20 DDL columns in order,20 DDL Columns,20 Columns,PASS,v1.0 DDL Schema Match
+P2-C03,Duplicates,Zero duplicate student IDs,0,0,PASS,5 tail duplicates removed
+P2-C04,IDs,Complete S0001-S1500 population,S0001-S1500 Complete,1500 Unique IDs,PASS,0 Missing / 0 Unexpected IDs
+P2-C05,Categories,"Branch, Gender, Company allowed sets",100% Valid Categories,100% Valid Categories,PASS,Canonical string sets verified
+P2-C06,Missing Values,Communication score 0 NULLs,0,0,PASS,Branch cohort median imputation
+P2-C07,Skills,7 skill columns integer binary 0/1,"100% Binary Integer {0, 1}",100% Binary Integer,PASS,Zero string Yes/No flags
+P2-C08,Numeric Ranges,"CGPA 0-10, scores 0-100, counts >= 0",All in bounds,All in bounds,PASS,DDL numeric bounds verified
+P2-C09,Placement Logic,Unplaced package/company NULL,placed=0 -> NULL,100% NULL for unplaced,PASS,Compensation linkage intact
+P2-C10,NULL Semantics,Zero string placeholders,0,0,PASS,"No string ""NULL"" or ""None"""
+P2-C11,Defect Reconciliation,Reconcile 95 controlled defects,95/95 Resolved,95/95 Resolved,PASS,0 Defects remaining
+P2-C12,Auditability,Complete audit trails generated,Audit logs present,Audit logs present,PASS,outputs/cleaning/*
+P2-C13,Raw Immutability,Raw MD5 unchanged,59c04ee15a0112806c510225d8e75779,59c04ee15a0112806c510225d8e75779,PASS,100% Byte-for-byte raw match
+P2-C14,Reproducibility,Deterministic pipeline,Deterministic,Deterministic,PASS,Sequential execution parity
+P2-C15,Documentation,Comprehensive Phase 2 docs,Docs Complete,Docs Complete,PASS,docs/cleaning_* & contracts
+P2-C16,Handoff,Phase 3 Handoff contract ready,Handoff Ready,Handoff Ready,PASS,docs/phase2_to_phase3_handoff.md

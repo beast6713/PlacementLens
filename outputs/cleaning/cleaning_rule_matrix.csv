@@ -1,0 +1,7 @@
+Defect_ID,Defect_Category,Target_Field,Expected_Raw_Pattern,Canonical_Clean_Pattern,Cleaning_Method,Expected_Count,Validation_Rule,Severity,Owner_Part
+DEF-01,Duplicate Physical Student Rows,student_id,Duplicate physical row appended at tail,Single row per student_id (S0001-S1500),Deduplication keeping first occurrence,5,unique_student_ids == 1500 AND total_rows == 1500,HIGH,Part 3
+DEF-02,Branch Case Inconsistency,branch,Lowercase category strings (e.g. cse it ece),Uppercase category strings (e.g. CSE IT ECE),str.strip() + str.upper(),25,branch IN (CSE IT ECE EEE ME CE),MEDIUM,Part 4
+DEF-03,Company Type Inconsistency,company_type,Lowercase or space-padded strings (e.g. product Service ),Titlecase trimmed strings (e.g. Product Service),str.strip() + str.title(),15,company_type IN (Product Service Startup Other NULL),MEDIUM,Part 4
+DEF-04,Gender Whitespace Padding,gender,Leading/trailing space padded strings (e.g.  Female ),Trimmed category strings (e.g. Female),str.strip(),20,gender IN (Female Male Non-binary Prefer not to say),MEDIUM,Part 4
+DEF-05,String Binary Flag Representation,python_skill,String binary representations (Yes No True False),Binary integer flags (1 or 0),Map Yes/True -> 1 and No/False -> 0,15,python_skill IN (0 1),MEDIUM,Part 4
+DEF-06,Missing Communication Score,communication_score,Missing/empty string / NaN values,Numeric float score [0.00 100.00],Branch-level cohort median imputation,15,communication_score NOT NULL AND between 0 and 100,HIGH,Part 4

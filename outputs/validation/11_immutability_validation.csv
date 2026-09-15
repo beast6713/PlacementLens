@@ -1,0 +1,2 @@
+file_path,file_size_kb,current_md5_hash,expected_md5_hash,immutability_status
+C:\Users\kunje\OneDrive\Desktop\Projects\placement_analytics\data\raw\placementlens_students_raw.csv,105.16,59c04ee15a0112806c510225d8e75779,59c04ee15a0112806c510225d8e75779,PASS (0 bytes altered)

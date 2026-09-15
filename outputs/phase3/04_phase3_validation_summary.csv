@@ -1,0 +1,8 @@
+validation_layer,total_checks,passed_checks,failed_checks,discrepancies,status,notes
+Population & Cohorts,4,4,0,0,PASS,"Student N=1500, Placed=950, Unplaced=550 exact match"
+Branch Analytics,2,2,0,0,PASS,6 branch counts & placement rates exact match
+Skill Analytics,5,5,0,0,PASS,"7 skills counts, prevalence, placement rates, spreads, tech_skill_count match"
+Performance Bands,6,6,0,0,PASS,"CGPA, Coding, Aptitude, Comm, Projects, Internships bands match"
+Compensation Packages,3,3,0,0,PASS,"Overall, branch, company type package stats match"
+Preparation & Profiles,2,2,0,0,PASS,Score spreads & branch profiles match
+Integrity & NULL Semantics,1,1,0,0,PASS,Unplaced package NULL semantics preserved

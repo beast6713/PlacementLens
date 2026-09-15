@@ -1,0 +1,3 @@
+cohort,student_count,avg_cgpa,avg_coding_score,avg_aptitude_score,avg_communication_score,avg_projects,avg_internships,avg_technical_skill_count
+Unplaced,550,7.14,70.25,69.65,79.88,1.91,0.75,4.03
+Placed,950,7.42,74.38,73.0,81.17,2.11,0.92,4.23

@@ -1,0 +1,17 @@
+validation_id,category,metric,segment,python_value,sql_value,absolute_difference,tolerance,status
+CV-01,Population,total_students,All,1500.0,1500.0,0.0,0.0,PASS
+CV-02,Placement,placed_count,Placed,950.0,950.0,0.0,0.0,PASS
+CV-03,Placement,placement_rate_pct,Overall,63.33,63.33,0.0,0.01,PASS
+CV-05,Branch,branch_placement_rate,CE,68.57,68.57,0.0,0.01,PASS
+CV-05,Branch,branch_placement_rate,CSE,63.78,63.78,0.0,0.01,PASS
+CV-05,Branch,branch_placement_rate,ECE,60.33,60.33,0.0,0.01,PASS
+CV-05,Branch,branch_placement_rate,EEE,66.0,66.0,0.0,0.01,PASS
+CV-05,Branch,branch_placement_rate,IT,65.07,65.07,0.0,0.01,PASS
+CV-05,Branch,branch_placement_rate,ME,55.83,55.83,0.0,0.01,PASS
+CV-09,Skill,skill_impact_spread_pp,python_skill,6.94,6.94,0.0,0.01,PASS
+CV-09,Skill,skill_impact_spread_pp,sql_skill,9.17,9.17,0.0,0.01,PASS
+CV-09,Skill,skill_impact_spread_pp,excel_skill,2.59,2.59,0.0,0.01,PASS
+CV-09,Skill,skill_impact_spread_pp,power_bi_skill,1.01,1.01,0.0,0.01,PASS
+CV-09,Skill,skill_impact_spread_pp,dsa_skill,1.47,1.47,0.0,0.01,PASS
+CV-09,Skill,skill_impact_spread_pp,cloud_skill,6.04,6.04,0.0,0.01,PASS
+CV-09,Skill,skill_impact_spread_pp,cybersecurity_skill,-2.98,-2.98,0.0,0.01,PASS

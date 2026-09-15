@@ -1,0 +1,9 @@
+step,script,rule,status
+Step 1: Input Raw Verification,scripts/clean_dataset.py,MD5 hash check (59c04ee15a0112806c510225d8e75779),PASS
+Step 2: String Trimming & Case Norm,scripts/clean_dataset.py,"gender.strip(), branch.upper(), company.title()",PASS
+Step 3: Binary Skill Flag Parse,scripts/clean_dataset.py,python_skill Yes/No -> 1/0 int64,PASS
+Step 4: Physical Deduplication,scripts/clean_dataset.py,"keep=first on student_id (1,505 -> 1,500)",PASS
+Step 5: Communication Score Imputation,scripts/clean_dataset.py,Branch cohort median calculation on valid rows,PASS
+Step 6: Schema & Types Enforcement,scripts/clean_dataset.py,Enforce DDL 20 columns and data types,PASS
+Step 7: Post-Cleaning Rule Auditing,scripts/validate_clean_dataset.py,Audit rules VAL-01 through VAL-08,PASS
+Step 8: Post Raw Immutability Check,scripts/clean_dataset.py,Verify raw MD5 post-execution,PASS

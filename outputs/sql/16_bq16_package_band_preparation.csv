@@ -1,0 +1,5 @@
+package_band,placed_students,avg_cgpa,avg_coding_score,avg_aptitude_score,avg_communication_score,avg_projects,avg_internships,avg_technical_skill_count
+1. < 4.0 LPA,16,6.86,73.84,67.04,77.81,1.38,0.88,4.5
+2. 4.0 – 6.0 LPA,207,7.05,71.34,70.23,78.62,1.95,0.79,4.0
+3. 6.0 – 10.0 LPA,262,7.35,72.93,72.44,81.29,1.92,0.83,4.26
+4. 10.0+ LPA,465,7.65,76.58,74.76,82.34,2.32,1.03,4.3

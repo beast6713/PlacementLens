@@ -1,0 +1,7 @@
+defect_type,expected_count,detected_raw_count,resolved_count,remaining_count,status
+Duplicate Physical Rows,5,5,5,0,PASS
+Branch Case Inconsistencies,25,25,25,0,PASS
+Company Type Formatting Inconsistencies,15,15,15,0,PASS
+Gender Whitespace Padding,20,20,20,0,PASS
+Python Skill String Binary Flags,15,15,15,0,PASS
+Missing Communication Scores,15,15,15,0,PASS

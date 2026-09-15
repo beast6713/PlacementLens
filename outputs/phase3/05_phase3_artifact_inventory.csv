@@ -1,0 +1,23 @@
+artifact,path,type,purpose,status,canonical,phase,notes
+eda_analysis.py,scripts/eda_analysis.py,Python Script,Executes 8-layer Python EDA and exports 15 CSVs + 5 plots,COMPLETE,True,P3-P2,Deterministic Python analysis
+load_postgres.py,scripts/load_postgres.py,Python Script,Loads frozen clean CSV into PostgreSQL public.students,COMPLETE,True,P3-P3,ETL ingestion script
+execute_sql_analytics.py,scripts/execute_sql_analytics.py,Python Script,Executes BQ01-BQ21 SQL analytics against PostgreSQL,COMPLETE,True,P3-P4,Automated SQL runner
+cross_validate_results.py,scripts/cross_validate_results.py,Python Script,Executes Python ↔ SQL cross-validation audit suite,COMPLETE,True,P3-P5,23-check quality validator
+finalize_phase3.py,scripts/finalize_phase3.py,Python Script,"Performs Phase 3 final audit, metric freeze, and handoff",COMPLETE,True,P3-P6,Phase 3 closure runner
+01_create_schema.sql,sql/01_create_schema.sql,SQL DDL,Creates public.students schema with DDL constraints,COMPLETE,True,P3-P3,Schema definition
+02_create_indexes.sql,sql/02_create_indexes.sql,SQL DDL,Creates database performance indexes,COMPLETE,True,P3-P3,Indexing script
+03_business_analytics.sql,sql/03_business_analytics.sql,SQL Script,Contains BQ01-BQ21 analytical SQL queries,COMPLETE,True,P3-P4,Business questions SQL
+04_sql_validation.sql,sql/04_sql_validation.sql,SQL Script,Contains SQL data validation and integrity checks,COMPLETE,True,P3-P4,SQL validation queries
+05_cross_validation_queries.sql,sql/05_cross_validation_queries.sql,SQL Script,Queries for cross-validation metric extraction,COMPLETE,True,P3-P5,CV SQL queries
+Python EDA Outputs,outputs/eda/*,CSV / PNG / MD,15 analytical CSV tables and 5 PNG figures,COMPLETE,True,P3-P2,EDA deliverables
+PostgreSQL Audit Files,outputs/postgresql/*,CSV / MD,11 database ingestion audit files,COMPLETE,True,P3-P3,DB audit logs
+SQL Analytics Outputs,outputs/sql/*,CSV / MD,21 BQ CSV outputs + query register + findings,COMPLETE,True,P3-P4,SQL analytics deliverables
+Cross-Validation Outputs,outputs/cross_validation/*,CSV / MD,13 cross-validation audit files and scorecard,COMPLETE,True,P3-P5,CV deliverables
+Phase 3 Freeze Outputs,outputs/phase3/*,CSV / MD,6 Phase 3 completion scorecards and metric baselines,COMPLETE,True,P3-P6,Phase 3 baseline files
+analytics_strategy.md,docs/analytics_strategy.md,Markdown Doc,P3-P1 Analytics Strategy & Plan Specification,COMPLETE,True,P3-P1,Strategy doc
+python_eda.md,docs/python_eda.md,Markdown Doc,P3-P2 Python EDA & Statistical Analysis Report,COMPLETE,True,P3-P2,EDA report
+postgresql_setup.md,docs/postgresql_setup.md,Markdown Doc,P3-P3 PostgreSQL Database Setup & Data Loading Documentation,COMPLETE,True,P3-P3,PostgreSQL doc
+sql_analytics.md,docs/sql_analytics.md,Markdown Doc,P3-P4 SQL Analytics & Business Questions Documentation,COMPLETE,True,P3-P4,SQL analytics doc
+python_sql_cross_validation.md,docs/python_sql_cross_validation.md,Markdown Doc,P3-P5 Python ↔ SQL Cross-Validation Technical Report,COMPLETE,True,P3-P5,Cross-validation doc
+phase3_completion.md,docs/phase3_completion.md,Markdown Doc,P3-P6 Technical Completion Report,COMPLETE,True,P3-P6,Completion doc
+phase3_to_phase4_handoff.md,docs/phase3_to_phase4_handoff.md,Markdown Doc,P3-P6 Handoff Specification for Phase 4,COMPLETE,True,P3-P6,Handoff doc

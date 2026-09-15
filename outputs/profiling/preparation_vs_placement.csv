@@ -1,0 +1,7 @@
+preparation_variable,placed_mean,placed_median,unplaced_mean,unplaced_median,difference_mean,analytical_interpretation
+cgpa,7.43,7.42,7.14,7.13,0.29,Observed association: Placed cohort averages +0.29 higher in cgpa
+coding_score,74.38,74.31,70.29,70.09,4.09,Observed association: Placed cohort averages +4.09 higher in coding_score
+aptitude_score,73.03,73.0,69.64,69.66,3.4,Observed association: Placed cohort averages +3.4 higher in aptitude_score
+communication_score,81.15,82.31,79.86,80.54,1.29,Observed association: Placed cohort averages +1.29 higher in communication_score
+internships,0.92,1.0,0.75,1.0,0.16,Observed association: Placed cohort averages +0.16 higher in internships
+projects,2.11,2.0,1.91,2.0,0.2,Observed association: Placed cohort averages +0.2 higher in projects

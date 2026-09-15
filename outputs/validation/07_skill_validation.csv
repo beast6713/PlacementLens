@@ -1,0 +1,8 @@
+skill_field,valid_binary_representations,string_binary_defects,invalid_representations,status
+python_skill,1505,15,0,PASS (15 python_skill string defects expected)
+sql_skill,1505,0,0,PASS (15 python_skill string defects expected)
+excel_skill,1505,0,0,PASS (15 python_skill string defects expected)
+power_bi_skill,1505,0,0,PASS (15 python_skill string defects expected)
+dsa_skill,1505,0,0,PASS (15 python_skill string defects expected)
+cloud_skill,1505,0,0,PASS (15 python_skill string defects expected)
+cybersecurity_skill,1505,0,0,PASS (15 python_skill string defects expected)

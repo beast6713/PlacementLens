@@ -1,0 +1,21 @@
+column,null_count,null_percentage,expected_null_behavior,status
+student_id,0,0.0,Zero NULLs expected,PASS
+age,0,0.0,Zero NULLs expected,PASS
+gender,0,0.0,Zero NULLs expected,PASS
+branch,0,0.0,Zero NULLs expected,PASS
+cgpa,0,0.0,Zero NULLs expected,PASS
+internships,0,0.0,Zero NULLs expected,PASS
+projects,0,0.0,Zero NULLs expected,PASS
+coding_score,0,0.0,Zero NULLs expected,PASS
+aptitude_score,0,0.0,Zero NULLs expected,PASS
+communication_score,0,0.0,Zero NULLs expected,PASS
+python_skill,0,0.0,Zero NULLs expected,PASS
+sql_skill,0,0.0,Zero NULLs expected,PASS
+excel_skill,0,0.0,Zero NULLs expected,PASS
+power_bi_skill,0,0.0,Zero NULLs expected,PASS
+dsa_skill,0,0.0,Zero NULLs expected,PASS
+cloud_skill,0,0.0,Zero NULLs expected,PASS
+cybersecurity_skill,0,0.0,Zero NULLs expected,PASS
+placed,0,0.0,Zero NULLs expected,PASS
+company_type,550,36.67,NULL allowed for unplaced students (placed=0),PASS
+package_lpa,550,36.67,NULL allowed for unplaced students (placed=0),PASS

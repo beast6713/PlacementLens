@@ -1,0 +1,2 @@
+pii_columns_detected,student_id_format,pii_compliance_status
+None,Synthetic sequential key (S0001-S1500),PASS (Zero student PII present)

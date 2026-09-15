@@ -1,0 +1,9 @@
+metric,expected,actual,difference,status
+Total Student Population,1500.0,1500.0,0.0,PASS
+Placed Student Count,950.0,950.0,0.0,PASS
+Unplaced Student Count,550.0,550.0,0.0,PASS
+Overall Placement Rate (%),63.33,63.33,0.0,PASS
+Python Skill Holders Count,1177.0,1177.0,0.0,PASS
+SQL Skill Holders Count,1169.0,1169.0,0.0,PASS
+Excel Skill Holders Count,1258.0,1258.0,0.0,PASS
+Placed Mean Package (LPA),10.62,10.62,0.0,PASS

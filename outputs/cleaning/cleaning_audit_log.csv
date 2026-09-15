@@ -1,0 +1,96 @@
+student_id,field,original_value,cleaned_value,transformation,rule_id,defect_category,status
+S0031,gender, Male ,Male,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S0076,gender, Male ,Male,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S0141,gender, Female ,Female,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S0196,gender, Female ,Female,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S0261,gender, Female ,Female,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S0316,gender, Male ,Male,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S0381,gender, Male ,Male,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S0446,gender, Male ,Male,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S0511,gender, Male ,Male,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S0576,gender, Female ,Female,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S0631,gender, Female ,Female,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S0706,gender, Male ,Male,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S0771,gender, Male ,Male,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S0841,gender, Female ,Female,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S0916,gender, Male ,Male,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S0981,gender, Female ,Female,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S1051,gender, Male ,Male,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S1131,gender, Male ,Male,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S1221,gender, Male ,Male,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S1311,gender, Prefer not to say ,Prefer not to say,str.strip(),VAL-04,Gender Whitespace,RESOLVED
+S0016,branch,cse,CSE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0043,branch,ce,CE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0089,branch,ece,ECE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0125,branch,it,IT,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0168,branch,cse,CSE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0211,branch,ece,ECE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0256,branch,it,IT,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0302,branch,me,ME,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0346,branch,ece,ECE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0413,branch,cse,CSE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0481,branch,it,IT,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0526,branch,eee,EEE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0591,branch,ece,ECE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0641,branch,ece,ECE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0711,branch,ece,ECE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0781,branch,it,IT,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0836,branch,ece,ECE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0911,branch,cse,CSE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0961,branch,ce,CE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S1021,branch,cse,CSE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S1116,branch,me,ME,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S1206,branch,it,IT,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S1281,branch,ce,CE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S1341,branch,ece,ECE,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S1421,branch,me,ME,str.strip().str.upper(),VAL-03,Branch Case,RESOLVED
+S0011,company_type,product,Product,str.strip().str.title(),VAL-05,Company Type Formatting,RESOLVED
+S0012,company_type,product,Product,str.strip().str.title(),VAL-05,Company Type Formatting,RESOLVED
+S0014,company_type,product,Product,str.strip().str.title(),VAL-05,Company Type Formatting,RESOLVED
+S0015,company_type,product,Product,str.strip().str.title(),VAL-05,Company Type Formatting,RESOLVED
+S0016,company_type,product,Product,str.strip().str.title(),VAL-05,Company Type Formatting,RESOLVED
+S0018,company_type,product,Product,str.strip().str.title(),VAL-05,Company Type Formatting,RESOLVED
+S0019,company_type,product,Product,str.strip().str.title(),VAL-05,Company Type Formatting,RESOLVED
+S0020,company_type,Service ,Service,str.strip().str.title(),VAL-05,Company Type Formatting,RESOLVED
+S0024,company_type,Service ,Service,str.strip().str.title(),VAL-05,Company Type Formatting,RESOLVED
+S0025,company_type,startup,Startup,str.strip().str.title(),VAL-05,Company Type Formatting,RESOLVED
+S0027,company_type,Service ,Service,str.strip().str.title(),VAL-05,Company Type Formatting,RESOLVED
+S0028,company_type,product,Product,str.strip().str.title(),VAL-05,Company Type Formatting,RESOLVED
+S0032,company_type,startup,Startup,str.strip().str.title(),VAL-05,Company Type Formatting,RESOLVED
+S0034,company_type,Service ,Service,str.strip().str.title(),VAL-05,Company Type Formatting,RESOLVED
+S0037,company_type,startup,Startup,str.strip().str.title(),VAL-05,Company Type Formatting,RESOLVED
+S0051,python_skill,No,0,binary_mapping,VAL-06,Python Skill Binary Flags,RESOLVED
+S0111,python_skill,Yes,1,binary_mapping,VAL-06,Python Skill Binary Flags,RESOLVED
+S0176,python_skill,Yes,1,binary_mapping,VAL-06,Python Skill Binary Flags,RESOLVED
+S0231,python_skill,No,0,binary_mapping,VAL-06,Python Skill Binary Flags,RESOLVED
+S0291,python_skill,Yes,1,binary_mapping,VAL-06,Python Skill Binary Flags,RESOLVED
+S0351,python_skill,No,0,binary_mapping,VAL-06,Python Skill Binary Flags,RESOLVED
+S0411,python_skill,Yes,1,binary_mapping,VAL-06,Python Skill Binary Flags,RESOLVED
+S0471,python_skill,Yes,1,binary_mapping,VAL-06,Python Skill Binary Flags,RESOLVED
+S0531,python_skill,Yes,1,binary_mapping,VAL-06,Python Skill Binary Flags,RESOLVED
+S0611,python_skill,Yes,1,binary_mapping,VAL-06,Python Skill Binary Flags,RESOLVED
+S0691,python_skill,No,0,binary_mapping,VAL-06,Python Skill Binary Flags,RESOLVED
+S0761,python_skill,Yes,1,binary_mapping,VAL-06,Python Skill Binary Flags,RESOLVED
+S0851,python_skill,Yes,1,binary_mapping,VAL-06,Python Skill Binary Flags,RESOLVED
+S0941,python_skill,Yes,1,binary_mapping,VAL-06,Python Skill Binary Flags,RESOLVED
+S1031,python_skill,Yes,1,binary_mapping,VAL-06,Python Skill Binary Flags,RESOLVED
+S0120,student_id,Duplicate Physical Row,REMOVED,"drop_duplicates(subset=[student_id], keep=first)",VAL-01/VAL-02,Duplicate Rows,RESOLVED
+S0450,student_id,Duplicate Physical Row,REMOVED,"drop_duplicates(subset=[student_id], keep=first)",VAL-01/VAL-02,Duplicate Rows,RESOLVED
+S0780,student_id,Duplicate Physical Row,REMOVED,"drop_duplicates(subset=[student_id], keep=first)",VAL-01/VAL-02,Duplicate Rows,RESOLVED
+S1100,student_id,Duplicate Physical Row,REMOVED,"drop_duplicates(subset=[student_id], keep=first)",VAL-01/VAL-02,Duplicate Rows,RESOLVED
+S1350,student_id,Duplicate Physical Row,REMOVED,"drop_duplicates(subset=[student_id], keep=first)",VAL-01/VAL-02,Duplicate Rows,RESOLVED
+S0061,communication_score,NULL,82.34,branch_cohort_median_imputation(IT),VAL-07,Missing Communication Score,RESOLVED
+S0131,communication_score,NULL,81.37,branch_cohort_median_imputation(ME),VAL-07,Missing Communication Score,RESOLVED
+S0216,communication_score,NULL,81.68,branch_cohort_median_imputation(ECE),VAL-07,Missing Communication Score,RESOLVED
+S0286,communication_score,NULL,82.34,branch_cohort_median_imputation(IT),VAL-07,Missing Communication Score,RESOLVED
+S0361,communication_score,NULL,82.34,branch_cohort_median_imputation(IT),VAL-07,Missing Communication Score,RESOLVED
+S0436,communication_score,NULL,81.37,branch_cohort_median_imputation(ME),VAL-07,Missing Communication Score,RESOLVED
+S0521,communication_score,NULL,82.34,branch_cohort_median_imputation(IT),VAL-07,Missing Communication Score,RESOLVED
+S0606,communication_score,NULL,82.34,branch_cohort_median_imputation(IT),VAL-07,Missing Communication Score,RESOLVED
+S0681,communication_score,NULL,81.15,branch_cohort_median_imputation(CSE),VAL-07,Missing Communication Score,RESOLVED
+S0756,communication_score,NULL,82.34,branch_cohort_median_imputation(IT),VAL-07,Missing Communication Score,RESOLVED
+S0846,communication_score,NULL,82.34,branch_cohort_median_imputation(IT),VAL-07,Missing Communication Score,RESOLVED
+S0931,communication_score,NULL,81.15,branch_cohort_median_imputation(CSE),VAL-07,Missing Communication Score,RESOLVED
+S1016,communication_score,NULL,81.15,branch_cohort_median_imputation(CSE),VAL-07,Missing Communication Score,RESOLVED
+S1126,communication_score,NULL,81.37,branch_cohort_median_imputation(ME),VAL-07,Missing Communication Score,RESOLVED
+S1241,communication_score,NULL,81.68,branch_cohort_median_imputation(ECE),VAL-07,Missing Communication Score,RESOLVED

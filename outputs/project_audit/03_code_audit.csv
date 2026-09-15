@@ -1,0 +1,10 @@
+file,lines_of_code,syntax_valid,imports_used,status
+scripts\audit_project.py,396,True,"os, sys, glob, re, hashlib",PASS
+scripts\clean_dataset.py,406,True,"os, sys, hashlib, pandas, numpy",PASS
+scripts\clean_standardize.py,426,True,"os, sys, hashlib, pandas, numpy",PASS
+scripts\clean_structural.py,228,True,"os, sys, hashlib, pandas, numpy",PASS
+scripts\finalize_phase2.py,183,True,"os, sys, hashlib, datetime, pandas",PASS
+scripts\generate_dataset.py,430,True,"os, sys, math, random, hashlib",PASS
+scripts\profile_dataset.py,308,True,"os, sys, pandas, numpy",PASS
+scripts\validate_clean_dataset.py,519,True,"os, sys, hashlib, pandas, numpy",PASS
+scripts\validate_data_foundation.py,285,True,"os, sys, hashlib, pandas, numpy",PASS

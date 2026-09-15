@@ -1,0 +1,20 @@
+metric_id,metric_name,definition,population,python_value,sql_value,difference,tolerance,validation_status,source_output,notes
+M01,Total Student Population,Total physical students in clean dataset,All Students,1500,1500,0,Exact (0),PASS,01_dataset_overview.csv / BQ01,Physical rows
+M02,Placed Student Count,Total students with placed=TRUE,All Students,950,950,0,Exact (0),PASS,06_placement_analysis.csv / BQ01,63.33% of population
+M03,Unplaced Student Count,Total students with placed=FALSE,All Students,550,550,0,Exact (0),PASS,06_placement_analysis.csv / BQ01,36.67% of population
+M04,Overall Placement Rate (%),Percentage of students placed,All Students,63.33%,63.33%,0.00%,±0.01%,PASS,06_placement_analysis.csv / BQ01,Baseline placement rate
+M05,Civil Engineering Placement Rate,Placement rate in CE branch,CE Students (N=105),68.57%,68.57%,0.00%,±0.01%,PASS,05_branch_analysis.csv / BQ02,Rank 1 placement rate
+M06,Electrical Engineering Placement Rate,Placement rate in EEE branch,EEE Students (N=150),66.00%,66.00%,0.00%,±0.01%,PASS,05_branch_analysis.csv / BQ02,Rank 2 placement rate
+M07,Information Technology Placement Rate,Placement rate in IT branch,IT Students (N=375),65.07%,65.07%,0.00%,±0.01%,PASS,05_branch_analysis.csv / BQ02,Rank 3 placement rate
+M08,Computer Science Placement Rate,Placement rate in CSE branch,CSE Students (N=450),63.78%,63.78%,0.00%,±0.01%,PASS,05_branch_analysis.csv / BQ02,Rank 4 placement rate
+M09,Electronics Placement Rate,Placement rate in ECE branch,ECE Students (N=300),60.33%,60.33%,0.00%,±0.01%,PASS,05_branch_analysis.csv / BQ02,Rank 5 placement rate
+M10,Mechanical Engineering Placement Rate,Placement rate in ME branch,ME Students (N=120),55.83%,55.83%,0.00%,±0.01%,PASS,05_branch_analysis.csv / BQ02,Rank 6 placement rate
+M11,SQL Skill Placement Spread,Placement rate difference (Holders vs Non),All Students,+9.17 pp,+9.17 pp,0.00 pp,±0.01 pp,PASS,09_skill_placement_analysis.csv / BQ11,Rank 1 skill placement spread
+M12,Python Skill Placement Spread,Placement rate difference (Holders vs Non),All Students,+6.94 pp,+6.94 pp,0.00 pp,±0.01 pp,PASS,09_skill_placement_analysis.csv / BQ11,Rank 2 skill placement spread
+M13,Cloud Skill Placement Spread,Placement rate difference (Holders vs Non),All Students,+6.04 pp,+6.04 pp,0.00 pp,±0.01 pp,PASS,09_skill_placement_analysis.csv / BQ11,Rank 3 skill placement spread
+M14,Overall Placed Mean Package,Average package among placed students,Placed Cohort (N=950),10.62 LPA,10.62 LPA,0.00 LPA,±0.01 LPA,PASS,11_package_analysis.csv / BQ13,"Median = 9.70 LPA, IQR = 8.22 LPA"
+M15,Product Company Mean Package,Average package in Product firms,Placed in Product (N=162),16.26 LPA,16.26 LPA,0.00 LPA,±0.01 LPA,PASS,11_package_analysis.csv / BQ15,Highest paying tier
+M16,Startup Company Mean Package,Average package in Startup firms,Placed in Startup (N=142),12.09 LPA,12.09 LPA,0.00 LPA,±0.01 LPA,PASS,11_package_analysis.csv / BQ15,Second highest paying tier
+M17,Service Company Mean Package,Average package in Service firms,Placed in Service (N=482),5.90 LPA,5.90 LPA,0.00 LPA,±0.01 LPA,PASS,11_package_analysis.csv / BQ15,Largest volume employer
+M18,Placed vs Unplaced Coding Spread,Difference in mean coding score,Placed vs Unplaced,+5.41 pts,+5.41 pts,0.00 pts,±0.01 pts,PASS,07_score_analysis.csv / BQ17,Placed 78.36 vs Unplaced 72.95
+M19,Placed vs Unplaced CGPA Spread,Difference in mean CGPA score,Placed vs Unplaced,+0.59 pts,+0.59 pts,0.00 pts,±0.01 pts,PASS,07_score_analysis.csv / BQ17,Placed 7.81 vs Unplaced 7.22

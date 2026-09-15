@@ -1,0 +1,7 @@
+validation_id,category,metric,segment,python_value,sql_value,absolute_difference,tolerance,status
+CV-05,Branch,branch_placement_rate,CE,68.57,68.57,0.0,0.01,PASS
+CV-05,Branch,branch_placement_rate,CSE,63.78,63.78,0.0,0.01,PASS
+CV-05,Branch,branch_placement_rate,ECE,60.33,60.33,0.0,0.01,PASS
+CV-05,Branch,branch_placement_rate,EEE,66.0,66.0,0.0,0.01,PASS
+CV-05,Branch,branch_placement_rate,IT,65.07,65.07,0.0,0.01,PASS
+CV-05,Branch,branch_placement_rate,ME,55.83,55.83,0.0,0.01,PASS

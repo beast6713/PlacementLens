@@ -1,0 +1,11 @@
+student_id,original_row_number,occurrence_number,action,retained,reason
+S0120,121,1,KEEP,True,First occurrence
+S0450,451,1,KEEP,True,First occurrence
+S0780,781,1,KEEP,True,First occurrence
+S1100,1101,1,KEEP,True,First occurrence
+S1350,1351,1,KEEP,True,First occurrence
+S0120,1502,2,REMOVE,False,Duplicate student_id
+S0450,1503,2,REMOVE,False,Duplicate student_id
+S0780,1504,2,REMOVE,False,Duplicate student_id
+S1100,1505,2,REMOVE,False,Duplicate student_id
+S1350,1506,2,REMOVE,False,Duplicate student_id

@@ -1,0 +1,2 @@
+dataset_name,dataset_version,file_path,row_count,unique_student_count,column_count,schema_version,raw_dataset_hash,clean_dataset_hash,controlled_defects_original,controlled_defects_resolved,controlled_defects_remaining,validation_status,phase_status,timestamp
+PlacementLens Clean Student Placement Dataset,v1.0-clean,data/processed/placementlens_students_clean.csv,1500,1500,20,v1.0 DDL,59c04ee15a0112806c510225d8e75779,96023d297eec5a9a47563eaddc157d0d,95,95,0,PASS (100%),PHASE 2 COMPLETE — READY FOR PHASE 3,2026-09-15 19:43:17 UTC

@@ -1,0 +1,2 @@
+check_id,check_name,expected,python_result,sql_result,difference,tolerance,status,severity,notes
+CV-23,Source & Raw Dataset MD5 Immutability,Clean: 96023d297eec5a9a47563eaddc157d0d,Clean: 96023d297eec5a9a47563eaddc157d0d,Clean: 96023d297eec5a9a47563eaddc157d0d,0.0,Exact match,PASS,CRITICAL,100% source dataset immutability verified

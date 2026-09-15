@@ -1,0 +1,66 @@
+student_id,column,original_value,cleaned_value,transformation,status
+S0011,company_type,product,Product,company_type_case_and_space_normalization,RESOLVED
+S0012,company_type,product,Product,company_type_case_and_space_normalization,RESOLVED
+S0014,company_type,product,Product,company_type_case_and_space_normalization,RESOLVED
+S0015,company_type,product,Product,company_type_case_and_space_normalization,RESOLVED
+S0016,company_type,product,Product,company_type_case_and_space_normalization,RESOLVED
+S0018,company_type,product,Product,company_type_case_and_space_normalization,RESOLVED
+S0019,company_type,product,Product,company_type_case_and_space_normalization,RESOLVED
+S0020,company_type,Service ,Service,company_type_case_and_space_normalization,RESOLVED
+S0024,company_type,Service ,Service,company_type_case_and_space_normalization,RESOLVED
+S0025,company_type,startup,Startup,company_type_case_and_space_normalization,RESOLVED
+S0027,company_type,Service ,Service,company_type_case_and_space_normalization,RESOLVED
+S0028,company_type,product,Product,company_type_case_and_space_normalization,RESOLVED
+S0032,company_type,startup,Startup,company_type_case_and_space_normalization,RESOLVED
+S0034,company_type,Service ,Service,company_type_case_and_space_normalization,RESOLVED
+S0037,company_type,startup,Startup,company_type_case_and_space_normalization,RESOLVED
+S0031,gender, Male ,Male,gender_whitespace_trim,RESOLVED
+S0076,gender, Male ,Male,gender_whitespace_trim,RESOLVED
+S0141,gender, Female ,Female,gender_whitespace_trim,RESOLVED
+S0196,gender, Female ,Female,gender_whitespace_trim,RESOLVED
+S0261,gender, Female ,Female,gender_whitespace_trim,RESOLVED
+S0316,gender, Male ,Male,gender_whitespace_trim,RESOLVED
+S0381,gender, Male ,Male,gender_whitespace_trim,RESOLVED
+S0446,gender, Male ,Male,gender_whitespace_trim,RESOLVED
+S0511,gender, Male ,Male,gender_whitespace_trim,RESOLVED
+S0576,gender, Female ,Female,gender_whitespace_trim,RESOLVED
+S0631,gender, Female ,Female,gender_whitespace_trim,RESOLVED
+S0706,gender, Male ,Male,gender_whitespace_trim,RESOLVED
+S0771,gender, Male ,Male,gender_whitespace_trim,RESOLVED
+S0841,gender, Female ,Female,gender_whitespace_trim,RESOLVED
+S0916,gender, Male ,Male,gender_whitespace_trim,RESOLVED
+S0981,gender, Female ,Female,gender_whitespace_trim,RESOLVED
+S1051,gender, Male ,Male,gender_whitespace_trim,RESOLVED
+S1131,gender, Male ,Male,gender_whitespace_trim,RESOLVED
+S1221,gender, Male ,Male,gender_whitespace_trim,RESOLVED
+S1311,gender, Prefer not to say ,Prefer not to say,gender_whitespace_trim,RESOLVED
+S0051,python_skill,No,0,python_skill_binary_normalization,RESOLVED
+S0111,python_skill,Yes,1,python_skill_binary_normalization,RESOLVED
+S0176,python_skill,Yes,1,python_skill_binary_normalization,RESOLVED
+S0231,python_skill,No,0,python_skill_binary_normalization,RESOLVED
+S0291,python_skill,Yes,1,python_skill_binary_normalization,RESOLVED
+S0351,python_skill,No,0,python_skill_binary_normalization,RESOLVED
+S0411,python_skill,Yes,1,python_skill_binary_normalization,RESOLVED
+S0471,python_skill,Yes,1,python_skill_binary_normalization,RESOLVED
+S0531,python_skill,Yes,1,python_skill_binary_normalization,RESOLVED
+S0611,python_skill,Yes,1,python_skill_binary_normalization,RESOLVED
+S0691,python_skill,No,0,python_skill_binary_normalization,RESOLVED
+S0761,python_skill,Yes,1,python_skill_binary_normalization,RESOLVED
+S0851,python_skill,Yes,1,python_skill_binary_normalization,RESOLVED
+S0941,python_skill,Yes,1,python_skill_binary_normalization,RESOLVED
+S1031,python_skill,Yes,1,python_skill_binary_normalization,RESOLVED
+S0061,communication_score,NULL,82.34,communication_score_branch_cohort_median(IT),RESOLVED
+S0131,communication_score,NULL,81.37,communication_score_branch_cohort_median(ME),RESOLVED
+S0216,communication_score,NULL,81.68,communication_score_branch_cohort_median(ECE),RESOLVED
+S0286,communication_score,NULL,82.34,communication_score_branch_cohort_median(IT),RESOLVED
+S0361,communication_score,NULL,82.34,communication_score_branch_cohort_median(IT),RESOLVED
+S0436,communication_score,NULL,81.37,communication_score_branch_cohort_median(ME),RESOLVED
+S0521,communication_score,NULL,82.34,communication_score_branch_cohort_median(IT),RESOLVED
+S0606,communication_score,NULL,82.34,communication_score_branch_cohort_median(IT),RESOLVED
+S0681,communication_score,NULL,81.15,communication_score_branch_cohort_median(CSE),RESOLVED
+S0756,communication_score,NULL,82.34,communication_score_branch_cohort_median(IT),RESOLVED
+S0846,communication_score,NULL,82.34,communication_score_branch_cohort_median(IT),RESOLVED
+S0931,communication_score,NULL,81.15,communication_score_branch_cohort_median(CSE),RESOLVED
+S1016,communication_score,NULL,81.15,communication_score_branch_cohort_median(CSE),RESOLVED
+S1126,communication_score,NULL,81.37,communication_score_branch_cohort_median(ME),RESOLVED
+S1241,communication_score,NULL,81.68,communication_score_branch_cohort_median(ECE),RESOLVED

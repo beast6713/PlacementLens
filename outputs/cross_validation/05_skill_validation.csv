@@ -1,0 +1,8 @@
+validation_id,category,metric,segment,python_value,sql_value,absolute_difference,tolerance,status
+CV-09,Skill,skill_impact_spread_pp,python_skill,6.94,6.94,0.0,0.01,PASS
+CV-09,Skill,skill_impact_spread_pp,sql_skill,9.17,9.17,0.0,0.01,PASS
+CV-09,Skill,skill_impact_spread_pp,excel_skill,2.59,2.59,0.0,0.01,PASS
+CV-09,Skill,skill_impact_spread_pp,power_bi_skill,1.01,1.01,0.0,0.01,PASS
+CV-09,Skill,skill_impact_spread_pp,dsa_skill,1.47,1.47,0.0,0.01,PASS
+CV-09,Skill,skill_impact_spread_pp,cloud_skill,6.04,6.04,0.0,0.01,PASS
+CV-09,Skill,skill_impact_spread_pp,cybersecurity_skill,-2.98,-2.98,0.0,0.01,PASS

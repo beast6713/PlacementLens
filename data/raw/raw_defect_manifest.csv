@@ -1,0 +1,96 @@
+defect_id,defect_type,target_field,row_index,student_id,original_value,injected_value,reason,expected_cleaning_action
+DEF-001,Case Inconsistency,branch,15,S0016,CSE,cse,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-002,Case Inconsistency,branch,42,S0043,CE,ce,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-003,Case Inconsistency,branch,88,S0089,ECE,ece,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-004,Case Inconsistency,branch,124,S0125,IT,it,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-005,Case Inconsistency,branch,167,S0168,CSE,cse,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-006,Case Inconsistency,branch,210,S0211,ECE,ece,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-007,Case Inconsistency,branch,255,S0256,IT,it,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-008,Case Inconsistency,branch,301,S0302,ME,me,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-009,Case Inconsistency,branch,345,S0346,ECE,ece,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-010,Case Inconsistency,branch,412,S0413,CSE,cse,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-011,Case Inconsistency,branch,480,S0481,IT,it,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-012,Case Inconsistency,branch,525,S0526,EEE,eee,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-013,Case Inconsistency,branch,590,S0591,ECE,ece,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-014,Case Inconsistency,branch,640,S0641,ECE,ece,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-015,Case Inconsistency,branch,710,S0711,ECE,ece,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-016,Case Inconsistency,branch,780,S0781,IT,it,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-017,Case Inconsistency,branch,835,S0836,ECE,ece,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-018,Case Inconsistency,branch,910,S0911,CSE,cse,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-019,Case Inconsistency,branch,960,S0961,CE,ce,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-020,Case Inconsistency,branch,1020,S1021,CSE,cse,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-021,Case Inconsistency,branch,1115,S1116,ME,me,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-022,Case Inconsistency,branch,1205,S1206,IT,it,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-023,Case Inconsistency,branch,1280,S1281,CE,ce,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-024,Case Inconsistency,branch,1340,S1341,ECE,ece,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-025,Case Inconsistency,branch,1420,S1421,ME,me,Demonstrate case standardization (str.upper) in Phase 2 ETL,Convert to uppercase
+DEF-026,Case & Space Inconsistency,company_type,10,S0011,Product,product,Demonstrate string stripping and capitalization normalization,Strip whitespace and titlecase
+DEF-027,Case & Space Inconsistency,company_type,11,S0012,Product,product,Demonstrate string stripping and capitalization normalization,Strip whitespace and titlecase
+DEF-028,Case & Space Inconsistency,company_type,13,S0014,Product,product,Demonstrate string stripping and capitalization normalization,Strip whitespace and titlecase
+DEF-029,Case & Space Inconsistency,company_type,14,S0015,Product,product,Demonstrate string stripping and capitalization normalization,Strip whitespace and titlecase
+DEF-030,Case & Space Inconsistency,company_type,15,S0016,Product,product,Demonstrate string stripping and capitalization normalization,Strip whitespace and titlecase
+DEF-031,Case & Space Inconsistency,company_type,17,S0018,Product,product,Demonstrate string stripping and capitalization normalization,Strip whitespace and titlecase
+DEF-032,Case & Space Inconsistency,company_type,18,S0019,Product,product,Demonstrate string stripping and capitalization normalization,Strip whitespace and titlecase
+DEF-033,Case & Space Inconsistency,company_type,19,S0020,Service,Service ,Demonstrate string stripping and capitalization normalization,Strip whitespace and titlecase
+DEF-034,Case & Space Inconsistency,company_type,23,S0024,Service,Service ,Demonstrate string stripping and capitalization normalization,Strip whitespace and titlecase
+DEF-035,Case & Space Inconsistency,company_type,24,S0025,Startup,startup,Demonstrate string stripping and capitalization normalization,Strip whitespace and titlecase
+DEF-036,Case & Space Inconsistency,company_type,26,S0027,Service,Service ,Demonstrate string stripping and capitalization normalization,Strip whitespace and titlecase
+DEF-037,Case & Space Inconsistency,company_type,27,S0028,Product,product,Demonstrate string stripping and capitalization normalization,Strip whitespace and titlecase
+DEF-038,Case & Space Inconsistency,company_type,31,S0032,Startup,startup,Demonstrate string stripping and capitalization normalization,Strip whitespace and titlecase
+DEF-039,Case & Space Inconsistency,company_type,33,S0034,Service,Service ,Demonstrate string stripping and capitalization normalization,Strip whitespace and titlecase
+DEF-040,Case & Space Inconsistency,company_type,36,S0037,Startup,startup,Demonstrate string stripping and capitalization normalization,Strip whitespace and titlecase
+DEF-041,Whitespace Padding,gender,30,S0031,Male, Male ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-042,Whitespace Padding,gender,75,S0076,Male, Male ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-043,Whitespace Padding,gender,140,S0141,Female, Female ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-044,Whitespace Padding,gender,195,S0196,Female, Female ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-045,Whitespace Padding,gender,260,S0261,Female, Female ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-046,Whitespace Padding,gender,315,S0316,Male, Male ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-047,Whitespace Padding,gender,380,S0381,Male, Male ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-048,Whitespace Padding,gender,445,S0446,Male, Male ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-049,Whitespace Padding,gender,510,S0511,Male, Male ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-050,Whitespace Padding,gender,575,S0576,Female, Female ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-051,Whitespace Padding,gender,630,S0631,Female, Female ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-052,Whitespace Padding,gender,705,S0706,Male, Male ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-053,Whitespace Padding,gender,770,S0771,Male, Male ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-054,Whitespace Padding,gender,840,S0841,Female, Female ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-055,Whitespace Padding,gender,915,S0916,Male, Male ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-056,Whitespace Padding,gender,980,S0981,Female, Female ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-057,Whitespace Padding,gender,1050,S1051,Male, Male ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-058,Whitespace Padding,gender,1130,S1131,Male, Male ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-059,Whitespace Padding,gender,1220,S1221,Male, Male ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-060,Whitespace Padding,gender,1310,S1311,Prefer not to say, Prefer not to say ,Demonstrate whitespace stripping in Phase 2 cleaning,Apply str.strip()
+DEF-061,String Binary Variant,python_skill,50,S0051,0,No,Demonstrate boolean parsing / binary flag mapping in ETL,"Map ""Yes""/""True""->1 and ""No""/""False""->0"
+DEF-062,String Binary Variant,python_skill,110,S0111,1,Yes,Demonstrate boolean parsing / binary flag mapping in ETL,"Map ""Yes""/""True""->1 and ""No""/""False""->0"
+DEF-063,String Binary Variant,python_skill,175,S0176,1,Yes,Demonstrate boolean parsing / binary flag mapping in ETL,"Map ""Yes""/""True""->1 and ""No""/""False""->0"
+DEF-064,String Binary Variant,python_skill,230,S0231,0,No,Demonstrate boolean parsing / binary flag mapping in ETL,"Map ""Yes""/""True""->1 and ""No""/""False""->0"
+DEF-065,String Binary Variant,python_skill,290,S0291,1,Yes,Demonstrate boolean parsing / binary flag mapping in ETL,"Map ""Yes""/""True""->1 and ""No""/""False""->0"
+DEF-066,String Binary Variant,python_skill,350,S0351,0,No,Demonstrate boolean parsing / binary flag mapping in ETL,"Map ""Yes""/""True""->1 and ""No""/""False""->0"
+DEF-067,String Binary Variant,python_skill,410,S0411,1,Yes,Demonstrate boolean parsing / binary flag mapping in ETL,"Map ""Yes""/""True""->1 and ""No""/""False""->0"
+DEF-068,String Binary Variant,python_skill,470,S0471,1,Yes,Demonstrate boolean parsing / binary flag mapping in ETL,"Map ""Yes""/""True""->1 and ""No""/""False""->0"
+DEF-069,String Binary Variant,python_skill,530,S0531,1,Yes,Demonstrate boolean parsing / binary flag mapping in ETL,"Map ""Yes""/""True""->1 and ""No""/""False""->0"
+DEF-070,String Binary Variant,python_skill,610,S0611,1,Yes,Demonstrate boolean parsing / binary flag mapping in ETL,"Map ""Yes""/""True""->1 and ""No""/""False""->0"
+DEF-071,String Binary Variant,python_skill,690,S0691,0,No,Demonstrate boolean parsing / binary flag mapping in ETL,"Map ""Yes""/""True""->1 and ""No""/""False""->0"
+DEF-072,String Binary Variant,python_skill,760,S0761,1,Yes,Demonstrate boolean parsing / binary flag mapping in ETL,"Map ""Yes""/""True""->1 and ""No""/""False""->0"
+DEF-073,String Binary Variant,python_skill,850,S0851,1,Yes,Demonstrate boolean parsing / binary flag mapping in ETL,"Map ""Yes""/""True""->1 and ""No""/""False""->0"
+DEF-074,String Binary Variant,python_skill,940,S0941,1,Yes,Demonstrate boolean parsing / binary flag mapping in ETL,"Map ""Yes""/""True""->1 and ""No""/""False""->0"
+DEF-075,String Binary Variant,python_skill,1030,S1031,1,Yes,Demonstrate boolean parsing / binary flag mapping in ETL,"Map ""Yes""/""True""->1 and ""No""/""False""->0"
+DEF-076,Missing Non-Critical Value,communication_score,60,S0061,83.33,NULL/Empty,Demonstrate documented missing-data imputation testing in Phase 2,Impute with median communication score
+DEF-077,Missing Non-Critical Value,communication_score,130,S0131,72.87,NULL/Empty,Demonstrate documented missing-data imputation testing in Phase 2,Impute with median communication score
+DEF-078,Missing Non-Critical Value,communication_score,215,S0216,83.7,NULL/Empty,Demonstrate documented missing-data imputation testing in Phase 2,Impute with median communication score
+DEF-079,Missing Non-Critical Value,communication_score,285,S0286,82.23,NULL/Empty,Demonstrate documented missing-data imputation testing in Phase 2,Impute with median communication score
+DEF-080,Missing Non-Critical Value,communication_score,360,S0361,69.98,NULL/Empty,Demonstrate documented missing-data imputation testing in Phase 2,Impute with median communication score
+DEF-081,Missing Non-Critical Value,communication_score,435,S0436,83.89,NULL/Empty,Demonstrate documented missing-data imputation testing in Phase 2,Impute with median communication score
+DEF-082,Missing Non-Critical Value,communication_score,520,S0521,83.88,NULL/Empty,Demonstrate documented missing-data imputation testing in Phase 2,Impute with median communication score
+DEF-083,Missing Non-Critical Value,communication_score,605,S0606,88.71,NULL/Empty,Demonstrate documented missing-data imputation testing in Phase 2,Impute with median communication score
+DEF-084,Missing Non-Critical Value,communication_score,680,S0681,73.66,NULL/Empty,Demonstrate documented missing-data imputation testing in Phase 2,Impute with median communication score
+DEF-085,Missing Non-Critical Value,communication_score,755,S0756,88.86,NULL/Empty,Demonstrate documented missing-data imputation testing in Phase 2,Impute with median communication score
+DEF-086,Missing Non-Critical Value,communication_score,845,S0846,55.27,NULL/Empty,Demonstrate documented missing-data imputation testing in Phase 2,Impute with median communication score
+DEF-087,Missing Non-Critical Value,communication_score,930,S0931,64.6,NULL/Empty,Demonstrate documented missing-data imputation testing in Phase 2,Impute with median communication score
+DEF-088,Missing Non-Critical Value,communication_score,1015,S1016,61.39,NULL/Empty,Demonstrate documented missing-data imputation testing in Phase 2,Impute with median communication score
+DEF-089,Missing Non-Critical Value,communication_score,1125,S1126,78.35,NULL/Empty,Demonstrate documented missing-data imputation testing in Phase 2,Impute with median communication score
+DEF-090,Missing Non-Critical Value,communication_score,1240,S1241,83.2,NULL/Empty,Demonstrate documented missing-data imputation testing in Phase 2,Impute with median communication score
+DEF-091,Duplicate Raw Row,student_id,Appended at tail,S0120,Single row,Duplicate row for S0120,Demonstrate deduplication pipeline in Phase 2,Deduplicate keeping first occurrence
+DEF-092,Duplicate Raw Row,student_id,Appended at tail,S0450,Single row,Duplicate row for S0450,Demonstrate deduplication pipeline in Phase 2,Deduplicate keeping first occurrence
+DEF-093,Duplicate Raw Row,student_id,Appended at tail,S0780,Single row,Duplicate row for S0780,Demonstrate deduplication pipeline in Phase 2,Deduplicate keeping first occurrence
+DEF-094,Duplicate Raw Row,student_id,Appended at tail,S1100,Single row,Duplicate row for S1100,Demonstrate deduplication pipeline in Phase 2,Deduplicate keeping first occurrence
+DEF-095,Duplicate Raw Row,student_id,Appended at tail,S1350,Single row,Duplicate row for S1350,Demonstrate deduplication pipeline in Phase 2,Deduplicate keeping first occurrence

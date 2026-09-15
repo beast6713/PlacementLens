@@ -1,0 +1,5 @@
+sub_rule,expected,actual,status
+unplaced_package_lpa_is_null,100% NULL,100% NULL,PASS
+unplaced_company_type_is_null,100% NULL,100% NULL,PASS
+placed_package_lpa_valid_float,100% Float > 0,100% Valid,PASS
+placed_company_type_valid_category,100% Valid Category,100% Valid,PASS

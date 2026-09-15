@@ -1,0 +1,2 @@
+total_rows,total_columns,unique_students,min_student_id,max_student_id,placed_count,unplaced_count,overall_placement_rate_pct,total_null_values,null_columns_count
+1500,20,1500,S0001,S1500,950,550,63.33,1100,2

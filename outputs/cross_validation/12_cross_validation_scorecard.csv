@@ -1,0 +1,24 @@
+check_id,check_name,expected,python_result,sql_result,difference,tolerance,status,severity,notes
+CV-01,Population Count Validation,"1,500",1500,1500,0.0,Exact (0),PASS,CRITICAL,"Exact 1,500 match"
+CV-02,Placement Cohort Counts,950 Placed / 550 Unplaced,950 Placed / 550 Unplaced,950 Placed / 550 Unplaced,0.0,Exact (0),PASS,CRITICAL,Exact 950/550 match
+CV-03,Overall Placement Rate (%),63.33%,63.33%,63.33%,0.0,±0.01%,PASS,CRITICAL,Matches baseline 63.33%
+CV-04,Branch Student Counts,Exact match for 6 branches,All 6 branches match,All 6 branches match,0.0,Exact (0),PASS,HIGH,"CSE: 450, IT: 375, ECE: 300, EEE: 150, ME: 120, CE: 105"
+CV-05,Branch Placement Rates (%),Match within ±0.01%,"CE: 68.57%, EEE: 66.00%","CE: 68.57%, EEE: 66.00%",0.0,±0.01%,PASS,HIGH,Max branch rate difference <= 0.01%
+CV-06,Technical Skill Holder Counts,Exact match for 7 skill flags,Exact match,Exact match,0.0,Exact (0),PASS,HIGH,"Python: 1177, SQL: 1169, Excel: 1258, etc."
+CV-07,Skill Prevalence Rates (%),Match within ±0.01%,"Excel: 83.87%, Python: 78.47%","Excel: 83.87%, Python: 78.47%",0.0,±0.01%,PASS,HIGH,Prevalence percentages match
+CV-08,Skill Holder Placement Rates (%),Match within ±0.01%,"SQL: 65.36%, Python: 64.83%","SQL: 65.36%, Python: 64.83%",0.0,±0.01%,PASS,HIGH,Skill placement rates match
+CV-09,Skill Placement Impact Spreads (pp),Match within ±0.01 pp,"SQL: +9.17 pp, Python: +6.94 pp","SQL: +9.17 pp, Python: +6.94 pp",0.0,±0.01 pp,PASS,HIGH,Max spread difference <= 0.01 pp
+CV-10,Technical Skill Count Bounds (Max <= 7),Range 0 to 7,Max = 7,Max = 7,0.0,Exact (0),PASS,MEDIUM,Derived skill count bounded 0-7
+CV-11,CGPA Performance Bands,Match within ±0.01%,Bands 1-5 match,Bands 1-5 match,0.0,±0.01%,PASS,MEDIUM,"< 6.0 (20.0%), 9.0-10.0 (90.0%)"
+CV-12,Coding Score Performance Bands,Match within ±0.01%,Bands 1-5 match,Bands 1-5 match,0.0,±0.01%,PASS,MEDIUM,"< 50 (25.4%), 90-100 (89.2%)"
+CV-13,Aptitude Score Performance Bands,Match within ±0.01%,Bands 1-5 match,Bands 1-5 match,0.0,±0.01%,PASS,MEDIUM,"< 50 (42.1%), 90-100 (81.2%)"
+CV-14,Communication Score Performance Bands,Match within ±0.01%,Bands 1-5 match,Bands 1-5 match,0.0,±0.01%,PASS,MEDIUM,"< 50 (45.0%), 90-100 (73.9%)"
+CV-15,Projects Count vs Placement,Match within ±0.01%,Projects 0-4 match,Projects 0-4 match,0.0,±0.01%,PASS,MEDIUM,Placement rate scales with projects
+CV-16,Internships Count vs Placement,Match within ±0.01%,Internships 0-3 match,Internships 0-3 match,0.0,±0.01%,PASS,MEDIUM,Zero internships treated as 0
+CV-17,Placed Package Means (LPA),Match within ±0.01 LPA,10.62 LPA,10.62 LPA,0.0019,±0.01 LPA,PASS,HIGH,Overall placed mean package 10.62 LPA
+CV-18,Package by Academic Branch (LPA),Match within ±0.01 LPA,"ME: 11.33, CSE: 10.82","ME: 11.33, CSE: 10.82",0.0,±0.01 LPA,PASS,HIGH,Branch mean packages match
+CV-19,Package by Company Type (LPA),Match within ±0.01 LPA,"Product: 16.26, Startup: 12.09","Product: 16.26, Startup: 12.09",0.0,±0.01 LPA,PASS,HIGH,Company type mean packages match
+CV-20,Placed vs Unplaced Score Spreads,Match within ±0.01 pts,"Coding: +5.41, CGPA: +0.33","Coding: +5.41, CGPA: +0.33",0.0,±0.01 pts,PASS,HIGH,Placed score advantages match
+CV-21,Branch Analytical Profile Matrix,Match within tolerances,6 Branch profiles match,6 Branch profiles match,0.0,Multi-metric,PASS,HIGH,Multi-metric branch matrix matches
+CV-22,NULL Compensation Linkage Integrity,550 unplaced NULLs,550 NULLs for package/company,550 NULLs for package/company,0.0,Exact (0),PASS,CRITICAL,Zero unplaced NULL violations
+CV-23,Source & Raw Dataset MD5 Immutability,Clean: 96023d297eec5a9a47563eaddc157d0d,Clean: 96023d297eec5a9a47563eaddc157d0d,Clean: 96023d297eec5a9a47563eaddc157d0d,0.0,Exact match,PASS,CRITICAL,100% source dataset immutability verified
